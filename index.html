@@ -3737,8 +3737,26 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     display: inline-flex;
   }
 
-  .recount-radar-badge .recount-label {
+.recount-radar-badge .recount-label {
     color: #fed7aa;
+  }
+
+.data-health-badge {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(239, 68, 68, 0.35);
+    background: rgba(127, 29, 29, 0.14);
+    color: #fecaca;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .data-health-badge.is-visible {
+    display: inline-flex;
   }
 
   .map-topbar-hints {
@@ -18835,24 +18853,6 @@ document.addEventListener('DOMContentLoaded', function() {
   return boundaryGeoJSON;
 }
 
-.data-health-badge {
-  display: none;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid rgba(239, 68, 68, 0.35);
-  background: rgba(127, 29, 29, 0.14);
-  color: #fecaca;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.data-health-badge.is-visible {
-  display: inline-flex;
-}
-
     function buildCountyNameMapFromGeoJSON(geojson) {
       const map = {};
       if (!geojson || !geojson.features) return map;
@@ -33316,10 +33316,7 @@ document.addEventListener('DOMContentLoaded', function() {
                }
              } catch (_) {}
 
-          const demPct = totalVotes ? (totalDem / totalVotes) * 100 : 0;
-          const repPct = totalVotes ? (totalRep / totalVotes) * 100 : 0;
           const totalOther = Math.max(0, totalVotes - totalDem - totalRep);
-          const otherPct = totalVotes ? ((totalVotes - totalDem - totalRep) / totalVotes) * 100 : 0;
           const coverageText = (coveragePct !== undefined && coveragePct !== null)
             ? ` | match coverage ${Number(coveragePct).toFixed(2)}%`
             : '';
@@ -33329,15 +33326,15 @@ document.addEventListener('DOMContentLoaded', function() {
             setStatus(`Applied demographic mode for ${getReadableViewLabel(currentView)} (${linesLabel}).`);
           } else {
             setStatewideContestTitle(`${formatContestName(contestType, year)} (${year}) - Reallocated to ${linesLabel}${coverageText}`);
-            setStatus(`Applied district crosswalk results: ${formatContestLabel(contestType, year)} (${demPct.toFixed(2)}% D, ${repPct.toFixed(2)}% R, ${otherPct.toFixed(2)}% O)${coverageText}`);
+            setStatus(`Applied district results by ${getReadableViewLabel(currentView)} (${linesLabel})${coverageText}. Click a district for district-level candidates and margins.`);
           }
           setVoteCounterBaselineState(
-            'Statewide',
+            `${getReadableViewLabel(currentView)} View`,
             `${formatContestLabel(contestType, year)} (${linesLabel})`,
             totalDem,
             totalRep,
             totalOther,
-            { kind: 'statewide', contestType, year: Number(year) },
+            { kind: 'district_view', scope: (currentView === 'districts' ? 'congressional' : currentView), contestType, year: Number(year) },
             resolvedStatewideCandidates()
           );
           return;
