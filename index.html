@@ -560,7 +560,7 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
 html, body {
   height: 100vh;
@@ -574,7 +574,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-family: 'Manrope', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #0f172a;
   overflow: hidden;
   touch-action: pan-x pan-y;
@@ -2749,7 +2749,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   body {
-    font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    font-family: 'Manrope', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     background:
       radial-gradient(circle at 14% 10%, rgba(47, 115, 199, 0.22) 0%, rgba(219, 234, 254, 0.64) 30%, rgba(248, 250, 252, 0) 58%),
       radial-gradient(circle at 84% 8%, rgba(201, 79, 45, 0.16) 0%, rgba(255, 237, 213, 0.62) 26%, rgba(248, 250, 252, 0) 56%),
@@ -5956,7 +5956,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     border: 1px solid rgba(148, 163, 184, 0.18);
     box-shadow: 0 14px 30px rgba(37, 99, 235, 0.16), 0 8px 22px rgba(185, 28, 28, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
     color: #f8fafc !important;
-    font-family: "Sora", "Public Sans", sans-serif;
+    font-family: "Manrope", "IBM Plex Sans", sans-serif;
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 0.02em;
@@ -9088,7 +9088,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
 
     body {
-      font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+      font-family: "Manrope", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
       background:
         radial-gradient(circle at 18% 8%, rgba(43, 108, 176, 0.28) 0%, rgba(219, 234, 254, 0.6) 34%, rgba(248, 250, 252, 0) 60%),
         radial-gradient(circle at 84% 10%, rgba(180, 83, 42, 0.24) 0%, rgba(255, 237, 213, 0.6) 28%, rgba(248, 250, 252, 0) 58%),
@@ -9113,7 +9113,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
 
     .controls-title-pill {
-      font-family: "Sora", "Public Sans", sans-serif !important;
+      font-family: "Manrope", "IBM Plex Sans", sans-serif !important;
       background: linear-gradient(120deg, #7f3416 0%, #2b6cb0 72%, #f4c542 100%) !important;
       border: 1px solid rgba(244, 197, 66, 0.45) !important;
       box-shadow: 0 12px 28px rgba(31, 79, 134, 0.24), 0 8px 20px rgba(127, 52, 22, 0.2) !important;
@@ -10366,7 +10366,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate_2022: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         state_senate_2024: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         county_demographics: '',
-        county_population_estimates: '',
+        county_population_estimates: withBase('./data/co-est2025-pop-08-clean.csv'),
         precinct_demographics: '',
         cvap_aggregates: {
           county_2020: '',
@@ -10859,7 +10859,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let districtDescriptions = null; // Optional labels like "Sampson & Bladen Counties" or "Concord–Harrisburg"
     let countyDemographics = null; // County-level VAP (18+) + total-pop race/ethnicity from DP1 (includes AIAN/native)
     let countyPopulationEstimatesByNorm = null; // Map<string countyNorm, growth/estimate summary from Vintage 2025 county estimates>
-    let countyPopulationEstimateStatewide = null; // Statewide NC summary from the same file
+    let countyPopulationEstimateStatewide = null; // Statewide Colorado summary from the same file
 
     // --- County raw-vote deltas (cycle-to-cycle) for hover tooltips ---
     // Cache by (contestType, fromYear, toYear) so hover rendering stays synchronous/fast.
@@ -11835,7 +11835,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!c) return null;
       if (modeledCensusContextMemo.has(c)) return modeledCensusContextMemo.get(c) || null;
       let ctx = null;
-      try { ctx = getNcCensusContext(c); } catch (_) { ctx = null; }
+      try { ctx = getColoradoCensusContext(c); } catch (_) { ctx = null; }
       try { modeledCensusContextMemo.set(c, ctx); } catch (_) {}
       return ctx;
     }
@@ -14771,7 +14771,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
           try {
-            censusContext = getNcCensusContext(meta.county);
+            censusContext = getColoradoCensusContext(meta.county);
             trendOptions.censusContext = censusContext;
             trendOptions.censusContextTitle = meta.kind === 'precinct'
               ? `${displayCountyName(meta.county)} County Census Insight`
@@ -16174,7 +16174,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const out = new Map();
             baseAgg.forEach((totals, county) => {
               const ctx = (() => {
-                try { return getNcCensusContext(county); } catch (_) { return null; }
+                try { return getColoradoCensusContext(county); } catch (_) { return null; }
               })();
               const pattern = String(ctx?.patternLabel || '');
               const note = String(ctx?.noteLabel || '');
@@ -22060,14 +22060,14 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${value > 0 ? 'up' : 'down'} ${Math.abs(value).toFixed(1)}%`;
     }
 
-    function getNcCensusContext(countyNorm) {
+    function getColoradoCensusContext(countyNorm) {
       const norm = String(countyNorm || '').trim().toUpperCase();
       const urbanAnchor = new Set(['DENVER', 'JEFFERSON', 'ARAPAHOE', 'ADAMS', 'BOULDER', 'EL PASO', 'LARIMER']);
-      const metroSpillover = new Set(['JOHNSTON', 'UNION', 'CABARRUS', 'IREDELL', 'HARNETT', 'CHATHAM', 'PENDER', 'FRANKLIN', 'GASTON', 'CLEVELAND']);
-      const coastalGrowth = new Set(['BRUNSWICK', 'NEW HANOVER', 'PENDER', 'ONSLOW', 'CURRITUCK', 'CARTERET']);
-      const ruralSlowdown = new Set(['ROBESON', 'BLADEN', 'RICHMOND', 'ANSON', 'MARTIN', 'GATES', 'HALIFAX', 'SCOTLAND', 'WASHINGTON', 'BERTIE', 'NORTHAMPTON']);
-      const mixedTransition = new Set(['PASQUOTANK', 'ALAMANCE', 'DAVIDSON', 'ROWAN', 'NASH', 'PITT', 'CUMBERLAND', 'RANDOLPH', 'CATAWBA', 'WAYNE', 'CRAVEN']);
-      const institutionalHub = new Set(['CUMBERLAND', 'HOKE', 'ONSLOW', 'WAYNE', 'CRAVEN']);
+      const metroSpillover = new Set(['DOUGLAS', 'WELD', 'BROOMFIELD', 'ELBERT', 'ARCHULETA']);
+      const mountainAmenityGrowth = new Set(['SUMMIT', 'GRAND', 'CHAFFEE', 'PARK', 'ROUTT', 'OURAY', 'SAN MIGUEL']);
+      const ruralSlowdown = new Set(['BACA', 'CHEYENNE', 'CROWLEY', 'CUSTER', 'HUERFANO', 'KIOWA', 'LINCOLN', 'OTERO', 'PROWERS', 'YUMA', 'COSTILLA', 'RIO GRANDE', 'SAGUACHE']);
+      const mixedTransition = new Set(['PUEBLO', 'MESA', 'GARFIELD', 'MONTROSE', 'LA PLATA', 'DELTA', 'MORGAN', 'LOGAN', 'FREMONT']);
+      const institutionalHub = new Set(['EL PASO', 'PUEBLO']);
 
       let signalEmoji = '📊';
       let signalLabel = 'Steady population signal';
@@ -22093,7 +22093,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (estimate) {
         signalLabel = `Population ${formatPopulationChangePct(totalPct)} since 2020`;
         noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.`;
-        sourceNote = 'Based on U.S. Census Bureau county population estimates for Colorado (2020-2025 period).';
+        sourceNote = 'Based on U.S. Census Bureau Vintage 2025 Colorado county population estimates, released March 2026 (April 1, 2020 to July 1, 2025).';
 
         if (urbanAnchor.has(norm)) {
           signalEmoji = '🏙️';
@@ -22102,12 +22102,12 @@ document.addEventListener('DOMContentLoaded', function() {
             ? 'Urban anchor with slower 2025 growth'
             : 'Urban anchor with continued growth';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}, versus ${formatPopulationChangePct(stateTotalPct)} statewide. ${slowedIn2025 ? 'Growth cooled compared with 2023 to 2024.' : 'The county is still adding residents at a steady clip.'}`;
-        } else if (coastalGrowth.has(norm) && !belowStatewide) {
-          signalEmoji = '🌊';
-          patternEmoji = '🏖️';
+        } else if (mountainAmenityGrowth.has(norm) && !belowStatewide) {
+          signalEmoji = '🏔️';
+          patternEmoji = '⛷️';
           patternLabel = slowedIn2025
-            ? 'Coastal growth still positive but cooling in 2025'
-            : 'Coastal growth running above the statewide pace';
+            ? 'Mountain growth still positive but cooling in 2025'
+            : 'Mountain growth running above the statewide pace';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020, this county is ${formatPopulationChangePct(totalPct)}${aboveStatewide ? ', faster than the statewide pace.' : '.'}`;
         } else if (metroSpillover.has(norm) && (aboveStatewide || Number(totalPct) >= 8)) {
           signalEmoji = '📈';
@@ -22138,7 +22138,7 @@ document.addEventListener('DOMContentLoaded', function() {
           patternEmoji = '📉';
           patternLabel = 'Urban county with flat/declining population';
           const hubClause = isInstitutionalHub
-            ? 'In institutional hubs (e.g., military-heavy counties like El Paso), year-to-year estimates can be choppy, and political change may track voter turnover and participation as much as net in-migration.'
+            ? 'In institutional hubs (e.g., military-heavy counties like El Paso/Colorado Springs), year-to-year estimates can be choppy, and political change may track voter turnover and participation as much as net in-migration.'
             : 'Flat or declining growth often means less in-migration-driven electorate churn, so shifts may show up more through turnout and coalition change than sheer population inflow.';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020 this county is ${formatPopulationChangePct(totalPct)}, while the 2024 to 2025 change was ${formatPopulationChangePct(recentPct)}. ${hubClause}`;
         } else if (ruralSlowdown.has(norm) || isFlatOrDeclining) {
@@ -22166,12 +22166,12 @@ document.addEventListener('DOMContentLoaded', function() {
         patternEmoji = '🧲';
         patternLabel = 'Jobs and institutions pull in growth';
         noteLabel = 'Large urban counties often absorb new voters first, which can reshape both county margins and nearby suburbs.';
-      } else if (!estimate && coastalGrowth.has(norm)) {
-        signalEmoji = '📈';
-        signalLabel = 'High-growth coastal county';
-        patternEmoji = '🏖️';
-        patternLabel = 'Coastal migration and retirement growth';
-        noteLabel = 'Coastal growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
+      } else if (!estimate && mountainAmenityGrowth.has(norm)) {
+        signalEmoji = '🏔️';
+        signalLabel = 'High-growth mountain county';
+        patternEmoji = '⛷️';
+        patternLabel = 'Mountain migration and amenity growth';
+        noteLabel = 'Mountain growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
       } else if (!estimate && metroSpillover.has(norm)) {
         signalEmoji = '📈';
         signalLabel = 'High-growth county';
@@ -22182,7 +22182,7 @@ document.addEventListener('DOMContentLoaded', function() {
         signalEmoji = '🌾';
         signalLabel = 'Slow-growth or declining county';
         patternEmoji = '⬇️';
-        patternLabel = 'Rural slowdown / Black Belt population loss';
+        patternLabel = 'Rural slowdown / population loss';
         noteLabel = 'Places with slower growth or population loss can still shift sharply when the electorate changes composition rather than simply adding new residents.';
       } else if (!estimate && mixedTransition.has(norm)) {
         signalEmoji = '⚖️';
@@ -22229,12 +22229,12 @@ document.addEventListener('DOMContentLoaded', function() {
         (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25)
       );
       const slowGrowth = (Number.isFinite(totalPct) && totalPct < 1) || (Number.isFinite(recentPct) && recentPct < 0);
-      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth/i.test(patternLabel);
+      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Mountain growth|Mountain migration/i.test(patternLabel);
       const repGrowthPattern = /Slow-growth|declining county|Rural slowdown/i.test(patternLabel);
       const growthLabel = (() => {
         if (/Metro spillover|outer-suburban expansion/i.test(patternLabel)) return 'fast outer-suburban growth';
         if (/Urban anchor/i.test(patternLabel)) return 'continued urban growth';
-        if (/Coastal growth/i.test(patternLabel)) return 'fast coastal growth';
+        if (/Mountain growth|Mountain migration/i.test(patternLabel)) return 'fast mountain-county growth';
         if (/Above-state growth county/i.test(patternLabel)) return 'above-average growth';
         return 'fast county growth';
       })();
@@ -25893,7 +25893,18 @@ document.addEventListener('DOMContentLoaded', function() {
       const deltaBlock = buildCountyDeltaBlockHTML(norm, contestType, { presentation: 'desktop-expanded' });
       const censusDetailLine = (() => {
         try {
-          const ctx = getNcCensusContext(norm);
+          const ctx = getColoradoCensusContext(norm);
+          const signal = String(ctx?.signalLabel || '').trim();
+          if (!signal) return '';
+          return `<div class="tooltip-insight">Census insight: ${escapeHtml(signal)}.</div>`;
+        } catch (_) {
+          return '';
+        }
+      })();
+      const mobileCensusInline = (() => {
+        if (!isTouchInteractionMode()) return '';
+        try {
+          const ctx = getColoradoCensusContext(norm);
           const signal = String(ctx?.signalLabel || '').trim();
           if (!signal) return '';
           return `<div class="tooltip-insight">Census insight: ${escapeHtml(signal)}.</div>`;
@@ -25940,6 +25951,7 @@ document.addEventListener('DOMContentLoaded', function() {
       `.trim();
       const inner = `
         ${votehubCore}
+        ${mobileCensusInline}
         <details class="tooltip-more" aria-label="More details">
           <summary>More details</summary>
           <div class="tooltip-more-body">${detailLines}</div>
@@ -27386,8 +27398,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const censusContext = (() => {
         try {
-          if (typeof getNcCensusContext !== 'function') return null;
-          return getNcCensusContext(norm);
+          if (typeof getColoradoCensusContext !== 'function') return null;
+          return getColoradoCensusContext(norm);
         } catch (_) {
           return null;
         }
