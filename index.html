@@ -22063,10 +22063,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function getColoradoCensusContext(countyNorm) {
       const norm = String(countyNorm || '').trim().toUpperCase();
       const urbanAnchor = new Set(['DENVER', 'JEFFERSON', 'ARAPAHOE', 'ADAMS', 'BOULDER', 'EL PASO', 'LARIMER']);
-      const metroSpillover = new Set(['DOUGLAS', 'WELD', 'BROOMFIELD', 'ELBERT', 'ARCHULETA']);
-      const mountainAmenityGrowth = new Set(['SUMMIT', 'GRAND', 'CHAFFEE', 'PARK', 'ROUTT', 'OURAY', 'SAN MIGUEL']);
+      const metroSpillover = new Set(['DOUGLAS', 'WELD', 'BROOMFIELD', 'ELBERT']);
+      const mountainAmenityGrowth = new Set(['SUMMIT', 'GRAND', 'EAGLE', 'PITKIN', 'ROUTT', 'OURAY', 'SAN MIGUEL']);
+      const westernSlopeTransition = new Set(['MESA', 'GARFIELD', 'MONTROSE', 'DELTA', 'LA PLATA']);
+      const sanLuisValley = new Set(['ALAMOSA', 'CONEJOS', 'COSTILLA', 'MINERAL', 'RIO GRANDE', 'SAGUACHE']);
+      const easternPlains = new Set(['BACA', 'BENT', 'CHEYENNE', 'CROWLEY', 'ELBERT', 'KIOWA', 'KIT CARSON', 'LINCOLN', 'LOGAN', 'MORGAN', 'OTERO', 'PHILLIPS', 'PROWERS', 'SEDGWICK', 'WASHINGTON', 'YUMA']);
       const ruralSlowdown = new Set(['BACA', 'CHEYENNE', 'CROWLEY', 'CUSTER', 'HUERFANO', 'KIOWA', 'LINCOLN', 'OTERO', 'PROWERS', 'YUMA', 'COSTILLA', 'RIO GRANDE', 'SAGUACHE']);
-      const mixedTransition = new Set(['PUEBLO', 'MESA', 'GARFIELD', 'MONTROSE', 'LA PLATA', 'DELTA', 'MORGAN', 'LOGAN', 'FREMONT']);
+      const mixedTransition = new Set(['PUEBLO', 'FREMONT', 'CHAFFEE', 'PARK']);
       const institutionalHub = new Set(['EL PASO', 'PUEBLO']);
 
       let signalEmoji = '📊';
@@ -22116,12 +22119,12 @@ document.addEventListener('DOMContentLoaded', function() {
             ? 'Metro spillover growth with a slower 2025 pace'
             : 'Metro spillover / outer-suburban expansion';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. The county is ${formatPopulationChangePct(totalPct)} since 2020 and ${formatPopulationChangePct(recentPct)} from 2024 to 2025.`;
-        } else if (mixedTransition.has(norm) && !isFlatOrDeclining) {
+        } else if ((mixedTransition.has(norm) || westernSlopeTransition.has(norm) || sanLuisValley.has(norm)) && !isFlatOrDeclining) {
           signalEmoji = aboveStatewide ? '📈' : '⚖️';
           patternEmoji = '🏡';
           patternLabel = slowedIn2025
             ? 'Small-metro / outer-suburban transition with cooling growth'
-            : 'Small-metro / outer-suburban transition';
+            : 'Regional transition county';
           const statewideClause = Number.isFinite(stateTotalPct)
             ? ` versus ${formatPopulationChangePct(stateTotalPct)} statewide`
             : '';
@@ -22178,17 +22181,19 @@ document.addEventListener('DOMContentLoaded', function() {
         patternEmoji = '🌆';
         patternLabel = 'Metro spillover / outer-suburban expansion';
         noteLabel = 'Fast-growing outer-ring counties often show the clearest link between Census-era growth and changing election results.';
-      } else if (!estimate && ruralSlowdown.has(norm)) {
+      } else if (!estimate && (ruralSlowdown.has(norm) || easternPlains.has(norm))) {
         signalEmoji = '🌾';
         signalLabel = 'Slow-growth or declining county';
         patternEmoji = '⬇️';
-        patternLabel = 'Rural slowdown / population loss';
+        patternLabel = easternPlains.has(norm) ? 'Eastern Plains slowdown / population loss' : 'Rural slowdown / population loss';
         noteLabel = 'Places with slower growth or population loss can still shift sharply when the electorate changes composition rather than simply adding new residents.';
-      } else if (!estimate && mixedTransition.has(norm)) {
+      } else if (!estimate && (mixedTransition.has(norm) || westernSlopeTransition.has(norm) || sanLuisValley.has(norm)) {
         signalEmoji = '⚖️';
         signalLabel = 'Mixed-growth county';
         patternEmoji = '🏡';
-        patternLabel = 'Small-metro / outer-suburban transition';
+        patternLabel = westernSlopeTransition.has(norm)
+          ? 'Western Slope transition'
+          : (sanLuisValley.has(norm) ? 'San Luis Valley transition' : 'Regional transition county');
         noteLabel = 'These counties often sit between metro growth and rural stability, making them useful early-warning signs for political change.';
       }
 
