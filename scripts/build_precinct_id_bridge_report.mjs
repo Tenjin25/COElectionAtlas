@@ -81,8 +81,8 @@ function countyFipsByName() {
   const map = new Map();
   for (const f of geo.features || []) {
     const p = f.properties || {};
-    const name = normalizeCountyName(p.NAME || p.name || "");
-    const geoid = String(p.GEOID || p.geoid || "").trim();
+    const name = normalizeCountyName(p.NAME20 || p.NAME || p.name || "");
+    const geoid = String(p.GEOID20 || p.GEOID || p.geoid || "").trim();
     if (name && geoid) map.set(name, geoid);
   }
   return map;

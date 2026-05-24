@@ -78,6 +78,10 @@ function contestTypeFromOffice(v) {
   const o = normalizeOffice(v);
   if (o.includes("president")) return "president";
   if (o === "u s senate" || o === "us senate" || o.includes("u s senate class")) return "us_senate";
+  if (o.includes("governor")) return "governor";
+  if (o.includes("attorney general")) return "attorney_general";
+  if (o.includes("secretary of state")) return "secretary_of_state";
+  if (o.includes("treasurer")) return "treasurer";
   return "";
 }
 
