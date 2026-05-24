@@ -1,0 +1,2517 @@
+year,county,contest,dem,other,rep,total
+2000,Adams,president,54132.0,6159.0,47561.0,107852.0
+2000,Alamosa,president,2455.0,347.0,2857.0,5659.0
+2000,Arapahoe,president,82614.0,9560.0,97768.0,189942.0
+2000,Archuleta,president,1432.0,338.0,2988.0,4758.0
+2000,Baca,president,531.0,84.0,1663.0,2278.0
+2000,Bent,president,783.0,84.0,1096.0,1963.0
+2000,Boulder,president,69983.0,18770.0,50873.0,139626.0
+2000,Chaffee,president,2768.0,542.0,4300.0,7610.0
+2000,Cheyenne,president,209.0,46.0,957.0,1212.0
+2000,Clear Creek,president,2188.0,489.0,2247.0,4924.0
+2000,Conejos,president,1749.0,150.0,1772.0,3671.0
+2000,Costilla,president,1054.0,90.0,504.0,1648.0
+2000,Crowley,president,511.0,79.0,855.0,1445.0
+2000,Custer,president,507.0,153.0,1451.0,2111.0
+2000,Delta,president,3264.0,1050.0,8372.0,12686.0
+2000,Denver,president,122693.0,14430.0,61224.0,198347.0
+2000,Dolores,president,293.0,100.0,741.0,1134.0
+2000,Douglas,president,27076.0,3142.0,56007.0,86225.0
+2000,Eagle,president,6772.0,1251.0,7165.0,15188.0
+2000,El Paso,president,61799.0,10664.0,128294.0,200757.0
+2000,Elbert,president,2326.0,488.0,6151.0,8965.0
+2000,Fremont,president,5293.0,849.0,9914.0,16056.0
+2000,Garfield,president,6087.0,1914.0,9103.0,17104.0
+2000,Gilpin,president,1099.0,360.0,1006.0,2465.0
+2000,Grand,president,2308.0,475.0,3570.0,6353.0
+2000,Gunnison,president,3059.0,1049.0,3128.0,7236.0
+2000,Hinsdale,president,188.0,62.0,316.0,566.0
+2000,Huerfano,president,1495.0,213.0,1466.0,3174.0
+2000,Jackson,president,173.0,70.0,682.0,925.0
+2000,Jefferson,president,100970.0,14383.0,120138.0,235491.0
+2000,Kiowa,president,211.0,29.0,728.0,968.0
+2000,Kit Carson,president,809.0,107.0,2542.0,3458.0
+2000,La Plata,president,7864.0,2633.0,9993.0,20490.0
+2000,Lake,president,1296.0,276.0,1056.0,2628.0
+2000,Larimer,president,46055.0,10053.0,62429.0,118537.0
+2000,Las Animas,president,3243.0,282.0,2569.0,6094.0
+2000,Lincoln,president,510.0,59.0,1630.0,2199.0
+2000,Logan,president,2296.0,269.0,5531.0,8096.0
+2000,Mesa,president,15465.0,3193.0,32396.0,51054.0
+2000,Mineral,president,168.0,24.0,294.0,486.0
+2000,Moffat,president,1223.0,274.0,3840.0,5337.0
+2000,Montezuma,president,2556.0,670.0,6158.0,9384.0
+2000,Montrose,president,4041.0,908.0,9266.0,14215.0
+2000,Morgan,president,2885.0,391.0,5722.0,8998.0
+2000,Otero,president,2963.0,267.0,4082.0,7312.0
+2000,Ouray,president,705.0,249.0,1279.0,2233.0
+2000,Park,president,2393.0,595.0,3677.0,6665.0
+2000,Phillips,president,564.0,83.0,1573.0,2220.0
+2000,Pitkin,president,4137.0,1098.0,2565.0,7800.0
+2000,Prowers,president,1361.0,137.0,3026.0,4524.0
+2000,Pueblo,president,28888.0,2231.0,22827.0,53946.0
+2000,Rio Blanco,president,543.0,127.0,2185.0,2855.0
+2000,Rio Grande,president,1707.0,257.0,3111.0,5075.0
+2000,Routt,president,4208.0,958.0,4472.0,9638.0
+2000,Saguache,president,1145.0,306.0,1078.0,2529.0
+2000,San Juan,president,149.0,77.0,210.0,436.0
+2000,San Miguel,president,1598.0,614.0,1043.0,3255.0
+2000,Sedgwick,president,384.0,42.0,877.0,1303.0
+2000,Summit,president,5304.0,1267.0,4497.0,11068.0
+2000,Teller,president,2750.0,620.0,6477.0,9847.0
+2000,Washington,president,477.0,90.0,1878.0,2445.0
+2000,Weld,president,23436.0,3696.0,37409.0,64541.0
+2000,Yuma,president,1082.0,120.0,3156.0,4358.0
+2004,Adams,president,69127.0,1638.0,65912.0,136677.0
+2004,Adams,us_senate,76101.0,3439.0,55442.0,134982.0
+2004,Alamosa,president,3027.0,73.0,3179.0,6279.0
+2004,Alamosa,us_senate,3937.0,100.0,2158.0,6195.0
+2004,Arapahoe,president,110456.0,2434.0,119475.0,232365.0
+2004,Arapahoe,us_senate,120225.0,4208.0,105928.0,230361.0
+2004,Archuleta,president,2141.0,97.0,3601.0,5839.0
+2004,Archuleta,us_senate,2531.0,195.0,3051.0,5777.0
+2004,Baca,president,483.0,23.0,1680.0,2186.0
+2004,Baca,us_senate,848.0,52.0,1248.0,2148.0
+2004,Bent,president,785.0,32.0,1338.0,2155.0
+2004,Bent,us_senate,1124.0,59.0,962.0,2145.0
+2004,Boulder,president,105566.0,2107.0,51586.0,159259.0
+2004,Boulder,us_senate,106481.0,3033.0,47900.0,157414.0
+2004,Broomfield,president,10935.0,293.0,12007.0,23235.0
+2004,Broomfield,us_senate,11940.0,457.0,10588.0,22985.0
+2004,Chaffee,president,3767.0,128.0,4875.0,8770.0
+2004,Chaffee,us_senate,4229.0,186.0,4286.0,8701.0
+2004,Cheyenne,president,198.0,13.0,923.0,1134.0
+2004,Cheyenne,us_senate,330.0,36.0,762.0,1128.0
+2004,Clear Creek,president,2989.0,102.0,2522.0,5613.0
+2004,Clear Creek,us_senate,3179.0,162.0,2246.0,5587.0
+2004,Conejos,president,1897.0,42.0,1864.0,3803.0
+2004,Conejos,us_senate,2624.0,62.0,1177.0,3863.0
+2004,Costilla,president,1171.0,23.0,566.0,1760.0
+2004,Costilla,us_senate,1363.0,61.0,372.0,1796.0
+2004,Crowley,president,478.0,9.0,1006.0,1493.0
+2004,Crowley,us_senate,608.0,47.0,823.0,1478.0
+2004,Custer,president,739.0,32.0,1657.0,2428.0
+2004,Custer,us_senate,902.0,53.0,1449.0,2404.0
+2004,Delta,president,4224.0,213.0,9722.0,14159.0
+2004,Delta,us_senate,5060.0,429.0,8598.0,14087.0
+2004,Denver,president,166289.0,2634.0,69903.0,238826.0
+2004,Denver,us_senate,169580.0,3816.0,60392.0,233788.0
+2004,Dolores,president,333.0,29.0,785.0,1147.0
+2004,Dolores,us_senate,498.0,48.0,581.0,1127.0
+2004,Douglas,president,39662.0,888.0,80651.0,121201.0
+2004,Douglas,us_senate,45425.0,1656.0,72914.0,119995.0
+2004,Eagle,president,9744.0,234.0,8533.0,18511.0
+2004,Eagle,us_senate,10110.0,437.0,7638.0,18185.0
+2004,El Paso,president,77650.0,2777.0,161361.0,241788.0
+2004,El Paso,us_senate,81403.0,5873.0,151443.0,238719.0
+2004,Elbert,president,2837.0,138.0,8389.0,11364.0
+2004,Elbert,us_senate,3497.0,254.0,7477.0,11228.0
+2004,Fremont,president,5936.0,277.0,12313.0,18526.0
+2004,Fremont,us_senate,7053.0,548.0,10956.0,18557.0
+2004,Garfield,president,9228.0,296.0,11123.0,20647.0
+2004,Garfield,us_senate,9959.0,656.0,9840.0,20455.0
+2004,Gilpin,president,1807.0,60.0,1329.0,3196.0
+2004,Gilpin,us_senate,1815.0,137.0,1221.0,3173.0
+2004,Grand,president,3243.0,106.0,4260.0,7609.0
+2004,Grand,us_senate,3560.0,196.0,3789.0,7545.0
+2004,Gunnison,president,4782.0,159.0,3479.0,8420.0
+2004,Gunnison,us_senate,5280.0,196.0,2872.0,8348.0
+2004,Hinsdale,president,236.0,11.0,355.0,602.0
+2004,Hinsdale,us_senate,279.0,26.0,296.0,601.0
+2004,Huerfano,president,1656.0,39.0,1701.0,3396.0
+2004,Huerfano,us_senate,1969.0,93.0,1364.0,3426.0
+2004,Jackson,president,210.0,14.0,710.0,934.0
+2004,Jackson,us_senate,352.0,32.0,547.0,931.0
+2004,Jefferson,president,126833.0,4091.0,140644.0,271568.0
+2004,Jefferson,us_senate,137544.0,5462.0,127048.0,270054.0
+2004,Kiowa,president,172.0,8.0,712.0,892.0
+2004,Kiowa,us_senate,295.0,21.0,574.0,890.0
+2004,Kit Carson,president,729.0,52.0,2721.0,3502.0
+2004,Kit Carson,us_senate,1106.0,80.0,2284.0,3470.0
+2004,La Plata,president,13432.0,377.0,11704.0,25513.0
+2004,La Plata,us_senate,13989.0,542.0,10561.0,25092.0
+2004,Lake,president,1623.0,65.0,1261.0,2949.0
+2004,Lake,us_senate,1778.0,110.0,1062.0,2950.0
+2004,Larimer,president,68267.0,2285.0,75884.0,146436.0
+2004,Larimer,us_senate,73204.0,3738.0,67597.0,144539.0
+2004,Las Animas,president,3305.0,91.0,3196.0,6592.0
+2004,Las Animas,us_senate,3783.0,200.0,2650.0,6633.0
+2004,Lincoln,president,503.0,15.0,1819.0,2337.0
+2004,Lincoln,us_senate,682.0,49.0,1580.0,2311.0
+2004,Logan,president,2491.0,107.0,6168.0,8766.0
+2004,Logan,us_senate,3114.0,181.0,5415.0,8710.0
+2004,Mesa,president,19564.0,782.0,41539.0,61885.0
+2004,Mesa,us_senate,21718.0,1444.0,38080.0,61242.0
+2004,Mineral,president,227.0,9.0,383.0,619.0
+2004,Mineral,us_senate,338.0,8.0,267.0,613.0
+2004,Moffat,president,1355.0,123.0,4247.0,5725.0
+2004,Moffat,us_senate,1966.0,234.0,3494.0,5694.0
+2004,Montezuma,president,3867.0,160.0,6988.0,11015.0
+2004,Montezuma,us_senate,4773.0,354.0,5724.0,10851.0
+2004,Montrose,president,4776.0,225.0,11218.0,16219.0
+2004,Montrose,us_senate,5603.0,444.0,10433.0,16480.0
+2004,Morgan,president,3039.0,110.0,6787.0,9936.0
+2004,Morgan,us_senate,3938.0,234.0,5745.0,9917.0
+2004,Otero,president,3164.0,69.0,4947.0,8180.0
+2004,Otero,us_senate,3963.0,187.0,4037.0,8187.0
+2004,Ouray,president,1280.0,39.0,1402.0,2721.0
+2004,Ouray,us_senate,1315.0,51.0,1332.0,2698.0
+2004,Park,president,3447.0,129.0,4781.0,8357.0
+2004,Park,us_senate,3696.0,280.0,4331.0,8307.0
+2004,Phillips,president,582.0,26.0,1717.0,2325.0
+2004,Phillips,us_senate,804.0,38.0,1443.0,2285.0
+2004,Pitkin,president,6336.0,136.0,2784.0,9256.0
+2004,Pitkin,us_senate,6135.0,183.0,2783.0,9101.0
+2004,Prowers,president,1308.0,45.0,3392.0,4745.0
+2004,Prowers,us_senate,1987.0,108.0,2628.0,4723.0
+2004,Pueblo,president,35374.0,696.0,31117.0,67187.0
+2004,Pueblo,us_senate,39687.0,1340.0,26160.0,67187.0
+2004,Rio Blanco,president,566.0,34.0,2403.0,3003.0
+2004,Rio Blanco,us_senate,871.0,111.0,2004.0,2986.0
+2004,Rio Grande,president,2009.0,69.0,3448.0,5526.0
+2004,Rio Grande,us_senate,2854.0,121.0,2571.0,5546.0
+2004,Routt,president,6393.0,170.0,5199.0,11762.0
+2004,Routt,us_senate,6771.0,311.0,4522.0,11604.0
+2004,Saguache,president,1594.0,46.0,1163.0,2803.0
+2004,Saguache,us_senate,1817.0,81.0,889.0,2787.0
+2004,San Juan,president,253.0,17.0,216.0,486.0
+2004,San Juan,us_senate,320.0,18.0,150.0,488.0
+2004,San Miguel,president,2876.0,64.0,1079.0,4019.0
+2004,San Miguel,us_senate,2858.0,111.0,1002.0,3971.0
+2004,Sedgwick,president,374.0,15.0,971.0,1360.0
+2004,Sedgwick,us_senate,512.0,31.0,800.0,1343.0
+2004,Summit,president,8144.0,221.0,5370.0,13735.0
+2004,Summit,us_senate,8205.0,338.0,5022.0,13565.0
+2004,Teller,president,3558.0,190.0,8094.0,11842.0
+2004,Teller,us_senate,3740.0,368.0,7617.0,11725.0
+2004,Washington,president,455.0,25.0,2050.0,2530.0
+2004,Washington,us_senate,742.0,60.0,1717.0,2519.0
+2004,Weld,president,31869.0,1193.0,55591.0,88653.0
+2004,Weld,us_senate,37320.0,2140.0,47986.0,87446.0
+2004,Yuma,president,1064.0,39.0,3456.0,4559.0
+2004,Yuma,us_senate,1488.0,102.0,2910.0,4500.0
+2006,Adams,attorney_general,43468.0,3844.0,42514.0,89826.0
+2006,Adams,governor,55930.0,2607.0,34611.0,93148.0
+2006,Adams,secretary_of_state,48567.0,0.0,41824.0,90391.0
+2006,Adams,treasurer,50162.0,0.0,39451.0,89613.0
+2006,Alamosa,attorney_general,2046.0,141.0,2375.0,4562.0
+2006,Alamosa,governor,3098.0,89.0,1591.0,4778.0
+2006,Alamosa,secretary_of_state,2463.0,0.0,2175.0,4638.0
+2006,Alamosa,treasurer,2434.0,0.0,1956.0,4390.0
+2006,Arapahoe,attorney_general,69085.0,5848.0,87510.0,162443.0
+2006,Arapahoe,governor,98203.0,4212.0,66907.0,169322.0
+2006,Arapahoe,secretary_of_state,77489.0,0.0,87921.0,165410.0
+2006,Arapahoe,treasurer,82234.0,0.0,80050.0,162284.0
+2006,Archuleta,attorney_general,1599.0,176.0,2608.0,4383.0
+2006,Archuleta,governor,2274.0,118.0,2231.0,4623.0
+2006,Archuleta,secretary_of_state,1907.0,0.0,2547.0,4454.0
+2006,Archuleta,treasurer,1839.0,0.0,2484.0,4323.0
+2006,Baca,attorney_general,535.0,37.0,1196.0,1768.0
+2006,Baca,governor,783.0,52.0,1034.0,1869.0
+2006,Baca,secretary_of_state,640.0,0.0,1166.0,1806.0
+2006,Baca,treasurer,496.0,0.0,1347.0,1843.0
+2006,Bent,attorney_general,645.0,51.0,851.0,1547.0
+2006,Bent,governor,910.0,35.0,662.0,1607.0
+2006,Bent,secretary_of_state,751.0,0.0,822.0,1573.0
+2006,Bent,treasurer,670.0,0.0,901.0,1571.0
+2006,Boulder,attorney_general,68623.0,5088.0,40249.0,113960.0
+2006,Boulder,governor,84235.0,3093.0,31003.0,118331.0
+2006,Boulder,secretary_of_state,74283.0,0.0,41265.0,115548.0
+2006,Boulder,treasurer,77069.0,0.0,37174.0,114243.0
+2006,Broomfield,attorney_general,7675.0,724.0,9342.0,17741.0
+2006,Broomfield,governor,10517.0,470.0,7544.0,18531.0
+2006,Broomfield,secretary_of_state,8653.0,0.0,9350.0,18003.0
+2006,Broomfield,treasurer,8995.0,0.0,8708.0,17703.0
+2006,Chaffee,attorney_general,2878.0,312.0,3965.0,7155.0
+2006,Chaffee,governor,4298.0,202.0,2940.0,7440.0
+2006,Chaffee,secretary_of_state,3468.0,0.0,3770.0,7238.0
+2006,Chaffee,treasurer,3509.0,0.0,3608.0,7117.0
+2006,Cheyenne,attorney_general,153.0,20.0,753.0,926.0
+2006,Cheyenne,governor,339.0,19.0,598.0,956.0
+2006,Cheyenne,secretary_of_state,224.0,0.0,711.0,935.0
+2006,Cheyenne,treasurer,131.0,0.0,830.0,961.0
+2006,Clear Creek,attorney_general,2144.0,287.0,1849.0,4280.0
+2006,Clear Creek,governor,2708.0,192.0,1516.0,4416.0
+2006,Clear Creek,secretary_of_state,2403.0,0.0,1923.0,4326.0
+2006,Clear Creek,treasurer,2407.0,0.0,1860.0,4267.0
+2006,Conejos,attorney_general,1610.0,61.0,1443.0,3114.0
+2006,Conejos,governor,2063.0,75.0,1055.0,3193.0
+2006,Conejos,secretary_of_state,1820.0,0.0,1321.0,3141.0
+2006,Conejos,treasurer,1799.0,0.0,1272.0,3071.0
+2006,Costilla,attorney_general,1007.0,45.0,394.0,1446.0
+2006,Costilla,governor,1146.0,33.0,293.0,1472.0
+2006,Costilla,secretary_of_state,1108.0,0.0,360.0,1468.0
+2006,Costilla,treasurer,1108.0,0.0,327.0,1435.0
+2006,Crowley,attorney_general,424.0,38.0,788.0,1250.0
+2006,Crowley,governor,594.0,39.0,629.0,1262.0
+2006,Crowley,secretary_of_state,501.0,0.0,761.0,1262.0
+2006,Crowley,treasurer,477.0,0.0,774.0,1251.0
+2006,Custer,attorney_general,558.0,62.0,1198.0,1818.0
+2006,Custer,governor,788.0,41.0,1042.0,1871.0
+2006,Custer,secretary_of_state,656.0,0.0,1163.0,1819.0
+2006,Custer,treasurer,673.0,0.0,1136.0,1809.0
+2006,Delta,attorney_general,3544.0,632.0,6829.0,11005.0
+2006,Delta,governor,5078.0,496.0,5750.0,11324.0
+2006,Delta,secretary_of_state,4059.0,0.0,7029.0,11088.0
+2006,Delta,treasurer,4107.0,0.0,6817.0,10924.0
+2006,Denver,attorney_general,97337.0,6419.0,47942.0,151698.0
+2006,Denver,governor,121494.0,4109.0,31851.0,157454.0
+2006,Denver,secretary_of_state,109485.0,0.0,44888.0,154373.0
+2006,Denver,treasurer,110725.0,0.0,41457.0,152182.0
+2006,Dolores,attorney_general,355.0,48.0,533.0,936.0
+2006,Dolores,governor,527.0,31.0,432.0,990.0
+2006,Dolores,secretary_of_state,432.0,0.0,513.0,945.0
+2006,Dolores,treasurer,424.0,0.0,490.0,914.0
+2006,Douglas,attorney_general,24280.0,2007.0,51724.0,78011.0
+2006,Douglas,governor,36364.0,1489.0,42513.0,80366.0
+2006,Douglas,secretary_of_state,27471.0,0.0,51379.0,78850.0
+2006,Douglas,treasurer,28914.0,0.0,49202.0,78116.0
+2006,Eagle,attorney_general,6040.0,638.0,5547.0,12225.0
+2006,Eagle,governor,8158.0,365.0,4492.0,13015.0
+2006,Eagle,secretary_of_state,7099.0,0.0,5377.0,12476.0
+2006,Eagle,treasurer,6877.0,0.0,5452.0,12329.0
+2006,El Paso,attorney_general,43959.0,5997.0,120932.0,170888.0
+2006,El Paso,governor,69237.0,5232.0,99629.0,174098.0
+2006,El Paso,secretary_of_state,61491.0,0.0,109216.0,170707.0
+2006,El Paso,treasurer,64435.0,0.0,105233.0,169668.0
+2006,Elbert,attorney_general,2032.0,329.0,6177.0,8538.0
+2006,Elbert,governor,3134.0,223.0,5463.0,8820.0
+2006,Elbert,secretary_of_state,2366.0,0.0,6287.0,8653.0
+2006,Elbert,treasurer,2516.0,0.0,6057.0,8573.0
+2006,Fremont,attorney_general,4466.0,584.0,8754.0,13804.0
+2006,Fremont,governor,6768.0,423.0,6872.0,14063.0
+2006,Fremont,secretary_of_state,5510.0,0.0,8338.0,13848.0
+2006,Fremont,treasurer,5721.0,0.0,7952.0,13673.0
+2006,Garfield,attorney_general,6325.0,747.0,7417.0,14489.0
+2006,Garfield,governor,8602.0,526.0,6043.0,15171.0
+2006,Garfield,secretary_of_state,7397.0,0.0,7356.0,14753.0
+2006,Garfield,treasurer,7399.0,0.0,6999.0,14398.0
+2006,Gilpin,attorney_general,1223.0,194.0,950.0,2367.0
+2006,Gilpin,governor,1551.0,135.0,769.0,2455.0
+2006,Gilpin,secretary_of_state,1383.0,0.0,1000.0,2383.0
+2006,Gilpin,treasurer,1399.0,0.0,943.0,2342.0
+2006,Grand,attorney_general,2163.0,243.0,3240.0,5646.0
+2006,Grand,governor,3149.0,165.0,2625.0,5939.0
+2006,Grand,secretary_of_state,2527.0,0.0,3228.0,5755.0
+2006,Grand,treasurer,2605.0,0.0,3062.0,5667.0
+2006,Gunnison,attorney_general,3112.0,391.0,2459.0,5962.0
+2006,Gunnison,governor,4154.0,358.0,1793.0,6305.0
+2006,Gunnison,secretary_of_state,3741.0,0.0,2317.0,6058.0
+2006,Gunnison,treasurer,3698.0,0.0,2226.0,5924.0
+2006,Hinsdale,attorney_general,177.0,21.0,275.0,473.0
+2006,Hinsdale,governor,252.0,28.0,220.0,500.0
+2006,Hinsdale,secretary_of_state,205.0,0.0,277.0,482.0
+2006,Hinsdale,treasurer,204.0,0.0,262.0,466.0
+2006,Huerfano,attorney_general,1494.0,102.0,1230.0,2826.0
+2006,Huerfano,governor,1910.0,75.0,921.0,2906.0
+2006,Huerfano,secretary_of_state,1692.0,0.0,1170.0,2862.0
+2006,Huerfano,treasurer,1737.0,0.0,1072.0,2809.0
+2006,Jackson,attorney_general,154.0,42.0,514.0,710.0
+2006,Jackson,governor,302.0,35.0,417.0,754.0
+2006,Jackson,secretary_of_state,186.0,0.0,539.0,725.0
+2006,Jackson,treasurer,225.0,0.0,489.0,714.0
+2006,Jefferson,attorney_general,86078.0,8488.0,104601.0,199167.0
+2006,Jefferson,governor,119420.0,5775.0,82364.0,207559.0
+2006,Jefferson,secretary_of_state,97335.0,0.0,105056.0,202391.0
+2006,Jefferson,treasurer,102273.0,0.0,96885.0,199158.0
+2006,Kiowa,attorney_general,162.0,21.0,577.0,760.0
+2006,Kiowa,governor,313.0,13.0,479.0,805.0
+2006,Kiowa,secretary_of_state,215.0,0.0,572.0,787.0
+2006,Kiowa,treasurer,161.0,0.0,645.0,806.0
+2006,Kit Carson,attorney_general,564.0,97.0,2009.0,2670.0
+2006,Kit Carson,governor,1131.0,64.0,1592.0,2787.0
+2006,Kit Carson,secretary_of_state,756.0,0.0,1981.0,2737.0
+2006,Kit Carson,treasurer,452.0,0.0,2371.0,2823.0
+2006,La Plata,attorney_general,8858.0,742.0,8487.0,18087.0
+2006,La Plata,governor,11962.0,518.0,6666.0,19146.0
+2006,La Plata,secretary_of_state,9868.0,0.0,8495.0,18363.0
+2006,La Plata,treasurer,9934.0,0.0,7961.0,17895.0
+2006,Lake,attorney_general,1197.0,173.0,845.0,2215.0
+2006,Lake,governor,1517.0,111.0,709.0,2337.0
+2006,Lake,secretary_of_state,1393.0,0.0,832.0,2225.0
+2006,Lake,treasurer,1394.0,0.0,816.0,2210.0
+2006,Larimer,attorney_general,46007.0,6173.0,55193.0,107373.0
+2006,Larimer,governor,63297.0,3926.0,45706.0,112929.0
+2006,Larimer,secretary_of_state,53321.0,0.0,55602.0,108923.0
+2006,Larimer,treasurer,53697.0,0.0,52851.0,106548.0
+2006,Las Animas,attorney_general,2614.0,172.0,1956.0,4742.0
+2006,Las Animas,governor,3243.0,119.0,1506.0,4868.0
+2006,Las Animas,secretary_of_state,2950.0,0.0,1857.0,4807.0
+2006,Las Animas,treasurer,2972.0,0.0,1757.0,4729.0
+2006,Lincoln,attorney_general,390.0,52.0,1337.0,1779.0
+2006,Lincoln,governor,737.0,58.0,1036.0,1831.0
+2006,Lincoln,secretary_of_state,533.0,0.0,1270.0,1803.0
+2006,Lincoln,treasurer,452.0,0.0,1373.0,1825.0
+2006,Logan,attorney_general,1948.0,276.0,5076.0,7300.0
+2006,Logan,governor,3559.0,176.0,3832.0,7567.0
+2006,Logan,secretary_of_state,2443.0,0.0,4946.0,7389.0
+2006,Logan,treasurer,2226.0,0.0,5191.0,7417.0
+2006,Mesa,attorney_general,14986.0,2351.0,27885.0,45222.0
+2006,Mesa,governor,21475.0,1753.0,23471.0,46699.0
+2006,Mesa,secretary_of_state,16694.0,0.0,28961.0,45655.0
+2006,Mesa,treasurer,16280.0,0.0,28934.0,45214.0
+2006,Mineral,attorney_general,231.0,18.0,275.0,524.0
+2006,Mineral,governor,338.0,10.0,235.0,583.0
+2006,Mineral,secretary_of_state,267.0,0.0,276.0,543.0
+2006,Mineral,treasurer,286.0,0.0,247.0,533.0
+2006,Moffat,attorney_general,1035.0,180.0,2799.0,4014.0
+2006,Moffat,governor,1750.0,194.0,2216.0,4160.0
+2006,Moffat,secretary_of_state,1386.0,0.0,2669.0,4055.0
+2006,Moffat,treasurer,1376.0,0.0,2614.0,3990.0
+2006,Montezuma,attorney_general,3093.0,314.0,4880.0,8287.0
+2006,Montezuma,governor,4146.0,197.0,4263.0,8606.0
+2006,Montezuma,secretary_of_state,3473.0,0.0,4919.0,8392.0
+2006,Montezuma,treasurer,3445.0,0.0,4847.0,8292.0
+2006,Montrose,attorney_general,3865.0,639.0,7436.0,11940.0
+2006,Montrose,governor,5639.0,535.0,6067.0,12241.0
+2006,Montrose,secretary_of_state,4237.0,0.0,7809.0,12046.0
+2006,Montrose,treasurer,4259.0,0.0,7648.0,11907.0
+2006,Morgan,attorney_general,2322.0,258.0,4792.0,7372.0
+2006,Morgan,governor,3419.0,185.0,4008.0,7612.0
+2006,Morgan,secretary_of_state,2665.0,0.0,4769.0,7434.0
+2006,Morgan,treasurer,2695.0,0.0,4743.0,7438.0
+2006,Otero,attorney_general,2393.0,146.0,3493.0,6032.0
+2006,Otero,governor,3432.0,146.0,2603.0,6181.0
+2006,Otero,secretary_of_state,2830.0,0.0,3278.0,6108.0
+2006,Otero,treasurer,2617.0,0.0,3447.0,6064.0
+2006,Ouray,attorney_general,963.0,105.0,1128.0,2196.0
+2006,Ouray,governor,1289.0,74.0,916.0,2279.0
+2006,Ouray,secretary_of_state,1065.0,0.0,1155.0,2220.0
+2006,Ouray,treasurer,1061.0,0.0,1119.0,2180.0
+2006,Park,attorney_general,2389.0,410.0,3794.0,6593.0
+2006,Park,governor,3208.0,283.0,3301.0,6792.0
+2006,Park,secretary_of_state,2853.0,0.0,3810.0,6663.0
+2006,Park,treasurer,2902.0,0.0,3678.0,6580.0
+2006,Phillips,attorney_general,422.0,52.0,1253.0,1727.0
+2006,Phillips,governor,773.0,30.0,998.0,1801.0
+2006,Phillips,secretary_of_state,531.0,0.0,1226.0,1757.0
+2006,Phillips,treasurer,518.0,0.0,1222.0,1740.0
+2006,Pitkin,attorney_general,4040.0,330.0,1883.0,6253.0
+2006,Pitkin,governor,5095.0,169.0,1428.0,6692.0
+2006,Pitkin,secretary_of_state,4595.0,0.0,1776.0,6371.0
+2006,Pitkin,treasurer,4507.0,0.0,1719.0,6226.0
+2006,Prowers,attorney_general,985.0,82.0,2131.0,3198.0
+2006,Prowers,governor,1549.0,69.0,1688.0,3306.0
+2006,Prowers,secretary_of_state,1151.0,0.0,2100.0,3251.0
+2006,Prowers,treasurer,1016.0,0.0,2254.0,3270.0
+2006,Pueblo,attorney_general,26919.0,1230.0,23020.0,51169.0
+2006,Pueblo,governor,34968.0,970.0,16103.0,52041.0
+2006,Pueblo,secretary_of_state,30158.0,0.0,21336.0,51494.0
+2006,Pueblo,treasurer,31938.0,0.0,19208.0,51146.0
+2006,Rio Blanco,attorney_general,456.0,88.0,1548.0,2092.0
+2006,Rio Blanco,governor,773.0,74.0,1305.0,2152.0
+2006,Rio Blanco,secretary_of_state,581.0,0.0,1522.0,2103.0
+2006,Rio Blanco,treasurer,588.0,0.0,1496.0,2084.0
+2006,Rio Grande,attorney_general,1533.0,113.0,2523.0,4169.0
+2006,Rio Grande,governor,2284.0,93.0,1885.0,4262.0
+2006,Rio Grande,secretary_of_state,1812.0,0.0,2398.0,4210.0
+2006,Rio Grande,treasurer,1867.0,0.0,2235.0,4102.0
+2006,Routt,attorney_general,3657.0,348.0,3441.0,7446.0
+2006,Routt,governor,5172.0,190.0,2452.0,7814.0
+2006,Routt,secretary_of_state,4530.0,0.0,2989.0,7519.0
+2006,Routt,treasurer,4491.0,0.0,2966.0,7457.0
+2006,Saguache,attorney_general,1192.0,125.0,810.0,2127.0
+2006,Saguache,governor,1356.0,90.0,632.0,2078.0
+2006,Saguache,secretary_of_state,1366.0,0.0,767.0,2133.0
+2006,Saguache,treasurer,1315.0,0.0,737.0,2052.0
+2006,San Juan,attorney_general,179.0,40.0,148.0,367.0
+2006,San Juan,governor,255.0,19.0,114.0,388.0
+2006,San Juan,secretary_of_state,218.0,0.0,154.0,372.0
+2006,San Juan,treasurer,225.0,0.0,142.0,367.0
+2006,San Miguel,attorney_general,1641.0,257.0,683.0,2581.0
+2006,San Miguel,governor,1991.0,119.0,594.0,2704.0
+2006,San Miguel,secretary_of_state,1926.0,0.0,680.0,2606.0
+2006,San Miguel,treasurer,1848.0,0.0,696.0,2544.0
+2006,Sedgwick,attorney_general,327.0,32.0,725.0,1084.0
+2006,Sedgwick,governor,575.0,24.0,568.0,1167.0
+2006,Sedgwick,secretary_of_state,384.0,0.0,727.0,1111.0
+2006,Sedgwick,treasurer,378.0,0.0,742.0,1120.0
+2006,Summit,attorney_general,5072.0,562.0,3741.0,9375.0
+2006,Summit,governor,6683.0,300.0,2939.0,9922.0
+2006,Summit,secretary_of_state,5943.0,0.0,3640.0,9583.0
+2006,Summit,treasurer,5689.0,0.0,3688.0,9377.0
+2006,Teller,attorney_general,2381.0,408.0,5750.0,8539.0
+2006,Teller,governor,3383.0,291.0,4981.0,8655.0
+2006,Teller,secretary_of_state,3054.0,0.0,5473.0,8527.0
+2006,Teller,treasurer,3149.0,0.0,5346.0,8495.0
+2006,Washington,attorney_general,362.0,58.0,1569.0,1989.0
+2006,Washington,governor,672.0,44.0,1367.0,2083.0
+2006,Washington,secretary_of_state,438.0,0.0,1584.0,2022.0
+2006,Washington,treasurer,427.0,0.0,1602.0,2029.0
+2006,Weld,attorney_general,23262.0,2866.0,39086.0,65214.0
+2006,Weld,governor,32677.0,2381.0,32499.0,67557.0
+2006,Weld,secretary_of_state,26539.0,0.0,39229.0,65768.0
+2006,Weld,treasurer,28083.0,0.0,37203.0,65286.0
+2006,Yuma,attorney_general,852.0,92.0,2578.0,3522.0
+2006,Yuma,governor,1339.0,68.0,2287.0,3694.0
+2006,Yuma,secretary_of_state,1045.0,0.0,2552.0,3597.0
+2006,Yuma,treasurer,893.0,0.0,2744.0,3637.0
+2008,Adams,president,93445.0,3080.0,63976.0,160501.0
+2008,Adams,us_senate,89542.0,9384.0,56195.0,155121.0
+2008,Alamosa,president,3521.0,130.0,2635.0,6286.0
+2008,Alamosa,us_senate,3410.0,465.0,2252.0,6127.0
+2008,Arapahoe,president,148224.0,4064.0,113868.0,266156.0
+2008,Arapahoe,us_senate,139115.0,11766.0,106555.0,257436.0
+2008,Archuleta,president,2836.0,151.0,3638.0,6625.0
+2008,Archuleta,us_senate,2787.0,453.0,3210.0,6450.0
+2008,Baca,president,536.0,67.0,1572.0,2175.0
+2008,Baca,us_senate,635.0,127.0,1360.0,2122.0
+2008,Bent,president,799.0,44.0,1077.0,1920.0
+2008,Bent,us_senate,861.0,99.0,932.0,1892.0
+2008,Boulder,president,248318.0,5400.0,89808.0,343526.0
+2008,Boulder,us_senate,234084.0,11358.0,86750.0,332192.0
+2008,Broomfield,president,16168.0,528.0,12757.0,29453.0
+2008,Broomfield,us_senate,15451.0,1184.0,12034.0,28669.0
+2008,Chaffee,president,4862.0,186.0,4873.0,9921.0
+2008,Chaffee,us_senate,4664.0,552.0,4369.0,9585.0
+2008,Cheyenne,president,198.0,23.0,890.0,1111.0
+2008,Cheyenne,us_senate,247.0,61.0,766.0,1074.0
+2008,Clear Creek,president,3332.0,135.0,2300.0,5767.0
+2008,Clear Creek,us_senate,3216.0,306.0,2113.0,5635.0
+2008,Conejos,president,2154.0,67.0,1653.0,3874.0
+2008,Conejos,us_senate,2142.0,170.0,1469.0,3781.0
+2008,Costilla,president,1245.0,37.0,415.0,1697.0
+2008,Costilla,us_senate,1185.0,92.0,369.0,1646.0
+2008,Crowley,president,552.0,30.0,976.0,1558.0
+2008,Crowley,us_senate,582.0,101.0,850.0,1533.0
+2008,Custer,president,912.0,45.0,1672.0,2629.0
+2008,Custer,us_senate,900.0,122.0,1528.0,2550.0
+2008,Delta,president,5084.0,283.0,10067.0,15434.0
+2008,Delta,us_senate,5401.0,850.0,8856.0,15107.0
+2008,Denver,president,204882.0,4084.0,62567.0,271533.0
+2008,Denver,us_senate,196252.0,10588.0,60199.0,267039.0
+2008,Dolores,president,738.0,60.0,1636.0,2434.0
+2008,Dolores,us_senate,445.0,61.0,658.0,1164.0
+2008,Douglas,president,61960.0,1751.0,88108.0,151819.0
+2008,Douglas,us_senate,57587.0,5020.0,84552.0,147159.0
+2008,Eagle,president,13191.0,286.0,8181.0,21658.0
+2008,Eagle,us_senate,12433.0,811.0,7759.0,21003.0
+2008,El Paso,president,108899.0,3958.0,160318.0,273175.0
+2008,El Paso,us_senate,100876.0,13258.0,148716.0,262850.0
+2008,Elbert,president,3819.0,279.0,9108.0,13206.0
+2008,Elbert,us_senate,3694.0,729.0,8403.0,12826.0
+2008,Fremont,president,6844.0,407.0,12668.0,19919.0
+2008,Fremont,us_senate,7198.0,1241.0,10896.0,19335.0
+2008,Garfield,president,11357.0,366.0,11359.0,23082.0
+2008,Garfield,us_senate,11192.0,1068.0,10376.0,22636.0
+2008,Gilpin,president,1990.0,96.0,1283.0,3369.0
+2008,Gilpin,us_senate,1891.0,255.0,1126.0,3272.0
+2008,Grand,president,4037.0,144.0,4128.0,8309.0
+2008,Grand,us_senate,3967.0,347.0,3820.0,8134.0
+2008,Gunnison,president,5557.0,183.0,3131.0,8871.0
+2008,Gunnison,us_senate,5182.0,439.0,2859.0,8480.0
+2008,Hinsdale,president,240.0,15.0,344.0,599.0
+2008,Hinsdale,us_senate,229.0,34.0,294.0,557.0
+2008,Huerfano,president,1989.0,74.0,1580.0,3643.0
+2008,Huerfano,us_senate,2015.0,244.0,1376.0,3635.0
+2008,Jackson,president,277.0,13.0,624.0,914.0
+2008,Jackson,us_senate,284.0,60.0,530.0,874.0
+2008,Jefferson,president,158158.0,5282.0,131628.0,295068.0
+2008,Jefferson,us_senate,151616.0,14548.0,121889.0,288053.0
+2008,Kiowa,president,178.0,24.0,650.0,852.0
+2008,Kiowa,us_senate,201.0,42.0,585.0,828.0
+2008,Kit Carson,president,912.0,75.0,2455.0,3442.0
+2008,Kit Carson,us_senate,1004.0,203.0,2081.0,3288.0
+2008,La Plata,president,16057.0,419.0,11503.0,27979.0
+2008,La Plata,us_senate,15550.0,771.0,10551.0,26872.0
+2008,Lake,president,1859.0,65.0,1078.0,3002.0
+2008,Lake,us_senate,1792.0,206.0,918.0,2916.0
+2008,Larimer,president,89823.0,2910.0,73642.0,166375.0
+2008,Larimer,us_senate,82728.0,7736.0,70269.0,160733.0
+2008,Las Animas,president,3562.0,113.0,3086.0,6761.0
+2008,Las Animas,us_senate,3642.0,415.0,2492.0,6549.0
+2008,Lincoln,president,546.0,41.0,1717.0,2304.0
+2008,Lincoln,us_senate,554.0,133.0,1534.0,2221.0
+2008,Logan,president,2846.0,129.0,6002.0,8977.0
+2008,Logan,us_senate,3031.0,472.0,5190.0,8693.0
+2008,Mesa,president,24008.0,1045.0,44578.0,69631.0
+2008,Mesa,us_senate,25591.0,3029.0,38582.0,67202.0
+2008,Mineral,president,270.0,19.0,334.0,623.0
+2008,Mineral,us_senate,297.0,48.0,269.0,614.0
+2008,Moffat,president,1582.0,154.0,4135.0,5871.0
+2008,Moffat,us_senate,1773.0,412.0,3549.0,5734.0
+2008,Montezuma,president,4661.0,203.0,6961.0,11825.0
+2008,Montezuma,us_senate,4905.0,451.0,6165.0,11521.0
+2008,Montrose,president,6495.0,459.0,12199.0,19153.0
+2008,Montrose,us_senate,6963.0,977.0,10852.0,18792.0
+2008,Morgan,president,3813.0,149.0,6272.0,10234.0
+2008,Morgan,us_senate,3952.0,535.0,5420.0,9907.0
+2008,Otero,president,3547.0,125.0,4393.0,8065.0
+2008,Otero,us_senate,3626.0,432.0,3853.0,7911.0
+2008,Ouray,president,1636.0,57.0,1367.0,3060.0
+2008,Ouray,us_senate,1581.0,98.0,1312.0,2991.0
+2008,Park,president,4250.0,237.0,4896.0,9383.0
+2008,Park,us_senate,3991.0,605.0,4522.0,9118.0
+2008,Phillips,president,622.0,26.0,1613.0,2261.0
+2008,Phillips,us_senate,667.0,89.0,1437.0,2193.0
+2008,Pitkin,president,7349.0,133.0,2484.0,9966.0
+2008,Pitkin,us_senate,6899.0,331.0,2375.0,9605.0
+2008,Prowers,president,1487.0,85.0,3043.0,4615.0
+2008,Prowers,us_senate,1731.0,241.0,2545.0,4517.0
+2008,Pueblo,president,41097.0,1073.0,30257.0,72427.0
+2008,Pueblo,us_senate,41290.0,3361.0,26566.0,71217.0
+2008,Rio Blanco,president,655.0,55.0,2437.0,3147.0
+2008,Rio Blanco,us_senate,709.0,156.0,2217.0,3082.0
+2008,Rio Grande,president,2448.0,66.0,2930.0,5444.0
+2008,Rio Grande,us_senate,2381.0,337.0,2609.0,5327.0
+2008,Routt,president,8270.0,204.0,4725.0,13199.0
+2008,Routt,us_senate,7799.0,515.0,4536.0,12850.0
+2008,Saguache,president,1730.0,64.0,956.0,2750.0
+2008,Saguache,us_senate,1630.0,200.0,831.0,2661.0
+2008,San Juan,president,264.0,14.0,218.0,496.0
+2008,San Juan,us_senate,274.0,29.0,183.0,486.0
+2008,San Miguel,president,3349.0,68.0,933.0,4350.0
+2008,San Miguel,us_senate,3035.0,204.0,918.0,4157.0
+2008,Sedgwick,president,468.0,26.0,857.0,1351.0
+2008,Sedgwick,us_senate,486.0,91.0,741.0,1318.0
+2008,Summit,president,9802.0,214.0,4883.0,14899.0
+2008,Summit,us_senate,9275.0,557.0,4575.0,14407.0
+2008,Teller,president,4513.0,247.0,8146.0,12906.0
+2008,Teller,us_senate,4275.0,682.0,7575.0,12532.0
+2008,Washington,president,529.0,35.0,1949.0,2513.0
+2008,Washington,us_senate,604.0,112.0,1727.0,2443.0
+2008,Weld,president,47292.0,2048.0,56526.0,105866.0
+2008,Weld,us_senate,45522.0,6104.0,51253.0,102879.0
+2008,Yuma,president,1117.0,80.0,3286.0,4483.0
+2008,Yuma,us_senate,1250.0,191.0,2866.0,4307.0
+2010,Adams,governor,55805.0,46456.0,9851.0,112112.0
+2010,Adams,secretary_of_state,48348.0,9671.0,49401.0,107420.0
+2010,Adams,treasurer,56506.0,0.0,51004.0,107510.0
+2010,Adams,us_senate,55601.0,8025.0,47455.0,111081.0
+2010,Alamosa,governor,2910.0,1180.0,887.0,4977.0
+2010,Alamosa,secretary_of_state,2239.0,312.0,2131.0,4682.0
+2010,Alamosa,treasurer,2690.0,0.0,2105.0,4795.0
+2010,Alamosa,us_senate,2656.0,285.0,1977.0,4918.0
+2010,Arapahoe,governor,104147.0,79008.0,15011.0,198166.0
+2010,Arapahoe,secretary_of_state,83467.0,12591.0,93183.0,189241.0
+2010,Arapahoe,treasurer,95400.0,0.0,93824.0,189224.0
+2010,Arapahoe,us_senate,97240.0,10175.0,88959.0,196374.0
+2010,Archuleta,governor,2133.0,1451.0,1554.0,5138.0
+2010,Archuleta,secretary_of_state,1645.0,235.0,3046.0,4926.0
+2010,Archuleta,treasurer,1838.0,0.0,3065.0,4903.0
+2010,Archuleta,us_senate,1952.0,316.0,2875.0,5143.0
+2010,Baca,governor,667.0,781.0,512.0,1960.0
+2010,Baca,secretary_of_state,446.0,178.0,1230.0,1854.0
+2010,Baca,treasurer,636.0,0.0,1225.0,1861.0
+2010,Baca,us_senate,548.0,133.0,1248.0,1929.0
+2010,Bent,governor,743.0,554.0,314.0,1611.0
+2010,Bent,secretary_of_state,540.0,153.0,871.0,1564.0
+2010,Bent,treasurer,717.0,0.0,858.0,1575.0
+2010,Bent,us_senate,652.0,122.0,811.0,1585.0
+2010,Boulder,attorney_general,78840.0,0.0,40596.0,119436.0
+2010,Boulder,governor,87878.0,30836.0,6772.0,125486.0
+2010,Boulder,lt_governor,87878.0,30836.0,6772.0,125486.0
+2010,Boulder,secretary_of_state,153100.0,10026.0,76230.0,239356.0
+2010,Boulder,treasurer,240538.0,0.0,113601.0,354139.0
+2010,Boulder,us_senate,156135.0,10271.0,65005.0,231411.0
+2010,Broomfield,governor,11996.0,8915.0,1987.0,22898.0
+2010,Broomfield,secretary_of_state,9583.0,1289.0,11182.0,22054.0
+2010,Broomfield,treasurer,11080.0,0.0,10965.0,22045.0
+2010,Broomfield,us_senate,11034.0,1227.0,10382.0,22643.0
+2010,Chaffee,governor,4331.0,2804.0,1339.0,8474.0
+2010,Chaffee,secretary_of_state,3483.0,592.0,4089.0,8164.0
+2010,Chaffee,treasurer,3892.0,0.0,4140.0,8032.0
+2010,Chaffee,us_senate,3936.0,548.0,3892.0,8376.0
+2010,Cheyenne,governor,237.0,529.0,195.0,961.0
+2010,Cheyenne,secretary_of_state,114.0,71.0,723.0,908.0
+2010,Cheyenne,treasurer,198.0,0.0,727.0,925.0
+2010,Cheyenne,us_senate,187.0,60.0,696.0,943.0
+2010,Clear Creek,governor,2538.0,1778.0,278.0,4594.0
+2010,Clear Creek,secretary_of_state,2091.0,380.0,1936.0,4407.0
+2010,Clear Creek,treasurer,2382.0,0.0,1999.0,4381.0
+2010,Clear Creek,us_senate,2385.0,300.0,1876.0,4561.0
+2010,Conejos,governor,1747.0,780.0,598.0,3125.0
+2010,Conejos,secretary_of_state,1442.0,236.0,1357.0,3035.0
+2010,Conejos,treasurer,1636.0,0.0,1368.0,3004.0
+2010,Conejos,us_senate,1625.0,131.0,1312.0,3068.0
+2010,Costilla,governor,1032.0,266.0,174.0,1472.0
+2010,Costilla,secretary_of_state,941.0,141.0,334.0,1416.0
+2010,Costilla,treasurer,1021.0,0.0,377.0,1398.0
+2010,Costilla,us_senate,1004.0,95.0,348.0,1447.0
+2010,Crowley,governor,517.0,545.0,245.0,1307.0
+2010,Crowley,secretary_of_state,359.0,133.0,788.0,1280.0
+2010,Crowley,treasurer,475.0,0.0,791.0,1266.0
+2010,Crowley,us_senate,474.0,108.0,717.0,1299.0
+2010,Custer,governor,796.0,997.0,478.0,2271.0
+2010,Custer,secretary_of_state,584.0,149.0,1478.0,2211.0
+2010,Custer,treasurer,719.0,0.0,1500.0,2219.0
+2010,Custer,us_senate,680.0,141.0,1453.0,2274.0
+2010,Delta,governor,4469.0,5494.0,3158.0,13121.0
+2010,Delta,secretary_of_state,4184.0,1209.0,7571.0,12964.0
+2010,Delta,treasurer,4005.0,0.0,8686.0,12691.0
+2010,Delta,us_senate,3932.0,1028.0,8025.0,12985.0
+2010,Denver,governor,142645.0,41140.0,8068.0,191853.0
+2010,Denver,secretary_of_state,123941.0,8036.0,49986.0,181963.0
+2010,Denver,treasurer,134727.0,0.0,49925.0,184652.0
+2010,Denver,us_senate,135793.0,8175.0,46149.0,190117.0
+2010,Dolores,governor,337.0,310.0,366.0,1013.0
+2010,Dolores,secretary_of_state,276.0,82.0,598.0,956.0
+2010,Dolores,treasurer,335.0,0.0,616.0,951.0
+2010,Dolores,us_senate,334.0,77.0,576.0,987.0
+2010,Douglas,governor,46914.0,57120.0,12918.0,116952.0
+2010,Douglas,secretary_of_state,32770.0,6748.0,72575.0,112093.0
+2010,Douglas,treasurer,39000.0,0.0,73228.0,112228.0
+2010,Douglas,us_senate,41013.0,4835.0,69986.0,115834.0
+2010,Eagle,governor,8557.0,3869.0,2168.0,14594.0
+2010,Eagle,secretary_of_state,6410.0,881.0,6564.0,13855.0
+2010,Eagle,treasurer,6932.0,0.0,6694.0,13626.0
+2010,Eagle,us_senate,7707.0,817.0,6002.0,14526.0
+2010,El Paso,governor,72107.0,87187.0,35160.0,194454.0
+2010,El Paso,secretary_of_state,55975.0,12279.0,120909.0,189163.0
+2010,El Paso,treasurer,67132.0,0.0,120170.0,187302.0
+2010,El Paso,us_senate,66162.0,10850.0,116805.0,193817.0
+2010,Elbert,governor,2761.0,7100.0,1156.0,11017.0
+2010,Elbert,secretary_of_state,2133.0,953.0,7591.0,10677.0
+2010,Elbert,treasurer,2711.0,0.0,7881.0,10592.0
+2010,Elbert,us_senate,2647.0,640.0,7574.0,10861.0
+2010,Fremont,governor,5832.0,6783.0,3436.0,16051.0
+2010,Fremont,secretary_of_state,4425.0,1479.0,9745.0,15649.0
+2010,Fremont,treasurer,5802.0,0.0,9897.0,15699.0
+2010,Fremont,us_senate,5185.0,1352.0,9335.0,15872.0
+2010,Garfield,governor,8624.0,6085.0,3242.0,17951.0
+2010,Garfield,secretary_of_state,7435.0,1265.0,8692.0,17392.0
+2010,Garfield,treasurer,7592.0,0.0,9439.0,17031.0
+2010,Garfield,us_senate,8062.0,1286.0,8423.0,17771.0
+2010,Gilpin,governor,1373.0,1128.0,176.0,2677.0
+2010,Gilpin,secretary_of_state,1234.0,275.0,1064.0,2573.0
+2010,Gilpin,treasurer,1406.0,0.0,1159.0,2565.0
+2010,Gilpin,us_senate,1358.0,201.0,1100.0,2659.0
+2010,Grand,governor,3196.0,2550.0,831.0,6577.0
+2010,Grand,secretary_of_state,2283.0,357.0,3556.0,6196.0
+2010,Grand,treasurer,2610.0,0.0,3610.0,6220.0
+2010,Grand,us_senate,2795.0,425.0,3257.0,6477.0
+2010,Gunnison,governor,3859.0,1437.0,1023.0,6319.0
+2010,Gunnison,secretary_of_state,3069.0,388.0,2471.0,5928.0
+2010,Gunnison,treasurer,3219.0,0.0,2613.0,5832.0
+2010,Gunnison,us_senate,3435.0,448.0,2377.0,6260.0
+2010,Hinsdale,governor,291.0,151.0,139.0,581.0
+2010,Hinsdale,secretary_of_state,178.0,24.0,334.0,536.0
+2010,Hinsdale,treasurer,201.0,0.0,333.0,534.0
+2010,Hinsdale,us_senate,225.0,34.0,314.0,573.0
+2010,Huerfano,governor,1628.0,852.0,476.0,2956.0
+2010,Huerfano,secretary_of_state,1413.0,202.0,1241.0,2856.0
+2010,Huerfano,treasurer,1571.0,0.0,1248.0,2819.0
+2010,Huerfano,us_senate,1530.0,175.0,1205.0,2910.0
+2010,Jackson,governor,302.0,292.0,175.0,769.0
+2010,Jackson,secretary_of_state,155.0,53.0,491.0,699.0
+2010,Jackson,treasurer,208.0,0.0,496.0,704.0
+2010,Jackson,us_senate,218.0,77.0,433.0,728.0
+2010,Jefferson,governor,116120.0,97037.0,15419.0,228576.0
+2010,Jefferson,secretary_of_state,93489.0,15274.0,109292.0,218055.0
+2010,Jefferson,treasurer,104765.0,0.0,106526.0,211291.0
+2010,Jefferson,us_senate,108954.0,12636.0,103657.0,225247.0
+2010,Kiowa,governor,204.0,394.0,167.0,765.0
+2010,Kiowa,secretary_of_state,125.0,62.0,535.0,722.0
+2010,Kiowa,treasurer,209.0,0.0,523.0,732.0
+2010,Kiowa,us_senate,181.0,43.0,532.0,756.0
+2010,Kit Carson,governor,941.0,1486.0,589.0,3016.0
+2010,Kit Carson,secretary_of_state,535.0,238.0,2064.0,2837.0
+2010,Kit Carson,treasurer,825.0,0.0,2017.0,2842.0
+2010,Kit Carson,us_senate,740.0,189.0,2012.0,2941.0
+2010,La Plata,governor,10869.0,4337.0,5186.0,20392.0
+2010,La Plata,secretary_of_state,9491.0,1086.0,9124.0,19701.0
+2010,La Plata,treasurer,9853.0,0.0,9598.0,19451.0
+2010,La Plata,us_senate,10327.0,865.0,9301.0,20493.0
+2010,Lake,governor,1243.0,772.0,192.0,2207.0
+2010,Lake,secretary_of_state,1098.0,205.0,789.0,2092.0
+2010,Lake,treasurer,1258.0,0.0,834.0,2092.0
+2010,Lake,us_senate,1208.0,167.0,790.0,2165.0
+2010,Larimer,governor,64538.0,47250.0,13813.0,125601.0
+2010,Larimer,secretary_of_state,51935.0,8393.0,59714.0,120042.0
+2010,Larimer,treasurer,58169.0,0.0,61571.0,119740.0
+2010,Larimer,us_senate,59456.0,7266.0,56954.0,123676.0
+2010,Las Animas,governor,3075.0,1549.0,902.0,5526.0
+2010,Las Animas,secretary_of_state,2593.0,445.0,2287.0,5325.0
+2010,Las Animas,treasurer,3002.0,0.0,2359.0,5361.0
+2010,Las Animas,us_senate,2842.0,338.0,2286.0,5466.0
+2010,Lincoln,governor,502.0,1085.0,296.0,1883.0
+2010,Lincoln,secretary_of_state,353.0,165.0,1273.0,1791.0
+2010,Lincoln,treasurer,516.0,0.0,1297.0,1813.0
+2010,Lincoln,us_senate,482.0,127.0,1234.0,1843.0
+2010,Logan,governor,2697.0,3669.0,1210.0,7576.0
+2010,Logan,secretary_of_state,1795.0,589.0,4822.0,7206.0
+2010,Logan,treasurer,2579.0,0.0,4708.0,7287.0
+2010,Logan,us_senate,2390.0,549.0,4483.0,7422.0
+2010,Mesa,governor,19869.0,24810.0,9870.0,54549.0
+2010,Mesa,secretary_of_state,23365.0,3405.0,27703.0,54473.0
+2010,Mesa,treasurer,16725.0,0.0,34817.0,51542.0
+2010,Mesa,us_senate,17522.0,4005.0,32983.0,54510.0
+2010,Mineral,governor,306.0,139.0,138.0,583.0
+2010,Mineral,secretary_of_state,201.0,42.0,288.0,531.0
+2010,Mineral,treasurer,255.0,0.0,284.0,539.0
+2010,Mineral,us_senate,247.0,53.0,270.0,570.0
+2010,Moffat,governor,1021.0,2198.0,1393.0,4612.0
+2010,Moffat,secretary_of_state,902.0,519.0,3050.0,4471.0
+2010,Moffat,treasurer,1164.0,0.0,3293.0,4457.0
+2010,Moffat,us_senate,1104.0,372.0,3080.0,4556.0
+2010,Montezuma,governor,3570.0,2391.0,3644.0,9605.0
+2010,Montezuma,secretary_of_state,3074.0,660.0,5649.0,9383.0
+2010,Montezuma,treasurer,3392.0,0.0,5888.0,9280.0
+2010,Montezuma,us_senate,3349.0,564.0,5648.0,9561.0
+2010,Montrose,governor,5459.0,6284.0,4079.0,15822.0
+2010,Montrose,secretary_of_state,5155.0,1342.0,9128.0,15625.0
+2010,Montrose,treasurer,4379.0,0.0,10471.0,14850.0
+2010,Montrose,us_senate,4627.0,1234.0,9887.0,15748.0
+2010,Morgan,governor,2789.0,4435.0,1025.0,8249.0
+2010,Morgan,secretary_of_state,2213.0,685.0,5033.0,7931.0
+2010,Morgan,treasurer,2903.0,0.0,4979.0,7882.0
+2010,Morgan,us_senate,2847.0,520.0,4732.0,8099.0
+2010,Otero,governor,2894.0,2236.0,1286.0,6416.0
+2010,Otero,secretary_of_state,2186.0,531.0,3560.0,6277.0
+2010,Otero,treasurer,2742.0,0.0,3431.0,6173.0
+2010,Otero,us_senate,2633.0,427.0,3277.0,6337.0
+2010,Ouray,governor,1430.0,694.0,483.0,2607.0
+2010,Ouray,secretary_of_state,1230.0,152.0,1166.0,2548.0
+2010,Ouray,treasurer,1240.0,0.0,1278.0,2518.0
+2010,Ouray,us_senate,1295.0,143.0,1164.0,2602.0
+2010,Park,governor,3006.0,3769.0,809.0,7584.0
+2010,Park,secretary_of_state,2446.0,726.0,4157.0,7329.0
+2010,Park,treasurer,2844.0,0.0,4383.0,7227.0
+2010,Park,us_senate,2848.0,561.0,4090.0,7499.0
+2010,Phillips,governor,647.0,947.0,363.0,1957.0
+2010,Phillips,secretary_of_state,373.0,108.0,1364.0,1845.0
+2010,Phillips,treasurer,559.0,0.0,1313.0,1872.0
+2010,Phillips,us_senate,555.0,103.0,1274.0,1932.0
+2010,Pitkin,governor,5258.0,1056.0,943.0,7257.0
+2010,Pitkin,secretary_of_state,4417.0,291.0,2214.0,6922.0
+2010,Pitkin,treasurer,4558.0,0.0,2321.0,6879.0
+2010,Pitkin,us_senate,5091.0,282.0,1951.0,7324.0
+2010,Prowers,governor,1388.0,1667.0,712.0,3767.0
+2010,Prowers,secretary_of_state,918.0,345.0,2361.0,3624.0
+2010,Prowers,treasurer,1302.0,0.0,2360.0,3662.0
+2010,Prowers,us_senate,1182.0,243.0,2271.0,3696.0
+2010,Pueblo,governor,30862.0,16260.0,6608.0,53730.0
+2010,Pueblo,secretary_of_state,26090.0,3440.0,23123.0,52653.0
+2010,Pueblo,treasurer,29906.0,0.0,22538.0,52444.0
+2010,Pueblo,us_senate,28779.0,2585.0,22031.0,53395.0
+2010,Rio Blanco,governor,578.0,1121.0,890.0,2589.0
+2010,Rio Blanco,secretary_of_state,477.0,127.0,1897.0,2501.0
+2010,Rio Blanco,treasurer,498.0,0.0,1941.0,2439.0
+2010,Rio Blanco,us_senate,480.0,168.0,1883.0,2531.0
+2010,Rio Grande,governor,2107.0,1461.0,892.0,4460.0
+2010,Rio Grande,secretary_of_state,1603.0,321.0,2424.0,4348.0
+2010,Rio Grande,treasurer,1923.0,0.0,2385.0,4308.0
+2010,Rio Grande,us_senate,1871.0,251.0,2292.0,4414.0
+2010,Routt,governor,5932.0,2117.0,1413.0,9462.0
+2010,Routt,secretary_of_state,4611.0,412.0,3979.0,9002.0
+2010,Routt,treasurer,5009.0,0.0,3982.0,8991.0
+2010,Routt,us_senate,5281.0,421.0,3696.0,9398.0
+2010,Saguache,governor,1482.0,527.0,398.0,2407.0
+2010,Saguache,secretary_of_state,1304.0,143.0,877.0,2324.0
+2010,Saguache,treasurer,1332.0,0.0,817.0,2149.0
+2010,Saguache,us_senate,1382.0,156.0,838.0,2376.0
+2010,San Juan,governor,267.0,112.0,79.0,458.0
+2010,San Juan,secretary_of_state,209.0,41.0,173.0,423.0
+2010,San Juan,treasurer,229.0,0.0,193.0,422.0
+2010,San Juan,us_senate,234.0,35.0,177.0,446.0
+2010,San Miguel,governor,2160.0,442.0,402.0,3004.0
+2010,San Miguel,secretary_of_state,1906.0,150.0,824.0,2880.0
+2010,San Miguel,treasurer,1953.0,0.0,889.0,2842.0
+2010,San Miguel,us_senate,2064.0,185.0,766.0,3015.0
+2010,Sedgwick,governor,466.0,454.0,199.0,1119.0
+2010,Sedgwick,secretary_of_state,261.0,85.0,691.0,1037.0
+2010,Sedgwick,treasurer,382.0,0.0,684.0,1066.0
+2010,Sedgwick,us_senate,397.0,95.0,592.0,1084.0
+2010,Summit,governor,6455.0,2696.0,919.0,10070.0
+2010,Summit,secretary_of_state,4963.0,435.0,4038.0,9436.0
+2010,Summit,treasurer,5332.0,0.0,4092.0,9424.0
+2010,Summit,us_senate,5832.0,458.0,3713.0,10003.0
+2010,Teller,governor,3168.0,4664.0,1995.0,9827.0
+2010,Teller,secretary_of_state,2534.0,750.0,6266.0,9550.0
+2010,Teller,treasurer,3115.0,0.0,6500.0,9615.0
+2010,Teller,us_senate,2982.0,539.0,6249.0,9770.0
+2010,Washington,governor,533.0,1399.0,375.0,2307.0
+2010,Washington,secretary_of_state,287.0,173.0,1734.0,2194.0
+2010,Washington,treasurer,501.0,0.0,1675.0,2176.0
+2010,Washington,us_senate,470.0,147.0,1619.0,2236.0
+2010,Weld,governor,32056.0,38110.0,9652.0,79818.0
+2010,Weld,secretary_of_state,24962.0,6778.0,45196.0,76936.0
+2010,Weld,treasurer,30255.0,0.0,46353.0,76608.0
+2010,Weld,us_senate,29389.0,4574.0,45482.0,79445.0
+2010,Yuma,governor,1172.0,1974.0,764.0,3910.0
+2010,Yuma,secretary_of_state,708.0,263.0,2771.0,3742.0
+2010,Yuma,treasurer,1054.0,0.0,2709.0,3763.0
+2010,Yuma,us_senate,1010.0,205.0,2614.0,3829.0
+2012,Adams,president,100649.0,4609.0,70972.0,176230.0
+2012,Alamosa,president,7622.0,398.0,5410.0,13430.0
+2012,Arapahoe,president,153905.0,6022.0,125589.0,285516.0
+2012,Archuleta,president,5358.0,360.0,7744.0,13462.0
+2012,Baca,president,467.0,80.0,1559.0,2106.0
+2012,Bent,president,815.0,52.0,1075.0,1942.0
+2012,Boulder,president,246655.0,8854.0,99962.0,355471.0
+2012,Boulder,us_senate,109655.0,3848.0,42410.0,155913.0
+2012,Broomfield,president,16966.0,803.0,15008.0,32777.0
+2012,Chaffee,president,5086.0,306.0,5070.0,10462.0
+2012,Cheyenne,president,344.0,64.0,1778.0,2186.0
+2012,Clear Creek,president,6233.0,383.0,4859.0,11475.0
+2012,Conejos,president,2213.0,53.0,1835.0,4101.0
+2012,Costilla,president,1340.0,51.0,446.0,1837.0
+2012,Crowley,president,535.0,43.0,924.0,1502.0
+2012,Custer,president,868.0,59.0,1788.0,2715.0
+2012,Delta,president,9178.0,767.0,21687.0,31632.0
+2012,Denver,president,666054.0,19731.0,219333.0,905118.0
+2012,Dolores,president,668.0,104.0,1718.0,2490.0
+2012,Douglas,president,61094.0,2593.0,104397.0,168084.0
+2012,Eagle,president,25584.0,930.0,18822.0,45336.0
+2012,El Paso,president,335457.0,22211.0,512857.0,870525.0
+2012,Elbert,president,7210.0,662.0,20532.0,28404.0
+2012,Fremont,president,6704.0,538.0,13174.0,20416.0
+2012,Garfield,president,33915.0,1704.0,37605.0,73224.0
+2012,Gilpin,president,1892.0,100.0,1346.0,3338.0
+2012,Grand,president,3684.0,250.0,4253.0,8187.0
+2012,Gunnison,president,5044.0,282.0,3341.0,8667.0
+2012,Hinsdale,president,229.0,18.0,353.0,600.0
+2012,Huerfano,president,5859.0,363.0,4938.0,11160.0
+2012,Jackson,president,432.0,64.0,1200.0,1696.0
+2012,Jefferson,president,477888.0,22674.0,432592.0,933154.0
+2012,Kiowa,president,236.0,52.0,1354.0,1642.0
+2012,Kit Carson,president,838.0,79.0,2785.0,3702.0
+2012,La Plata,president,46467.0,2951.0,38382.0,87800.0
+2012,Lake,president,1839.0,103.0,1098.0,3040.0
+2012,Larimer,president,92747.0,5057.0,82376.0,180180.0
+2012,Las Animas,president,3445.0,154.0,3263.0,6862.0
+2012,Lincoln,president,552.0,48.0,1687.0,2287.0
+2012,Logan,president,2712.0,233.0,6179.0,9124.0
+2012,Mesa,president,47692.0,5147.0,94944.0,147783.0
+2012,Mineral,president,291.0,15.0,344.0,650.0
+2012,Moffat,president,3990.0,429.0,14085.0,18504.0
+2012,Montezuma,president,4542.0,375.0,7401.0,12318.0
+2012,Montrose,president,18414.0,1320.0,40656.0,60390.0
+2012,Morgan,president,11736.0,789.0,19806.0,32331.0
+2012,Otero,president,3647.0,163.0,4382.0,8192.0
+2012,Ouray,president,3292.0,150.0,2962.0,6404.0
+2012,Park,president,3862.0,268.0,5236.0,9366.0
+2012,Phillips,president,588.0,40.0,1637.0,2265.0
+2012,Pitkin,president,13698.0,401.0,6048.0,20147.0
+2012,Prowers,president,1519.0,114.0,3230.0,4863.0
+2012,Pueblo,president,85102.0,3498.0,63788.0,152388.0
+2012,Rio Blanco,president,1704.0,231.0,8172.0,10107.0
+2012,Rio Grande,president,2478.0,137.0,2918.0,5533.0
+2012,Routt,president,22641.0,903.0,16407.0,39951.0
+2012,Saguache,president,5593.0,307.0,2892.0,8792.0
+2012,San Juan,president,266.0,28.0,212.0,506.0
+2012,San Miguel,president,5984.0,220.0,2308.0,8512.0
+2012,Sedgwick,president,419.0,37.0,882.0,1338.0
+2012,Summit,president,9347.0,394.0,5571.0,15312.0
+2012,Teller,president,4333.0,372.0,8702.0,13407.0
+2012,Washington,president,468.0,47.0,2076.0,2591.0
+2012,Weld,president,49050.0,3041.0,63775.0,115866.0
+2012,Yuma,president,987.0,100.0,3490.0,4577.0
+2014,Adams,attorney_general,56257.0,8866.0,60367.0,125490.0
+2014,Adams,governor,65450.0,7141.0,58015.0,130606.0
+2014,Adams,secretary_of_state,60830.0,11039.0,54250.0,126119.0
+2014,Adams,treasurer,59956.0,7465.0,58483.0,125904.0
+2014,Adams,us_senate,62296.0,9702.0,58615.0,130613.0
+2014,Alamosa,attorney_general,2119.0,291.0,2540.0,4950.0
+2014,Alamosa,governor,2632.0,296.0,2239.0,5167.0
+2014,Alamosa,secretary_of_state,2356.0,468.0,2212.0,5036.0
+2014,Alamosa,treasurer,2523.0,224.0,2237.0,4984.0
+2014,Alamosa,us_senate,2440.0,355.0,2351.0,5146.0
+2014,Arapahoe,attorney_general,94426.0,13083.0,108105.0,215614.0
+2014,Arapahoe,governor,116445.0,9079.0,98375.0,223899.0
+2014,Arapahoe,secretary_of_state,103537.0,15780.0,97913.0,217230.0
+2014,Arapahoe,treasurer,100394.0,10619.0,104968.0,215981.0
+2014,Arapahoe,us_senate,107347.0,12284.0,103915.0,223546.0
+2014,Archuleta,attorney_general,1603.0,335.0,3207.0,5145.0
+2014,Archuleta,governor,2153.0,276.0,3032.0,5461.0
+2014,Archuleta,secretary_of_state,1808.0,396.0,3000.0,5204.0
+2014,Archuleta,treasurer,1908.0,287.0,3060.0,5255.0
+2014,Archuleta,us_senate,2030.0,320.0,3103.0,5453.0
+2014,Baca,attorney_general,379.0,107.0,1238.0,1724.0
+2014,Baca,governor,406.0,106.0,1354.0,1866.0
+2014,Baca,secretary_of_state,363.0,192.0,1209.0,1764.0
+2014,Baca,treasurer,508.0,79.0,1173.0,1760.0
+2014,Baca,us_senate,353.0,132.0,1374.0,1859.0
+2014,Bent,attorney_general,551.0,80.0,898.0,1529.0
+2014,Bent,governor,548.0,95.0,937.0,1580.0
+2014,Bent,secretary_of_state,527.0,155.0,865.0,1547.0
+2014,Bent,treasurer,638.0,68.0,842.0,1548.0
+2014,Bent,us_senate,503.0,113.0,949.0,1565.0
+2014,Boulder,attorney_general,169084.0,16298.0,81344.0,266726.0
+2014,Boulder,governor,193130.0,16652.0,73738.0,283520.0
+2014,Boulder,secretary_of_state,179506.0,16814.0,74556.0,270876.0
+2014,Boulder,treasurer,264037.0,14172.0,87252.0,365461.0
+2014,Boulder,us_senate,198746.0,11554.0,79870.0,290170.0
+2014,Broomfield,attorney_general,11799.0,1717.0,13025.0,26541.0
+2014,Broomfield,governor,14100.0,1270.0,12240.0,27610.0
+2014,Broomfield,secretary_of_state,12491.0,1939.0,12260.0,26690.0
+2014,Broomfield,treasurer,11975.0,1550.0,13354.0,26879.0
+2014,Broomfield,us_senate,13309.0,1469.0,12833.0,27611.0
+2014,Chaffee,attorney_general,3330.0,496.0,4684.0,8510.0
+2014,Chaffee,governor,4211.0,416.0,4306.0,8933.0
+2014,Chaffee,secretary_of_state,3743.0,655.0,4177.0,8575.0
+2014,Chaffee,treasurer,3799.0,430.0,4319.0,8548.0
+2014,Chaffee,us_senate,4025.0,483.0,4394.0,8902.0
+2014,Cheyenne,attorney_general,116.0,57.0,830.0,1003.0
+2014,Cheyenne,governor,165.0,58.0,814.0,1037.0
+2014,Cheyenne,secretary_of_state,140.0,100.0,761.0,1001.0
+2014,Cheyenne,treasurer,218.0,40.0,747.0,1005.0
+2014,Cheyenne,us_senate,122.0,66.0,850.0,1038.0
+2014,Clear Creek,attorney_general,1947.0,403.0,2143.0,4493.0
+2014,Clear Creek,governor,2455.0,260.0,1967.0,4682.0
+2014,Clear Creek,secretary_of_state,2170.0,456.0,1889.0,4515.0
+2014,Clear Creek,treasurer,2118.0,346.0,2059.0,4523.0
+2014,Clear Creek,us_senate,2344.0,319.0,1987.0,4650.0
+2014,Conejos,attorney_general,1537.0,106.0,1748.0,3391.0
+2014,Conejos,governor,1727.0,126.0,1642.0,3495.0
+2014,Conejos,secretary_of_state,1600.0,248.0,1564.0,3412.0
+2014,Conejos,treasurer,1735.0,81.0,1551.0,3367.0
+2014,Conejos,us_senate,1621.0,185.0,1659.0,3465.0
+2014,Costilla,attorney_general,843.0,101.0,427.0,1371.0
+2014,Costilla,governor,941.0,77.0,401.0,1419.0
+2014,Costilla,secretary_of_state,905.0,129.0,351.0,1385.0
+2014,Costilla,treasurer,950.0,59.0,367.0,1376.0
+2014,Costilla,us_senate,912.0,93.0,396.0,1401.0
+2014,Crowley,attorney_general,321.0,67.0,885.0,1273.0
+2014,Crowley,governor,336.0,117.0,884.0,1337.0
+2014,Crowley,secretary_of_state,318.0,148.0,829.0,1295.0
+2014,Crowley,treasurer,401.0,60.0,822.0,1283.0
+2014,Crowley,us_senate,344.0,118.0,878.0,1340.0
+2014,Custer,attorney_general,623.0,106.0,1656.0,2385.0
+2014,Custer,governor,765.0,101.0,1656.0,2522.0
+2014,Custer,secretary_of_state,660.0,143.0,1621.0,2424.0
+2014,Custer,treasurer,702.0,87.0,1609.0,2398.0
+2014,Custer,us_senate,740.0,117.0,1659.0,2516.0
+2014,Delta,attorney_general,3192.0,789.0,9074.0,13055.0
+2014,Delta,governor,3944.0,716.0,8801.0,13461.0
+2014,Delta,secretary_of_state,3450.0,1173.0,8562.0,13185.0
+2014,Delta,treasurer,3725.0,680.0,8607.0,13012.0
+2014,Delta,us_senate,3504.0,737.0,9199.0,13440.0
+2014,Denver,attorney_general,146543.0,12312.0,62194.0,221049.0
+2014,Denver,governor,172290.0,9434.0,50261.0,231985.0
+2014,Denver,secretary_of_state,155094.0,14038.0,52872.0,222004.0
+2014,Denver,treasurer,150877.0,9952.0,61366.0,222195.0
+2014,Denver,us_senate,163783.0,10977.0,56793.0,231553.0
+2014,Dolores,attorney_general,398.0,134.0,1292.0,1824.0
+2014,Dolores,governor,280.0,56.0,635.0,971.0
+2014,Dolores,lt_governor,280.0,56.0,635.0,971.0
+2014,Dolores,secretary_of_state,476.0,232.0,1136.0,1844.0
+2014,Dolores,treasurer,1311.0,96.0,1194.0,2601.0
+2014,Dolores,us_senate,492.0,134.0,1306.0,1932.0
+2014,Douglas,attorney_general,38686.0,6967.0,86715.0,132368.0
+2014,Douglas,governor,52187.0,4292.0,81707.0,138186.0
+2014,Douglas,secretary_of_state,43705.0,7641.0,81950.0,133296.0
+2014,Douglas,treasurer,40663.0,6055.0,86288.0,133006.0
+2014,Douglas,us_senate,45163.0,6019.0,86627.0,137809.0
+2014,Eagle,attorney_general,7497.0,1059.0,7543.0,16099.0
+2014,Eagle,governor,10253.0,702.0,6449.0,17404.0
+2014,Eagle,secretary_of_state,8244.0,1272.0,6848.0,16364.0
+2014,Eagle,treasurer,7931.0,896.0,7520.0,16347.0
+2014,Eagle,us_senate,9438.0,807.0,7102.0,17347.0
+2014,El Paso,attorney_general,64406.0,12750.0,141288.0,218444.0
+2014,El Paso,governor,76678.0,12053.0,139147.0,227878.0
+2014,El Paso,secretary_of_state,60461.0,17118.0,143302.0,220881.0
+2014,El Paso,treasurer,68676.0,11419.0,138796.0,218891.0
+2014,El Paso,us_senate,73208.0,13470.0,141476.0,228154.0
+2014,Elbert,attorney_general,2113.0,837.0,9154.0,12104.0
+2014,Elbert,governor,2797.0,599.0,9099.0,12495.0
+2014,Elbert,secretary_of_state,2620.0,1082.0,8515.0,12217.0
+2014,Elbert,treasurer,2639.0,733.0,8851.0,12223.0
+2014,Elbert,us_senate,2556.0,766.0,9137.0,12459.0
+2014,Fremont,attorney_general,4387.0,1181.0,11151.0,16719.0
+2014,Fremont,governor,4927.0,1164.0,11123.0,17214.0
+2014,Fremont,secretary_of_state,4374.0,1860.0,10550.0,16784.0
+2014,Fremont,treasurer,5094.0,1032.0,10751.0,16877.0
+2014,Fremont,us_senate,4773.0,1363.0,11085.0,17221.0
+2014,Garfield,attorney_general,6936.0,1230.0,10192.0,18358.0
+2014,Garfield,governor,8840.0,949.0,9583.0,19372.0
+2014,Garfield,secretary_of_state,7655.0,1656.0,9238.0,18549.0
+2014,Garfield,treasurer,7730.0,1001.0,9655.0,18386.0
+2014,Garfield,us_senate,8387.0,1028.0,9894.0,19309.0
+2014,Gilpin,attorney_general,1225.0,260.0,1293.0,2778.0
+2014,Gilpin,governor,1441.0,258.0,1198.0,2897.0
+2014,Gilpin,secretary_of_state,1356.0,300.0,1135.0,2791.0
+2014,Gilpin,treasurer,1315.0,223.0,1259.0,2797.0
+2014,Gilpin,us_senate,1450.0,256.0,1169.0,2875.0
+2014,Grand,attorney_general,2185.0,457.0,3806.0,6448.0
+2014,Grand,governor,3020.0,295.0,3525.0,6840.0
+2014,Grand,secretary_of_state,2476.0,512.0,3561.0,6549.0
+2014,Grand,treasurer,2480.0,356.0,3644.0,6480.0
+2014,Grand,us_senate,2795.0,366.0,3638.0,6799.0
+2014,Gunnison,attorney_general,3062.0,491.0,2838.0,6391.0
+2014,Gunnison,governor,3960.0,414.0,2562.0,6936.0
+2014,Gunnison,secretary_of_state,3419.0,620.0,2476.0,6515.0
+2014,Gunnison,treasurer,3415.0,398.0,2678.0,6491.0
+2014,Gunnison,us_senate,3840.0,422.0,2671.0,6933.0
+2014,Hinsdale,attorney_general,158.0,25.0,302.0,485.0
+2014,Hinsdale,governor,203.0,20.0,295.0,518.0
+2014,Hinsdale,secretary_of_state,172.0,40.0,283.0,495.0
+2014,Hinsdale,treasurer,171.0,28.0,294.0,493.0
+2014,Hinsdale,us_senate,191.0,25.0,307.0,523.0
+2014,Huerfano,attorney_general,1391.0,175.0,1454.0,3020.0
+2014,Huerfano,governor,1548.0,200.0,1445.0,3193.0
+2014,Huerfano,secretary_of_state,1438.0,314.0,1335.0,3087.0
+2014,Huerfano,treasurer,1536.0,140.0,1351.0,3027.0
+2014,Huerfano,us_senate,1504.0,244.0,1449.0,3197.0
+2014,Jackson,attorney_general,118.0,29.0,534.0,681.0
+2014,Jackson,governor,164.0,23.0,575.0,762.0
+2014,Jackson,secretary_of_state,162.0,48.0,483.0,693.0
+2014,Jackson,treasurer,165.0,32.0,506.0,703.0
+2014,Jackson,us_senate,163.0,41.0,531.0,735.0
+2014,Jefferson,attorney_general,102120.0,17000.0,123367.0,242487.0
+2014,Jefferson,governor,130196.0,11840.0,114401.0,256437.0
+2014,Jefferson,secretary_of_state,114720.0,19409.0,113386.0,247515.0
+2014,Jefferson,treasurer,110226.0,14714.0,121674.0,246614.0
+2014,Jefferson,us_senate,121109.0,14794.0,120241.0,256144.0
+2014,Kiowa,attorney_general,95.0,19.0,585.0,699.0
+2014,Kiowa,governor,113.0,40.0,604.0,757.0
+2014,Kiowa,secretary_of_state,92.0,49.0,573.0,714.0
+2014,Kiowa,treasurer,168.0,10.0,537.0,715.0
+2014,Kiowa,us_senate,107.0,38.0,616.0,761.0
+2014,Kit Carson,attorney_general,415.0,137.0,2402.0,2954.0
+2014,Kit Carson,governor,647.0,123.0,2327.0,3097.0
+2014,Kit Carson,secretary_of_state,541.0,216.0,2208.0,2965.0
+2014,Kit Carson,treasurer,659.0,107.0,2234.0,3000.0
+2014,Kit Carson,us_senate,487.0,165.0,2448.0,3100.0
+2014,La Plata,attorney_general,9922.0,1150.0,10214.0,21286.0
+2014,La Plata,governor,12017.0,1109.0,9658.0,22784.0
+2014,La Plata,secretary_of_state,10255.0,1834.0,9598.0,21687.0
+2014,La Plata,treasurer,10072.0,1051.0,10155.0,21278.0
+2014,La Plata,us_senate,11852.0,853.0,10174.0,22879.0
+2014,Lake,attorney_general,1105.0,196.0,994.0,2295.0
+2014,Lake,governor,1385.0,185.0,903.0,2473.0
+2014,Lake,secretary_of_state,1245.0,257.0,840.0,2342.0
+2014,Lake,treasurer,1254.0,161.0,917.0,2332.0
+2014,Lake,us_senate,1311.0,225.0,906.0,2442.0
+2014,Larimer,attorney_general,57798.0,9338.0,71084.0,138220.0
+2014,Larimer,governor,72550.0,7246.0,65055.0,144851.0
+2014,Larimer,secretary_of_state,63332.0,11460.0,65014.0,139806.0
+2014,Larimer,treasurer,64502.0,7593.0,68229.0,140324.0
+2014,Larimer,us_senate,68659.0,7813.0,69200.0,145672.0
+2014,Las Animas,attorney_general,2376.0,289.0,2652.0,5317.0
+2014,Las Animas,governor,2562.0,303.0,2721.0,5586.0
+2014,Las Animas,secretary_of_state,2474.0,481.0,2436.0,5391.0
+2014,Las Animas,treasurer,2696.0,235.0,2446.0,5377.0
+2014,Las Animas,us_senate,2380.0,381.0,2803.0,5564.0
+2014,Lincoln,attorney_general,317.0,105.0,1518.0,1940.0
+2014,Lincoln,governor,406.0,90.0,1525.0,2021.0
+2014,Lincoln,secretary_of_state,386.0,161.0,1407.0,1954.0
+2014,Lincoln,treasurer,441.0,77.0,1446.0,1964.0
+2014,Lincoln,us_senate,321.0,120.0,1557.0,1998.0
+2014,Logan,attorney_general,1443.0,367.0,5611.0,7421.0
+2014,Logan,governor,2027.0,308.0,5438.0,7773.0
+2014,Logan,secretary_of_state,1811.0,600.0,5042.0,7453.0
+2014,Logan,treasurer,2188.0,301.0,5014.0,7503.0
+2014,Logan,us_senate,1591.0,467.0,5662.0,7720.0
+2014,Mesa,attorney_general,15284.0,3810.0,36574.0,55668.0
+2014,Mesa,governor,19859.0,2802.0,35237.0,57898.0
+2014,Mesa,secretary_of_state,15323.0,5652.0,35153.0,56128.0
+2014,Mesa,treasurer,16149.0,3059.0,36355.0,55563.0
+2014,Mesa,us_senate,15410.0,2768.0,39313.0,57491.0
+2014,Mineral,attorney_general,179.0,38.0,336.0,553.0
+2014,Mineral,governor,277.0,33.0,294.0,604.0
+2014,Mineral,secretary_of_state,240.0,49.0,273.0,562.0
+2014,Mineral,treasurer,251.0,28.0,278.0,557.0
+2014,Mineral,us_senate,254.0,43.0,304.0,601.0
+2014,Moffat,attorney_general,710.0,295.0,3734.0,4739.0
+2014,Moffat,governor,853.0,235.0,3794.0,4882.0
+2014,Moffat,secretary_of_state,821.0,461.0,3483.0,4765.0
+2014,Moffat,treasurer,947.0,258.0,3509.0,4714.0
+2014,Moffat,us_senate,826.0,321.0,3727.0,4874.0
+2014,Montezuma,attorney_general,2874.0,582.0,5768.0,9224.0
+2014,Montezuma,governor,3383.0,605.0,5672.0,9660.0
+2014,Montezuma,secretary_of_state,2972.0,954.0,5392.0,9318.0
+2014,Montezuma,treasurer,3137.0,486.0,5496.0,9119.0
+2014,Montezuma,us_senate,3353.0,560.0,5784.0,9697.0
+2014,Montrose,attorney_general,3831.0,932.0,11153.0,15916.0
+2014,Montrose,governor,4971.0,732.0,10907.0,16610.0
+2014,Montrose,secretary_of_state,3929.0,1379.0,10830.0,16138.0
+2014,Montrose,treasurer,4193.0,694.0,10907.0,15794.0
+2014,Montrose,us_senate,4071.0,671.0,11907.0,16649.0
+2014,Morgan,attorney_general,1983.0,441.0,6152.0,8576.0
+2014,Morgan,governor,2646.0,353.0,5861.0,8860.0
+2014,Morgan,secretary_of_state,2433.0,710.0,5460.0,8603.0
+2014,Morgan,treasurer,2796.0,342.0,5525.0,8663.0
+2014,Morgan,us_senate,2164.0,529.0,6119.0,8812.0
+2014,Otero,attorney_general,2342.0,294.0,3839.0,6475.0
+2014,Otero,governor,2599.0,383.0,3714.0,6696.0
+2014,Otero,secretary_of_state,2255.0,585.0,3705.0,6545.0
+2014,Otero,treasurer,2654.0,241.0,3606.0,6501.0
+2014,Otero,us_senate,2332.0,495.0,3814.0,6641.0
+2014,Ouray,attorney_general,1145.0,159.0,1232.0,2536.0
+2014,Ouray,governor,1434.0,93.0,1151.0,2678.0
+2014,Ouray,secretary_of_state,1228.0,185.0,1141.0,2554.0
+2014,Ouray,treasurer,1242.0,136.0,1183.0,2561.0
+2014,Ouray,us_senate,1355.0,100.0,1234.0,2689.0
+2014,Park,attorney_general,2290.0,642.0,4873.0,7805.0
+2014,Park,governor,2958.0,471.0,4625.0,8054.0
+2014,Park,secretary_of_state,2682.0,794.0,4388.0,7864.0
+2014,Park,treasurer,2650.0,526.0,4565.0,7741.0
+2014,Park,us_senate,2827.0,535.0,4673.0,8035.0
+2014,Phillips,attorney_general,345.0,79.0,1462.0,1886.0
+2014,Phillips,governor,477.0,75.0,1442.0,1994.0
+2014,Phillips,secretary_of_state,378.0,128.0,1390.0,1896.0
+2014,Phillips,treasurer,492.0,53.0,1349.0,1894.0
+2014,Phillips,us_senate,357.0,104.0,1516.0,1977.0
+2014,Pitkin,attorney_general,4632.0,402.0,2256.0,7290.0
+2014,Pitkin,governor,5505.0,307.0,1877.0,7689.0
+2014,Pitkin,secretary_of_state,4705.0,491.0,2078.0,7274.0
+2014,Pitkin,treasurer,4666.0,339.0,2323.0,7328.0
+2014,Pitkin,us_senate,5409.0,234.0,2106.0,7749.0
+2014,Prowers,attorney_general,886.0,171.0,2788.0,3845.0
+2014,Prowers,governor,1052.0,201.0,2728.0,3981.0
+2014,Prowers,secretary_of_state,1011.0,326.0,2527.0,3864.0
+2014,Prowers,treasurer,1249.0,141.0,2462.0,3852.0
+2014,Prowers,us_senate,887.0,220.0,2874.0,3981.0
+2014,Pueblo,attorney_general,27111.0,2898.0,28156.0,58165.0
+2014,Pueblo,governor,29591.0,3281.0,26696.0,59568.0
+2014,Pueblo,secretary_of_state,27132.0,4852.0,26498.0,58482.0
+2014,Pueblo,treasurer,29079.0,2399.0,26813.0,58291.0
+2014,Pueblo,us_senate,27877.0,4208.0,27572.0,59657.0
+2014,Rio Blanco,attorney_general,281.0,144.0,2176.0,2601.0
+2014,Rio Blanco,governor,434.0,115.0,2166.0,2715.0
+2014,Rio Blanco,secretary_of_state,355.0,217.0,2052.0,2624.0
+2014,Rio Blanco,treasurer,424.0,114.0,2050.0,2588.0
+2014,Rio Blanco,us_senate,361.0,146.0,2214.0,2721.0
+2014,Rio Grande,attorney_general,1389.0,244.0,2752.0,4385.0
+2014,Rio Grande,governor,1800.0,243.0,2437.0,4480.0
+2014,Rio Grande,secretary_of_state,1579.0,398.0,2413.0,4390.0
+2014,Rio Grande,treasurer,1771.0,202.0,2394.0,4367.0
+2014,Rio Grande,us_senate,1566.0,342.0,2534.0,4442.0
+2014,Routt,attorney_general,4623.0,577.0,4534.0,9734.0
+2014,Routt,governor,6092.0,383.0,4005.0,10480.0
+2014,Routt,secretary_of_state,5043.0,683.0,4103.0,9829.0
+2014,Routt,treasurer,4941.0,475.0,4363.0,9779.0
+2014,Routt,us_senate,5639.0,535.0,4278.0,10452.0
+2014,Saguache,attorney_general,1150.0,185.0,979.0,2314.0
+2014,Saguache,governor,1312.0,214.0,860.0,2386.0
+2014,Saguache,secretary_of_state,1240.0,248.0,855.0,2343.0
+2014,Saguache,treasurer,1323.0,153.0,863.0,2339.0
+2014,Saguache,us_senate,1307.0,209.0,861.0,2377.0
+2014,San Juan,attorney_general,201.0,39.0,184.0,424.0
+2014,San Juan,governor,243.0,29.0,177.0,449.0
+2014,San Juan,secretary_of_state,210.0,48.0,169.0,427.0
+2014,San Juan,treasurer,208.0,36.0,181.0,425.0
+2014,San Juan,us_senate,255.0,25.0,182.0,462.0
+2014,San Miguel,attorney_general,1878.0,266.0,896.0,3040.0
+2014,San Miguel,governor,2190.0,232.0,821.0,3243.0
+2014,San Miguel,secretary_of_state,1945.0,285.0,846.0,3076.0
+2014,San Miguel,treasurer,1945.0,219.0,894.0,3058.0
+2014,San Miguel,us_senate,2226.0,161.0,870.0,3257.0
+2014,Sedgwick,attorney_general,219.0,70.0,829.0,1118.0
+2014,Sedgwick,governor,342.0,61.0,806.0,1209.0
+2014,Sedgwick,secretary_of_state,304.0,119.0,720.0,1143.0
+2014,Sedgwick,treasurer,371.0,48.0,730.0,1149.0
+2014,Sedgwick,us_senate,262.0,91.0,853.0,1206.0
+2014,Summit,attorney_general,5492.0,742.0,4376.0,10610.0
+2014,Summit,governor,7306.0,503.0,3705.0,11514.0
+2014,Summit,secretary_of_state,5959.0,869.0,3975.0,10803.0
+2014,Summit,treasurer,5770.0,683.0,4369.0,10822.0
+2014,Summit,us_senate,6957.0,529.0,4046.0,11532.0
+2014,Teller,attorney_general,2728.0,748.0,7474.0,10950.0
+2014,Teller,governor,3241.0,695.0,7367.0,11303.0
+2014,Teller,secretary_of_state,2752.0,1125.0,7147.0,11024.0
+2014,Teller,treasurer,3027.0,653.0,7190.0,10870.0
+2014,Teller,us_senate,3158.0,771.0,7338.0,11267.0
+2014,Washington,attorney_general,242.0,101.0,1906.0,2249.0
+2014,Washington,governor,365.0,75.0,1915.0,2355.0
+2014,Washington,secretary_of_state,341.0,144.0,1781.0,2266.0
+2014,Washington,treasurer,417.0,67.0,1806.0,2290.0
+2014,Washington,us_senate,237.0,66.0,2055.0,2358.0
+2014,Weld,attorney_general,25713.0,5534.0,55844.0,87091.0
+2014,Weld,governor,33375.0,4555.0,52844.0,90774.0
+2014,Weld,secretary_of_state,29491.0,7744.0,50807.0,88042.0
+2014,Weld,treasurer,31088.0,4620.0,52953.0,88661.0
+2014,Weld,us_senate,29785.0,6203.0,54823.0,90811.0
+2014,Yuma,attorney_general,572.0,158.0,3317.0,4047.0
+2014,Yuma,governor,794.0,108.0,3356.0,4258.0
+2014,Yuma,secretary_of_state,794.0,245.0,3041.0,4080.0
+2014,Yuma,treasurer,903.0,131.0,3085.0,4119.0
+2014,Yuma,us_senate,512.0,104.0,3678.0,4294.0
+2016,Adams,president,193120.0,34056.0,160178.0,387354.0
+2016,Adams,us_senate,194804.0,22618.0,152570.0,369992.0
+2016,Alamosa,president,6378.0,1408.0,6092.0,13878.0
+2016,Alamosa,us_senate,7390.0,766.0,5788.0,13944.0
+2016,Arapahoe,president,319770.0,52218.0,234108.0,606096.0
+2016,Arapahoe,us_senate,325494.0,30210.0,247018.0,602722.0
+2016,Archuleta,president,5000.0,1150.0,8528.0,14678.0
+2016,Archuleta,us_senate,5500.0,860.0,8144.0,14504.0
+2016,Baca,president,566.0,234.0,3506.0,4306.0
+2016,Baca,us_senate,1154.0,184.0,2938.0,4276.0
+2016,Bent,president,1180.0,298.0,2376.0,3854.0
+2016,Bent,us_senate,1620.0,148.0,2068.0,3836.0
+2016,Boulder,president,264668.0,28826.0,82796.0,376290.0
+2016,Boulder,us_senate,252668.0,27462.0,91510.0,371640.0
+2016,Broomfield,president,39462.0,7182.0,28736.0,75380.0
+2016,Broomfield,us_senate,38862.0,4218.0,30154.0,73234.0
+2016,Chaffee,president,9776.0,1942.0,10782.0,22500.0
+2016,Chaffee,us_senate,10518.0,1236.0,10768.0,22522.0
+2016,Cheyenne,president,264.0,90.0,1850.0,2204.0
+2016,Cheyenne,us_senate,440.0,84.0,1656.0,2180.0
+2016,Clear Creek,president,5458.0,1124.0,5150.0,11732.0
+2016,Clear Creek,us_senate,5766.0,902.0,5082.0,11750.0
+2016,Conejos,president,3542.0,674.0,3828.0,8044.0
+2016,Conejos,us_senate,4146.0,210.0,3756.0,8112.0
+2016,Costilla,president,2250.0,270.0,1176.0,3696.0
+2016,Costilla,us_senate,2372.0,180.0,1094.0,3646.0
+2016,Crowley,president,678.0,218.0,2158.0,3054.0
+2016,Crowley,us_senate,1008.0,156.0,1872.0,3036.0
+2016,Custer,president,1594.0,416.0,4122.0,6132.0
+2016,Custer,us_senate,1888.0,264.0,3968.0,6120.0
+2016,Delta,president,8174.0,2096.0,23310.0,33580.0
+2016,Delta,us_senate,9832.0,1750.0,21940.0,33522.0
+2016,Denver,president,489102.0,49222.0,125380.0,663704.0
+2016,Denver,us_senate,477548.0,34882.0,142156.0,654586.0
+2016,Dolores,president,484.0,138.0,1888.0,2510.0
+2016,Dolores,us_senate,676.0,118.0,1616.0,2410.0
+2016,Douglas,president,137314.0,32538.0,205148.0,375000.0
+2016,Douglas,us_senate,140010.0,16918.0,215840.0,372768.0
+2016,Eagle,president,28198.0,4268.0,17980.0,50446.0
+2016,Eagle,us_senate,27414.0,4680.0,17544.0,49638.0
+2016,El Paso,president,216020.0,63460.0,358456.0,637936.0
+2016,El Paso,us_senate,227452.0,38568.0,367418.0,633438.0
+2016,Elbert,president,6268.0,2278.0,23414.0,31960.0
+2016,Elbert,us_senate,7368.0,1342.0,23116.0,31826.0
+2016,Fremont,president,10594.0,3108.0,30244.0,43946.0
+2016,Fremont,us_senate,13342.0,2258.0,28308.0,43908.0
+2016,Garfield,president,22542.0,4134.0,26264.0,52940.0
+2016,Garfield,us_senate,24078.0,3132.0,25192.0,52402.0
+2016,Gilpin,president,3268.0,752.0,3132.0,7152.0
+2016,Gilpin,us_senate,3458.0,698.0,3006.0,7162.0
+2016,Grand,president,6716.0,1472.0,8988.0,17176.0
+2016,Grand,us_senate,7246.0,1082.0,8804.0,17132.0
+2016,Gunnison,president,10256.0,1990.0,6578.0,18824.0
+2016,Gunnison,us_senate,11034.0,1318.0,6432.0,18784.0
+2016,Hinsdale,president,394.0,106.0,678.0,1178.0
+2016,Hinsdale,us_senate,492.0,48.0,632.0,1172.0
+2016,Huerfano,president,3266.0,534.0,3766.0,7566.0
+2016,Huerfano,us_senate,3884.0,306.0,3388.0,7578.0
+2016,Jackson,president,342.0,122.0,1258.0,1722.0
+2016,Jackson,us_senate,470.0,72.0,1166.0,1708.0
+2016,Jefferson,president,321552.0,59860.0,276354.0,657766.0
+2016,Jefferson,us_senate,326344.0,37924.0,278474.0,642742.0
+2016,Kiowa,president,182.0,72.0,1456.0,1710.0
+2016,Kiowa,us_senate,392.0,42.0,1242.0,1676.0
+2016,Kit Carson,president,1072.0,398.0,5934.0,7404.0
+2016,Kit Carson,us_senate,1788.0,260.0,5214.0,7262.0
+2016,La Plata,president,31050.0,6076.0,25174.0,62300.0
+2016,La Plata,us_senate,31806.0,4114.0,25356.0,61276.0
+2016,Lake,president,3232.0,626.0,2540.0,6398.0
+2016,Lake,us_senate,3408.0,534.0,2348.0,6290.0
+2016,Larimer,president,186226.0,38874.0,166862.0,391962.0
+2016,Larimer,us_senate,191578.0,23952.0,172202.0,387732.0
+2016,Las Animas,president,5300.0,866.0,7420.0,13586.0
+2016,Las Animas,us_senate,6610.0,590.0,6348.0,13548.0
+2016,Lincoln,president,818.0,270.0,3784.0,4872.0
+2016,Lincoln,us_senate,1176.0,166.0,3484.0,4826.0
+2016,Logan,president,3702.0,1178.0,14564.0,19444.0
+2016,Logan,us_senate,5536.0,728.0,13068.0,19332.0
+2016,Mesa,president,43460.0,12290.0,99558.0,155308.0
+2016,Mesa,us_senate,48218.0,9200.0,97118.0,154536.0
+2016,Mineral,president,474.0,142.0,688.0,1304.0
+2016,Mineral,us_senate,602.0,62.0,652.0,1316.0
+2016,Moffat,president,1748.0,692.0,10610.0,13050.0
+2016,Moffat,us_senate,2676.0,542.0,9572.0,12790.0
+2016,Montezuma,president,7946.0,2064.0,15706.0,25716.0
+2016,Montezuma,us_senate,8610.0,1620.0,14968.0,25198.0
+2016,Montrose,president,10932.0,2676.0,28764.0,42372.0
+2016,Montrose,us_senate,12110.0,1970.0,27892.0,41972.0
+2016,Morgan,president,6302.0,1328.0,16290.0,23920.0
+2016,Morgan,us_senate,7820.0,896.0,15032.0,23748.0
+2016,Otero,president,5886.0,1162.0,9856.0,16904.0
+2016,Otero,us_senate,7302.0,642.0,9122.0,17066.0
+2016,Ouray,president,3394.0,524.0,2702.0,6620.0
+2016,Ouray,us_senate,3470.0,354.0,2794.0,6618.0
+2016,Park,president,6842.0,1722.0,12270.0,20834.0
+2016,Park,us_senate,7444.0,1436.0,11874.0,20754.0
+2016,Phillips,president,872.0,210.0,3582.0,4664.0
+2016,Phillips,us_senate,1390.0,102.0,3140.0,4632.0
+2016,Pitkin,president,14666.0,1280.0,5100.0,21046.0
+2016,Pitkin,us_senate,13694.0,1034.0,5312.0,20040.0
+2016,Prowers,president,2372.0,598.0,7062.0,10032.0
+2016,Prowers,us_senate,3296.0,374.0,6220.0,9890.0
+2016,Pueblo,president,71750.0,13012.0,72530.0,157292.0
+2016,Pueblo,us_senate,80950.0,8586.0,66102.0,155638.0
+2016,Rio Blanco,president,872.0,446.0,5582.0,6900.0
+2016,Rio Blanco,us_senate,1200.0,268.0,5282.0,6750.0
+2016,Rio Grande,president,4002.0,896.0,6170.0,11068.0
+2016,Rio Grande,us_senate,4744.0,454.0,5948.0,11146.0
+2016,Routt,president,15200.0,2312.0,10460.0,27972.0
+2016,Routt,us_senate,15586.0,1444.0,10530.0,27560.0
+2016,Saguache,president,2834.0,542.0,2294.0,5670.0
+2016,Saguache,us_senate,3140.0,474.0,2084.0,5698.0
+2016,San Juan,president,530.0,52.0,430.0,1012.0
+2016,San Juan,us_senate,558.0,52.0,386.0,996.0
+2016,San Miguel,president,5950.0,642.0,2066.0,8658.0
+2016,San Miguel,us_senate,5902.0,604.0,2110.0,8616.0
+2016,Sedgwick,president,534.0,164.0,2030.0,2728.0
+2016,Sedgwick,us_senate,852.0,102.0,1726.0,2680.0
+2016,Summit,president,19114.0,3034.0,10200.0,32348.0
+2016,Summit,us_senate,19072.0,2400.0,10356.0,31828.0
+2016,Teller,president,7206.0,2192.0,19490.0,28888.0
+2016,Teller,us_senate,8128.0,1438.0,19094.0,28660.0
+2016,Washington,president,592.0,276.0,4598.0,5466.0
+2016,Washington,us_senate,1054.0,166.0,4184.0,5404.0
+2016,Weld,president,93038.0,24516.0,153306.0,270860.0
+2016,Weld,us_senate,104526.0,14554.0,149686.0,268766.0
+2016,Yuma,president,1452.0,430.0,7700.0,9582.0
+2016,Yuma,us_senate,2504.0,248.0,6772.0,9524.0
+2018,Adams,attorney_general,178808.0,13316.0,144426.0,336550.0
+2018,Adams,governor,93449.0,8321.0,69465.0,171235.0
+2018,Adams,lt_governor,93449.0,8321.0,69465.0,171235.0
+2018,Adams,secretary_of_state,187558.0,11986.0,137876.0,337420.0
+2018,Adams,treasurer,185214.0,12060.0,137572.0,334846.0
+2018,Alamosa,attorney_general,6012.0,338.0,5602.0,11952.0
+2018,Alamosa,governor,3039.0,305.0,2696.0,6040.0
+2018,Alamosa,lt_governor,3039.0,305.0,2696.0,6040.0
+2018,Alamosa,secretary_of_state,6174.0,406.0,5410.0,11990.0
+2018,Alamosa,treasurer,6068.0,404.0,5416.0,11888.0
+2018,Arapahoe,attorney_general,294248.0,16186.0,225986.0,536420.0
+2018,Arapahoe,governor,155056.0,9251.0,106833.0,271140.0
+2018,Arapahoe,lt_governor,155056.0,9251.0,106833.0,271140.0
+2018,Arapahoe,secretary_of_state,303508.0,13064.0,220752.0,537324.0
+2018,Arapahoe,treasurer,299188.0,14044.0,219730.0,532962.0
+2018,Archuleta,attorney_general,5284.0,456.0,7582.0,13322.0
+2018,Archuleta,governor,2800.0,240.0,3736.0,6776.0
+2018,Archuleta,lt_governor,2800.0,240.0,3736.0,6776.0
+2018,Archuleta,secretary_of_state,5394.0,456.0,7526.0,13376.0
+2018,Archuleta,treasurer,5280.0,522.0,7422.0,13224.0
+2018,Baca,attorney_general,680.0,126.0,2832.0,3638.0
+2018,Baca,governor,331.0,88.0,1454.0,1873.0
+2018,Baca,lt_governor,331.0,88.0,1454.0,1873.0
+2018,Baca,secretary_of_state,756.0,130.0,2796.0,3682.0
+2018,Baca,treasurer,654.0,146.0,2842.0,3642.0
+2018,Bent,attorney_general,1238.0,144.0,2308.0,3690.0
+2018,Bent,governor,638.0,139.0,1094.0,1871.0
+2018,Bent,lt_governor,638.0,139.0,1094.0,1871.0
+2018,Bent,secretary_of_state,1338.0,144.0,2222.0,3704.0
+2018,Bent,treasurer,1320.0,156.0,2176.0,3652.0
+2018,Boulder,attorney_general,257196.0,8942.0,81190.0,347328.0
+2018,Boulder,governor,133116.0,4723.0,38423.0,176262.0
+2018,Boulder,lt_governor,133116.0,4723.0,38423.0,176262.0
+2018,Boulder,secretary_of_state,256330.0,6084.0,85734.0,348148.0
+2018,Boulder,treasurer,243910.0,6094.0,93070.0,343074.0
+2018,Broomfield,attorney_general,39958.0,2200.0,28756.0,70914.0
+2018,Broomfield,governor,21405.0,1161.0,13582.0,36148.0
+2018,Broomfield,lt_governor,21405.0,1161.0,13582.0,36148.0
+2018,Broomfield,secretary_of_state,40882.0,1540.0,28562.0,70984.0
+2018,Broomfield,treasurer,39968.0,1786.0,28520.0,70274.0
+2018,Chaffee,attorney_general,10494.0,780.0,10110.0,21384.0
+2018,Chaffee,governor,5461.0,454.0,5018.0,10933.0
+2018,Chaffee,lt_governor,5461.0,454.0,5018.0,10933.0
+2018,Chaffee,secretary_of_state,10838.0,682.0,9984.0,21504.0
+2018,Chaffee,treasurer,10438.0,702.0,10046.0,21186.0
+2018,Cheyenne,attorney_general,248.0,60.0,1632.0,1940.0
+2018,Cheyenne,governor,138.0,33.0,809.0,980.0
+2018,Cheyenne,lt_governor,138.0,33.0,809.0,980.0
+2018,Cheyenne,secretary_of_state,296.0,64.0,1602.0,1962.0
+2018,Cheyenne,treasurer,270.0,60.0,1608.0,1938.0
+2018,Clear Creek,attorney_general,5624.0,492.0,4496.0,10612.0
+2018,Clear Creek,governor,2932.0,229.0,2215.0,5376.0
+2018,Clear Creek,lt_governor,2932.0,229.0,2215.0,5376.0
+2018,Clear Creek,secretary_of_state,5740.0,372.0,4484.0,10596.0
+2018,Clear Creek,treasurer,5630.0,428.0,4424.0,10482.0
+2018,Conejos,attorney_general,3336.0,150.0,3552.0,7038.0
+2018,Conejos,governor,1652.0,133.0,1756.0,3541.0
+2018,Conejos,lt_governor,1652.0,133.0,1756.0,3541.0
+2018,Conejos,secretary_of_state,3420.0,222.0,3404.0,7046.0
+2018,Conejos,treasurer,3420.0,176.0,3442.0,7038.0
+2018,Costilla,attorney_general,2094.0,92.0,1024.0,3210.0
+2018,Costilla,governor,1012.0,87.0,510.0,1609.0
+2018,Costilla,lt_governor,1012.0,87.0,510.0,1609.0
+2018,Costilla,secretary_of_state,2126.0,118.0,984.0,3228.0
+2018,Costilla,treasurer,2160.0,112.0,938.0,3210.0
+2018,Crowley,attorney_general,790.0,136.0,1846.0,2772.0
+2018,Crowley,governor,400.0,100.0,888.0,1388.0
+2018,Crowley,lt_governor,400.0,100.0,888.0,1388.0
+2018,Crowley,secretary_of_state,876.0,140.0,1770.0,2786.0
+2018,Crowley,treasurer,796.0,138.0,1812.0,2746.0
+2018,Custer,attorney_general,1676.0,174.0,3852.0,5702.0
+2018,Custer,governor,895.0,99.0,1869.0,2863.0
+2018,Custer,lt_governor,895.0,99.0,1869.0,2863.0
+2018,Custer,secretary_of_state,1804.0,146.0,3756.0,5706.0
+2018,Custer,treasurer,1648.0,166.0,3850.0,5664.0
+2018,Delta,attorney_general,9196.0,938.0,19832.0,29966.0
+2018,Delta,governor,4817.0,610.0,9699.0,15126.0
+2018,Delta,lt_governor,4817.0,610.0,9699.0,15126.0
+2018,Delta,secretary_of_state,9470.0,1034.0,19546.0,30050.0
+2018,Delta,treasurer,9176.0,1126.0,19554.0,29856.0
+2018,Denver,attorney_general,465596.0,16536.0,129064.0,611196.0
+2018,Denver,governor,238762.0,9605.0,60151.0,308518.0
+2018,Denver,lt_governor,238762.0,9605.0,60151.0,308518.0
+2018,Denver,secretary_of_state,464510.0,11808.0,134294.0,610612.0
+2018,Denver,treasurer,460764.0,12360.0,133456.0,606580.0
+2018,Dolores,attorney_general,516.0,58.0,1714.0,2288.0
+2018,Dolores,governor,270.0,46.0,868.0,1184.0
+2018,Dolores,lt_governor,270.0,46.0,868.0,1184.0
+2018,Dolores,secretary_of_state,542.0,108.0,1660.0,2310.0
+2018,Dolores,treasurer,508.0,104.0,1686.0,2298.0
+2018,Douglas,attorney_general,130914.0,706544.0,207760.0,1045218.0
+2018,Douglas,governor,71573.0,709941.0,99123.0,880637.0
+2018,Douglas,lt_governor,71573.0,5945.0,99123.0,176641.0
+2018,Douglas,secretary_of_state,139638.0,701692.0,202054.0,1043384.0
+2018,Douglas,treasurer,135422.0,1371340.0,203052.0,1709814.0
+2018,Eagle,attorney_general,26386.0,1302.0,15696.0,43384.0
+2018,Eagle,governor,13802.0,720.0,7804.0,22326.0
+2018,Eagle,lt_governor,13802.0,720.0,7804.0,22326.0
+2018,Eagle,secretary_of_state,26038.0,1002.0,16234.0,43274.0
+2018,Eagle,treasurer,25186.0,1070.0,16414.0,42670.0
+2018,El Paso,attorney_general,207100.0,21568.0,319844.0,548512.0
+2018,El Paso,governor,109154.0,12132.0,155006.0,276292.0
+2018,El Paso,lt_governor,109154.0,12132.0,155006.0,276292.0
+2018,El Paso,secretary_of_state,205886.0,15568.0,327286.0,548740.0
+2018,El Paso,treasurer,209580.0,18454.0,316922.0,544956.0
+2018,Elbert,attorney_general,6028.0,876.0,22130.0,29034.0
+2018,Elbert,governor,3242.0,517.0,10859.0,14618.0
+2018,Elbert,lt_governor,3242.0,517.0,10859.0,14618.0
+2018,Elbert,secretary_of_state,6690.0,682.0,21572.0,28944.0
+2018,Elbert,treasurer,6376.0,800.0,21680.0,28856.0
+2018,Fremont,attorney_general,11286.0,1536.0,25938.0,38760.0
+2018,Fremont,governor,6022.0,985.0,12574.0,19581.0
+2018,Fremont,lt_governor,6022.0,985.0,12574.0,19581.0
+2018,Fremont,secretary_of_state,12392.0,1520.0,24812.0,38724.0
+2018,Fremont,treasurer,11482.0,1614.0,25442.0,38538.0
+2018,Garfield,attorney_general,22948.0,1558.0,23100.0,47606.0
+2018,Garfield,governor,11791.0,831.0,11436.0,24058.0
+2018,Garfield,lt_governor,11791.0,831.0,11436.0,24058.0
+2018,Garfield,secretary_of_state,22758.0,1316.0,22992.0,47066.0
+2018,Garfield,treasurer,22232.0,1372.0,23210.0,46814.0
+2018,Gilpin,attorney_general,3482.0,324.0,2850.0,6656.0
+2018,Gilpin,governor,1809.0,152.0,1407.0,3368.0
+2018,Gilpin,lt_governor,1809.0,152.0,1407.0,3368.0
+2018,Gilpin,secretary_of_state,3594.0,252.0,2820.0,6666.0
+2018,Gilpin,treasurer,3440.0,300.0,2880.0,6620.0
+2018,Grand,attorney_general,6730.0,576.0,7848.0,15154.0
+2018,Grand,governor,3596.0,312.0,3837.0,7745.0
+2018,Grand,lt_governor,3596.0,312.0,3837.0,7745.0
+2018,Grand,secretary_of_state,6916.0,434.0,7842.0,15192.0
+2018,Grand,treasurer,6662.0,514.0,7764.0,14940.0
+2018,Gunnison,attorney_general,10650.0,628.0,5932.0,17210.0
+2018,Gunnison,governor,5526.0,332.0,2927.0,8785.0
+2018,Gunnison,lt_governor,5526.0,332.0,2927.0,8785.0
+2018,Gunnison,secretary_of_state,10852.0,506.0,5898.0,17256.0
+2018,Gunnison,treasurer,10462.0,540.0,6048.0,17050.0
+2018,Hinsdale,attorney_general,394.0,52.0,636.0,1082.0
+2018,Hinsdale,governor,218.0,20.0,318.0,556.0
+2018,Hinsdale,lt_governor,218.0,20.0,318.0,556.0
+2018,Hinsdale,secretary_of_state,416.0,36.0,648.0,1100.0
+2018,Hinsdale,treasurer,404.0,56.0,620.0,1080.0
+2018,Huerfano,attorney_general,3534.0,278.0,3360.0,7172.0
+2018,Huerfano,governor,1798.0,166.0,1647.0,3611.0
+2018,Huerfano,lt_governor,1798.0,166.0,1647.0,3611.0
+2018,Huerfano,secretary_of_state,3694.0,238.0,3278.0,7210.0
+2018,Huerfano,treasurer,3564.0,312.0,3266.0,7142.0
+2018,Jackson,attorney_general,298.0,58.0,1128.0,1484.0
+2018,Jackson,governor,176.0,38.0,564.0,778.0
+2018,Jackson,lt_governor,176.0,38.0,564.0,778.0
+2018,Jackson,secretary_of_state,294.0,44.0,1188.0,1526.0
+2018,Jackson,treasurer,274.0,46.0,1172.0,1492.0
+2018,Jefferson,attorney_general,313282.0,20392.0,268806.0,602480.0
+2018,Jefferson,governor,166455.0,12504.0,127038.0,305997.0
+2018,Jefferson,lt_governor,166455.0,12504.0,127038.0,305997.0
+2018,Jefferson,secretary_of_state,322370.0,15456.0,261882.0,599708.0
+2018,Jefferson,treasurer,319592.0,16608.0,261630.0,597830.0
+2018,Kiowa,attorney_general,212.0,32.0,1264.0,1508.0
+2018,Kiowa,governor,94.0,35.0,638.0,767.0
+2018,Kiowa,lt_governor,94.0,35.0,638.0,767.0
+2018,Kiowa,secretary_of_state,248.0,36.0,1230.0,1514.0
+2018,Kiowa,treasurer,208.0,34.0,1266.0,1508.0
+2018,Kit Carson,attorney_general,970.0,150.0,4942.0,6062.0
+2018,Kit Carson,governor,547.0,125.0,2417.0,3089.0
+2018,Kit Carson,lt_governor,547.0,125.0,2417.0,3089.0
+2018,Kit Carson,secretary_of_state,1114.0,160.0,4806.0,6080.0
+2018,Kit Carson,treasurer,1048.0,148.0,4856.0,6052.0
+2018,La Plata,attorney_general,30808.0,1750.0,23104.0,55662.0
+2018,La Plata,governor,15859.0,798.0,11727.0,28384.0
+2018,La Plata,lt_governor,15859.0,798.0,11727.0,28384.0
+2018,La Plata,secretary_of_state,30176.0,1450.0,24106.0,55732.0
+2018,La Plata,treasurer,30454.0,1590.0,23108.0,55152.0
+2018,Lake,attorney_general,3252.0,290.0,2028.0,5570.0
+2018,Lake,governor,1678.0,194.0,998.0,2870.0
+2018,Lake,lt_governor,1678.0,194.0,998.0,2870.0
+2018,Lake,secretary_of_state,3464.0,290.0,1912.0,5666.0
+2018,Lake,treasurer,3318.0,306.0,1926.0,5550.0
+2018,Larimer,attorney_general,184680.0,11524.0,157776.0,353980.0
+2018,Larimer,governor,98361.0,6273.0,75002.0,179636.0
+2018,Larimer,lt_governor,98361.0,6273.0,75002.0,179636.0
+2018,Larimer,secretary_of_state,189902.0,8914.0,155466.0,354282.0
+2018,Larimer,treasurer,185428.0,9466.0,156368.0,351262.0
+2018,Las Animas,attorney_general,5720.0,434.0,6254.0,12408.0
+2018,Las Animas,governor,2949.0,282.0,3008.0,6239.0
+2018,Las Animas,lt_governor,2949.0,282.0,3008.0,6239.0
+2018,Las Animas,secretary_of_state,6268.0,390.0,5788.0,12446.0
+2018,Las Animas,treasurer,5924.0,394.0,6006.0,12324.0
+2018,Lincoln,attorney_general,694.0,148.0,3294.0,4136.0
+2018,Lincoln,governor,358.0,97.0,1619.0,2074.0
+2018,Lincoln,lt_governor,358.0,97.0,1619.0,2074.0
+2018,Lincoln,secretary_of_state,766.0,106.0,3256.0,4128.0
+2018,Lincoln,treasurer,726.0,108.0,3254.0,4088.0
+2018,Logan,attorney_general,3654.0,530.0,12700.0,16884.0
+2018,Logan,governor,1867.0,372.0,6349.0,8588.0
+2018,Logan,lt_governor,1867.0,372.0,6349.0,8588.0
+2018,Logan,secretary_of_state,3924.0,582.0,12392.0,16898.0
+2018,Logan,treasurer,3700.0,522.0,12534.0,16756.0
+2018,Mesa,attorney_general,42700.0,4516.0,85686.0,132902.0
+2018,Mesa,governor,23873.0,2500.0,41193.0,67566.0
+2018,Mesa,lt_governor,23873.0,2500.0,41193.0,67566.0
+2018,Mesa,secretary_of_state,43312.0,4488.0,85172.0,132972.0
+2018,Mesa,treasurer,42888.0,4676.0,84628.0,132192.0
+2018,Mineral,attorney_general,504.0,46.0,632.0,1182.0
+2018,Mineral,governor,259.0,24.0,319.0,602.0
+2018,Mineral,lt_governor,259.0,24.0,319.0,602.0
+2018,Mineral,secretary_of_state,532.0,36.0,622.0,1190.0
+2018,Mineral,treasurer,508.0,28.0,618.0,1154.0
+2018,Moffat,attorney_general,1844.0,350.0,8450.0,10644.0
+2018,Moffat,governor,946.0,203.0,4228.0,5377.0
+2018,Moffat,lt_governor,946.0,203.0,4228.0,5377.0
+2018,Moffat,secretary_of_state,1990.0,350.0,8320.0,10660.0
+2018,Moffat,treasurer,1850.0,382.0,8370.0,10602.0
+2018,Montezuma,attorney_general,8462.0,708.0,13742.0,22912.0
+2018,Montezuma,governor,4403.0,378.0,6933.0,11714.0
+2018,Montezuma,lt_governor,4403.0,378.0,6933.0,11714.0
+2018,Montezuma,secretary_of_state,8458.0,726.0,13772.0,22956.0
+2018,Montezuma,treasurer,8368.0,794.0,13584.0,22746.0
+2018,Montrose,attorney_general,10678.0,1044.0,25732.0,37454.0
+2018,Montrose,governor,5855.0,616.0,12466.0,18937.0
+2018,Montrose,lt_governor,5855.0,616.0,12466.0,18937.0
+2018,Montrose,secretary_of_state,10978.0,1100.0,25372.0,37450.0
+2018,Montrose,treasurer,10684.0,1168.0,25426.0,37278.0
+2018,Morgan,attorney_general,5652.0,642.0,14702.0,20996.0
+2018,Morgan,governor,2844.0,460.0,7329.0,10633.0
+2018,Morgan,lt_governor,2844.0,460.0,7329.0,10633.0
+2018,Morgan,secretary_of_state,5972.0,714.0,14310.0,20996.0
+2018,Morgan,treasurer,5790.0,652.0,14450.0,20892.0
+2018,Otero,attorney_general,5452.0,540.0,8754.0,14746.0
+2018,Otero,governor,2913.0,449.0,4076.0,7438.0
+2018,Otero,lt_governor,2913.0,449.0,4076.0,7438.0
+2018,Otero,secretary_of_state,6074.0,538.0,8224.0,14836.0
+2018,Otero,treasurer,5718.0,576.0,8474.0,14768.0
+2018,Ouray,attorney_general,3640.0,178.0,2538.0,6356.0
+2018,Ouray,governor,1868.0,87.0,1237.0,3192.0
+2018,Ouray,lt_governor,1868.0,87.0,1237.0,3192.0
+2018,Ouray,secretary_of_state,3612.0,136.0,2588.0,6336.0
+2018,Ouray,treasurer,3568.0,172.0,2574.0,6314.0
+2018,Park,attorney_general,6910.0,794.0,11072.0,18776.0
+2018,Park,governor,3645.0,425.0,5452.0,9522.0
+2018,Park,lt_governor,3645.0,425.0,5452.0,9522.0
+2018,Park,secretary_of_state,7240.0,650.0,10910.0,18800.0
+2018,Park,treasurer,7006.0,740.0,10902.0,18648.0
+2018,Phillips,attorney_general,816.0,96.0,3108.0,4020.0
+2018,Phillips,governor,397.0,76.0,1583.0,2056.0
+2018,Phillips,lt_governor,397.0,76.0,1583.0,2056.0
+2018,Phillips,secretary_of_state,868.0,94.0,3090.0,4052.0
+2018,Phillips,treasurer,788.0,96.0,3128.0,4012.0
+2018,Pitkin,attorney_general,14076.0,540.0,4698.0,19314.0
+2018,Pitkin,governor,7244.0,232.0,2354.0,9830.0
+2018,Pitkin,lt_governor,7244.0,232.0,2354.0,9830.0
+2018,Pitkin,secretary_of_state,14014.0,344.0,5026.0,19384.0
+2018,Pitkin,treasurer,13536.0,410.0,5220.0,19166.0
+2018,Prowers,attorney_general,2070.0,218.0,5916.0,8204.0
+2018,Prowers,governor,1090.0,162.0,2898.0,4150.0
+2018,Prowers,lt_governor,1090.0,162.0,2898.0,4150.0
+2018,Prowers,secretary_of_state,2270.0,222.0,5746.0,8238.0
+2018,Prowers,treasurer,2128.0,242.0,5778.0,8148.0
+2018,Pueblo,attorney_general,65576.0,4860.0,61316.0,131752.0
+2018,Pueblo,governor,33674.0,3237.0,29545.0,66456.0
+2018,Pueblo,lt_governor,33674.0,3237.0,29545.0,66456.0
+2018,Pueblo,secretary_of_state,70230.0,4116.0,57920.0,132266.0
+2018,Pueblo,treasurer,66574.0,4878.0,59874.0,131326.0
+2018,Rio Blanco,attorney_general,936.0,152.0,4830.0,5918.0
+2018,Rio Blanco,governor,488.0,92.0,2473.0,3053.0
+2018,Rio Blanco,lt_governor,488.0,92.0,2473.0,3053.0
+2018,Rio Blanco,secretary_of_state,934.0,202.0,4818.0,5954.0
+2018,Rio Blanco,treasurer,862.0,186.0,4844.0,5892.0
+2018,Rio Grande,attorney_general,3856.0,318.0,5608.0,9782.0
+2018,Rio Grande,governor,1912.0,224.0,2795.0,4931.0
+2018,Rio Grande,lt_governor,1912.0,224.0,2795.0,4931.0
+2018,Rio Grande,secretary_of_state,3966.0,350.0,5534.0,9850.0
+2018,Rio Grande,treasurer,3874.0,296.0,5588.0,9758.0
+2018,Routt,attorney_general,15594.0,792.0,9722.0,26108.0
+2018,Routt,governor,8163.0,407.0,4787.0,13357.0
+2018,Routt,lt_governor,8163.0,407.0,4787.0,13357.0
+2018,Routt,secretary_of_state,15450.0,578.0,9996.0,26024.0
+2018,Routt,treasurer,15056.0,634.0,10050.0,25740.0
+2018,Saguache,attorney_general,2950.0,210.0,2080.0,5240.0
+2018,Saguache,governor,1529.0,127.0,1014.0,2670.0
+2018,Saguache,lt_governor,1529.0,127.0,1014.0,2670.0
+2018,Saguache,secretary_of_state,3096.0,188.0,2020.0,5304.0
+2018,Saguache,treasurer,3042.0,224.0,1998.0,5264.0
+2018,San Juan,attorney_general,518.0,30.0,346.0,894.0
+2018,San Juan,governor,271.0,12.0,167.0,450.0
+2018,San Juan,lt_governor,271.0,12.0,167.0,450.0
+2018,San Juan,secretary_of_state,548.0,24.0,328.0,900.0
+2018,San Juan,treasurer,522.0,26.0,332.0,880.0
+2018,San Miguel,attorney_general,5918.0,252.0,1882.0,8052.0
+2018,San Miguel,governor,3047.0,115.0,923.0,4085.0
+2018,San Miguel,lt_governor,3047.0,115.0,923.0,4085.0
+2018,San Miguel,secretary_of_state,5984.0,138.0,1952.0,8074.0
+2018,San Miguel,treasurer,5856.0,168.0,1954.0,7978.0
+2018,Sedgwick,attorney_general,548.0,72.0,1752.0,2372.0
+2018,Sedgwick,governor,290.0,60.0,859.0,1209.0
+2018,Sedgwick,lt_governor,290.0,60.0,859.0,1209.0
+2018,Sedgwick,secretary_of_state,626.0,48.0,1698.0,2372.0
+2018,Sedgwick,treasurer,552.0,64.0,1744.0,2360.0
+2018,Summit,attorney_general,17642.0,1032.0,8982.0,27656.0
+2018,Summit,governor,9499.0,487.0,4243.0,14229.0
+2018,Summit,lt_governor,9499.0,487.0,4243.0,14229.0
+2018,Summit,secretary_of_state,17854.0,682.0,9156.0,27692.0
+2018,Summit,treasurer,17232.0,840.0,9208.0,27280.0
+2018,Teller,attorney_general,7476.0,798.0,17200.0,25474.0
+2018,Teller,governor,3986.0,481.0,8409.0,12876.0
+2018,Teller,lt_governor,3986.0,481.0,8409.0,12876.0
+2018,Teller,secretary_of_state,7732.0,720.0,17136.0,25588.0
+2018,Teller,treasurer,7466.0,824.0,17056.0,25346.0
+2018,Total,attorney_general,1285464.0,81733.0,1124757.0,2491954.0
+2018,Total,lt_governor,1348888.0,95373.0,1080801.0,2525062.0
+2018,Total,secretary_of_state,1313716.0,64992.0,1113927.0,2492635.0
+2018,Total,treasurer,1292281.0,70475.0,1111641.0,2474397.0
+2018,Washington,attorney_general,612.0,110.0,4048.0,4770.0
+2018,Washington,governor,294.0,91.0,2004.0,2389.0
+2018,Washington,lt_governor,294.0,91.0,2004.0,2389.0
+2018,Washington,secretary_of_state,650.0,148.0,3946.0,4744.0
+2018,Washington,treasurer,606.0,124.0,4000.0,4730.0
+2018,Weld,attorney_general,89092.0,9738.0,148030.0,246860.0
+2018,Weld,governor,46653.0,5833.0,72886.0,125372.0
+2018,Weld,lt_governor,46653.0,5833.0,72886.0,125372.0
+2018,Weld,secretary_of_state,94532.0,8718.0,144038.0,247288.0
+2018,Weld,treasurer,96792.0,10074.0,140078.0,246944.0
+2018,Yuma,attorney_general,1390.0,160.0,6494.0,8044.0
+2018,Yuma,governor,697.0,141.0,3264.0,4102.0
+2018,Yuma,lt_governor,697.0,141.0,3264.0,4102.0
+2018,Yuma,secretary_of_state,1548.0,188.0,6336.0,8072.0
+2018,Yuma,treasurer,1402.0,194.0,6422.0,8018.0
+2020,Adams,president,134202.0,6881.0,95657.0,236740.0
+2020,Adams,us_senate,130409.0,6964.0,98341.0,235714.0
+2020,Alamosa,president,3759.0,236.0,3813.0,7808.0
+2020,Alamosa,us_senate,3734.0,173.0,3800.0,7707.0
+2020,Arapahoe,president,213607.0,9253.0,127323.0,350183.0
+2020,Arapahoe,us_senate,204054.0,7888.0,136713.0,348655.0
+2020,Archuleta,president,3738.0,217.0,5189.0,9144.0
+2020,Archuleta,us_senate,3591.0,204.0,5225.0,9020.0
+2020,Baca,president,317.0,41.0,1867.0,2225.0
+2020,Baca,us_senate,329.0,51.0,1816.0,2196.0
+2020,Bent,president,732.0,39.0,1503.0,2274.0
+2020,Bent,us_senate,702.0,66.0,1488.0,2256.0
+2020,Boulder,president,159089.0,4521.0,42501.0,206111.0
+2020,Boulder,us_senate,154552.0,3663.0,47321.0,205536.0
+2020,Broomfield,president,29077.0,1260.0,16295.0,46632.0
+2020,Broomfield,us_senate,27447.0,894.0,17855.0,46196.0
+2020,Chaffee,president,7160.0,336.0,6222.0,13718.0
+2020,Chaffee,us_senate,6948.0,286.0,6344.0,13578.0
+2020,Cheyenne,president,131.0,12.0,993.0,1136.0
+2020,Cheyenne,us_senate,119.0,11.0,995.0,1125.0
+2020,Clear Creek,president,3604.0,190.0,2754.0,6548.0
+2020,Clear Creek,us_senate,3494.0,148.0,2835.0,6477.0
+2020,Conejos,president,1959.0,88.0,2286.0,4333.0
+2020,Conejos,us_senate,1975.0,51.0,2243.0,4269.0
+2020,Costilla,president,1311.0,42.0,741.0,2094.0
+2020,Costilla,us_senate,1313.0,61.0,713.0,2087.0
+2020,Crowley,president,437.0,42.0,1271.0,1750.0
+2020,Crowley,us_senate,456.0,55.0,1230.0,1741.0
+2020,Custer,president,1112.0,49.0,2474.0,3635.0
+2020,Custer,us_senate,1059.0,79.0,2456.0,3594.0
+2020,Delta,president,5887.0,402.0,13081.0,19370.0
+2020,Delta,us_senate,5764.0,423.0,13118.0,19305.0
+2020,Denver,president,313293.0,8918.0,71618.0,393829.0
+2020,Denver,us_senate,305602.0,7337.0,80163.0,393102.0
+2020,Dolores,president,341.0,19.0,1089.0,1449.0
+2020,Dolores,us_senate,338.0,26.0,1064.0,1428.0
+2020,Douglas,president,104653.0,5682.0,121270.0,231605.0
+2020,Douglas,us_senate,97553.0,3967.0,130045.0,231565.0
+2020,Eagle,president,18588.0,660.0,9892.0,29140.0
+2020,Eagle,us_senate,17902.0,496.0,10350.0,28748.0
+2020,El Paso,president,161941.0,14082.0,202828.0,378851.0
+2020,El Paso,us_senate,152126.0,12718.0,212057.0,376901.0
+2020,Elbert,president,4490.0,466.0,14027.0,18983.0
+2020,Elbert,us_senate,4257.0,361.0,14340.0,18958.0
+2020,Fremont,president,7369.0,671.0,17517.0,25557.0
+2020,Fremont,us_senate,7201.0,713.0,17450.0,25364.0
+2020,Garfield,president,15427.0,760.0,14717.0,30904.0
+2020,Garfield,us_senate,14999.0,761.0,15027.0,30787.0
+2020,Gilpin,president,2223.0,130.0,1833.0,4186.0
+2020,Gilpin,us_senate,2183.0,125.0,1867.0,4175.0
+2020,Grand,president,4710.0,277.0,4883.0,9870.0
+2020,Grand,us_senate,4579.0,224.0,5075.0,9878.0
+2020,Gunnison,president,7132.0,323.0,3735.0,11190.0
+2020,Gunnison,us_senate,6922.0,242.0,3978.0,11142.0
+2020,Hinsdale,president,255.0,24.0,353.0,632.0
+2020,Hinsdale,us_senate,244.0,11.0,365.0,620.0
+2020,Huerfano,president,2076.0,127.0,2203.0,4406.0
+2020,Huerfano,us_senate,2077.0,134.0,2160.0,4371.0
+2020,Jackson,president,175.0,20.0,681.0,876.0
+2020,Jackson,us_senate,164.0,19.0,684.0,867.0
+2020,Jefferson,president,218396.0,10545.0,148417.0,377358.0
+2020,Jefferson,us_senate,210619.0,8080.0,158276.0,376975.0
+2020,Kiowa,president,98.0,10.0,795.0,903.0
+2020,Kiowa,us_senate,93.0,14.0,783.0,890.0
+2020,Kit Carson,president,662.0,65.0,3144.0,3871.0
+2020,Kit Carson,us_senate,628.0,49.0,3138.0,3815.0
+2020,La Plata,president,20548.0,886.0,14233.0,35667.0
+2020,La Plata,us_senate,19873.0,805.0,14776.0,35454.0
+2020,Lake,president,2303.0,161.0,1497.0,3961.0
+2020,Lake,us_senate,2297.0,146.0,1511.0,3954.0
+2020,Larimer,president,126120.0,6729.0,91489.0,224338.0
+2020,Larimer,us_senate,116419.0,4929.0,94585.0,215933.0
+2020,Las Animas,president,3497.0,180.0,4284.0,7961.0
+2020,Las Animas,us_senate,3509.0,200.0,4217.0,7926.0
+2020,Lincoln,president,470.0,46.0,2135.0,2651.0
+2020,Lincoln,us_senate,434.0,61.0,2141.0,2636.0
+2020,Logan,president,2218.0,227.0,8087.0,10532.0
+2020,Logan,us_senate,2117.0,197.0,8167.0,10481.0
+2020,Mesa,president,31536.0,2193.0,56894.0,90623.0
+2020,Mesa,us_senate,29478.0,2488.0,57236.0,89202.0
+2020,Mineral,president,317.0,12.0,427.0,756.0
+2020,Mineral,us_senate,302.0,18.0,437.0,757.0
+2020,Moffat,president,1203.0,153.0,5670.0,7026.0
+2020,Moffat,us_senate,1120.0,146.0,5544.0,6810.0
+2020,Montezuma,president,5836.0,358.0,9306.0,15500.0
+2020,Montezuma,us_senate,5538.0,386.0,9273.0,15197.0
+2020,Montrose,president,7687.0,465.0,16770.0,24922.0
+2020,Montrose,us_senate,7321.0,557.0,16978.0,24856.0
+2020,Morgan,president,3876.0,275.0,9593.0,13744.0
+2020,Morgan,us_senate,3787.0,240.0,9544.0,13571.0
+2020,Otero,president,3605.0,215.0,5756.0,9576.0
+2020,Otero,us_senate,3428.0,208.0,5731.0,9367.0
+2020,Ouray,president,2365.0,78.0,1577.0,4020.0
+2020,Ouray,us_senate,2291.0,76.0,1622.0,3989.0
+2020,Park,president,4903.0,397.0,6991.0,12291.0
+2020,Park,us_senate,4800.0,346.0,7100.0,12246.0
+2020,Phillips,president,486.0,41.0,1958.0,2485.0
+2020,Phillips,us_senate,463.0,28.0,1980.0,2471.0
+2020,Pitkin,president,8989.0,188.0,2780.0,11957.0
+2020,Pitkin,us_senate,8761.0,164.0,2935.0,11860.0
+2020,Prowers,president,1458.0,95.0,4008.0,5561.0
+2020,Prowers,us_senate,1435.0,99.0,3966.0,5500.0
+2020,Pueblo,president,43772.0,2277.0,42252.0,88301.0
+2020,Pueblo,us_senate,42791.0,2563.0,42098.0,87452.0
+2020,Rio Blanco,president,561.0,69.0,3061.0,3691.0
+2020,Rio Blanco,us_senate,529.0,61.0,3065.0,3655.0
+2020,Rio Grande,president,2495.0,150.0,3660.0,6305.0
+2020,Rio Grande,us_senate,2502.0,142.0,3635.0,6279.0
+2020,Routt,president,10582.0,369.0,5925.0,16876.0
+2020,Routt,us_senate,10284.0,286.0,6256.0,16826.0
+2020,Saguache,president,1884.0,92.0,1413.0,3389.0
+2020,Saguache,us_senate,1887.0,87.0,1405.0,3379.0
+2020,San Juan,president,342.0,18.0,202.0,562.0
+2020,San Juan,us_senate,328.0,15.0,207.0,550.0
+2020,San Miguel,president,3924.0,87.0,1136.0,5147.0
+2020,San Miguel,us_senate,3808.0,86.0,1227.0,5121.0
+2020,Sedgwick,president,301.0,24.0,1121.0,1446.0
+2020,Sedgwick,us_senate,320.0,24.0,1103.0,1447.0
+2020,Summit,president,12631.0,526.0,5322.0,18479.0
+2020,Summit,us_senate,12175.0,415.0,5817.0,18407.0
+2020,Teller,president,5278.0,420.0,11241.0,16939.0
+2020,Teller,us_senate,5039.0,419.0,11307.0,16765.0
+2020,Washington,president,369.0,44.0,2595.0,3008.0
+2020,Washington,us_senate,346.0,33.0,2617.0,2996.0
+2020,Weld,president,66060.0,4769.0,96145.0,166974.0
+2020,Weld,us_senate,63647.0,3613.0,99424.0,166684.0
+2020,Yuma,president,785.0,89.0,4107.0,4981.0
+2020,Yuma,us_senate,652.0,52.0,4273.0,4977.0
+2022,Adams,attorney_general,91442.0,4275.0,68357.0,164074.0
+2022,Adams,governor,99625.0,4039.0,63960.0,167624.0
+2022,Adams,secretary_of_state,93937.0,5371.0,67217.0,166525.0
+2022,Adams,state_house,88805.0,1850.0,69977.0,160632.0
+2022,Adams,state_senate,50577.0,1569.0,37970.0,90116.0
+2022,Adams,treasurer,91273.0,6901.0,66531.0,164705.0
+2022,Adams,us_house,86608.0,6179.0,64682.0,157469.0
+2022,Adams,us_senate,90483.0,5219.0,63586.0,159288.0
+2022,Alamosa,attorney_general,2945.0,135.0,2806.0,5886.0
+2022,Alamosa,governor,3022.0,225.0,2674.0,5921.0
+2022,Alamosa,secretary_of_state,2843.0,208.0,2826.0,5877.0
+2022,Alamosa,state_house,2732.0,0.0,2907.0,5639.0
+2022,Alamosa,treasurer,2758.0,250.0,2742.0,5750.0
+2022,Alamosa,us_house,2966.0,2.0,2904.0,5872.0
+2022,Alamosa,us_senate,2999.0,197.0,2734.0,5930.0
+2022,Arapahoe,attorney_general,148940.0,5460.0,98549.0,252949.0
+2022,Arapahoe,governor,162304.0,5166.0,89656.0,257126.0
+2022,Arapahoe,secretary_of_state,151301.0,6724.0,96977.0,255002.0
+2022,Arapahoe,state_house,145973.0,2818.0,99518.0,248309.0
+2022,Arapahoe,state_senate,40735.0,21.0,32187.0,72943.0
+2022,Arapahoe,treasurer,146297.0,7518.0,98126.0,251941.0
+2022,Arapahoe,us_house,154507.0,5066.0,94348.0,253921.0
+2022,Arapahoe,us_senate,154678.0,6609.0,96033.0,257320.0
+2022,Archuleta,attorney_general,3243.0,210.0,4247.0,7700.0
+2022,Archuleta,governor,3641.0,208.0,3961.0,7810.0
+2022,Archuleta,secretary_of_state,3288.0,303.0,4065.0,7656.0
+2022,Archuleta,state_house,3460.0,0.0,4230.0,7690.0
+2022,Archuleta,treasurer,3135.0,285.0,4093.0,7513.0
+2022,Archuleta,us_house,3574.0,4.0,4197.0,7775.0
+2022,Archuleta,us_senate,3428.0,296.0,4099.0,7823.0
+2022,Baca,attorney_general,276.0,66.0,1360.0,1702.0
+2022,Baca,governor,298.0,346.0,1103.0,1747.0
+2022,Baca,secretary_of_state,353.0,91.0,1286.0,1730.0
+2022,Baca,state_house,533.0,0.0,1158.0,1691.0
+2022,Baca,state_senate,244.0,0.0,1459.0,1703.0
+2022,Baca,treasurer,314.0,69.0,1296.0,1679.0
+2022,Baca,us_house,239.0,91.0,1418.0,1748.0
+2022,Baca,us_senate,371.0,71.0,1303.0,1745.0
+2022,Bent,attorney_general,578.0,46.0,1177.0,1801.0
+2022,Bent,governor,627.0,112.0,1091.0,1830.0
+2022,Bent,secretary_of_state,572.0,95.0,1129.0,1796.0
+2022,Bent,state_house,517.0,0.0,1226.0,1743.0
+2022,Bent,state_senate,511.0,0.0,1235.0,1746.0
+2022,Bent,treasurer,566.0,83.0,1123.0,1772.0
+2022,Bent,us_house,494.0,71.0,1247.0,1812.0
+2022,Bent,us_senate,640.0,66.0,1104.0,1810.0
+2022,Boulder,attorney_general,125025.0,2999.0,34081.0,162105.0
+2022,Boulder,governor,132173.0,2450.0,30454.0,165077.0
+2022,Boulder,secretary_of_state,125266.0,3458.0,34571.0,163295.0
+2022,Boulder,state_house,122308.0,772.0,35704.0,158784.0
+2022,Boulder,state_senate,10392.0,0.0,3728.0,14120.0
+2022,Boulder,treasurer,122075.0,4081.0,35292.0,161448.0
+2022,Boulder,us_house,128480.0,2846.0,32635.0,163961.0
+2022,Boulder,us_senate,128227.0,3349.0,33858.0,165434.0
+2022,Broomfield,attorney_general,22967.0,736.0,13182.0,36885.0
+2022,Broomfield,governor,25006.0,678.0,11796.0,37480.0
+2022,Broomfield,secretary_of_state,23007.0,866.0,13139.0,37012.0
+2022,Broomfield,state_house,22035.0,0.0,13888.0,35923.0
+2022,Broomfield,state_senate,22866.0,0.0,13421.0,36287.0
+2022,Broomfield,treasurer,22495.0,979.0,13312.0,36786.0
+2022,Broomfield,us_house,23305.0,708.0,13016.0,37029.0
+2022,Broomfield,us_senate,23617.0,951.0,12975.0,37543.0
+2022,Chaffee,attorney_general,6364.0,271.0,4976.0,11611.0
+2022,Chaffee,governor,6807.0,296.0,4646.0,11749.0
+2022,Chaffee,secretary_of_state,6391.0,337.0,4825.0,11553.0
+2022,Chaffee,state_house,6369.0,0.0,5043.0,11412.0
+2022,Chaffee,state_senate,6200.0,0.0,5137.0,11337.0
+2022,Chaffee,treasurer,6147.0,384.0,4796.0,11327.0
+2022,Chaffee,us_house,6418.0,269.0,5002.0,11689.0
+2022,Chaffee,us_senate,6607.0,340.0,4854.0,11801.0
+2022,Cheyenne,attorney_general,106.0,19.0,771.0,896.0
+2022,Cheyenne,governor,115.0,42.0,758.0,915.0
+2022,Cheyenne,secretary_of_state,117.0,23.0,772.0,912.0
+2022,Cheyenne,state_house,96.0,16.0,785.0,897.0
+2022,Cheyenne,state_senate,68.0,0.0,839.0,907.0
+2022,Cheyenne,treasurer,107.0,21.0,757.0,885.0
+2022,Cheyenne,us_house,75.0,18.0,814.0,907.0
+2022,Cheyenne,us_senate,120.0,34.0,763.0,917.0
+2022,Clear Creek,attorney_general,2876.0,170.0,2051.0,5097.0
+2022,Clear Creek,governor,3118.0,143.0,1919.0,5180.0
+2022,Clear Creek,secretary_of_state,2884.0,162.0,2029.0,5075.0
+2022,Clear Creek,state_house,2736.0,218.0,2004.0,4958.0
+2022,Clear Creek,state_senate,2869.0,0.0,2131.0,5000.0
+2022,Clear Creek,treasurer,2798.0,219.0,2054.0,5071.0
+2022,Clear Creek,us_house,2962.0,137.0,2015.0,5114.0
+2022,Clear Creek,us_senate,2966.0,183.0,2040.0,5189.0
+2022,Conejos,attorney_general,1594.0,42.0,1735.0,3371.0
+2022,Conejos,governor,1659.0,89.0,1702.0,3450.0
+2022,Conejos,secretary_of_state,1556.0,110.0,1726.0,3392.0
+2022,Conejos,state_house,1558.0,0.0,1786.0,3344.0
+2022,Conejos,treasurer,1507.0,146.0,1727.0,3380.0
+2022,Conejos,us_house,1592.0,0.0,1790.0,3382.0
+2022,Conejos,us_senate,1669.0,74.0,1704.0,3447.0
+2022,Costilla,attorney_general,1084.0,38.0,510.0,1632.0
+2022,Costilla,governor,1120.0,49.0,507.0,1676.0
+2022,Costilla,secretary_of_state,1073.0,62.0,518.0,1653.0
+2022,Costilla,state_house,1038.0,0.0,557.0,1595.0
+2022,Costilla,treasurer,1006.0,117.0,493.0,1616.0
+2022,Costilla,us_house,1113.0,0.0,546.0,1659.0
+2022,Costilla,us_senate,1108.0,60.0,518.0,1686.0
+2022,Crowley,attorney_general,358.0,46.0,908.0,1312.0
+2022,Crowley,governor,405.0,112.0,861.0,1378.0
+2022,Crowley,secretary_of_state,386.0,62.0,914.0,1362.0
+2022,Crowley,state_house,344.0,0.0,990.0,1334.0
+2022,Crowley,state_senate,321.0,0.0,964.0,1285.0
+2022,Crowley,treasurer,361.0,68.0,892.0,1321.0
+2022,Crowley,us_house,283.0,83.0,994.0,1360.0
+2022,Crowley,us_senate,432.0,94.0,849.0,1375.0
+2022,Custer,attorney_general,974.0,83.0,2215.0,3272.0
+2022,Custer,governor,1140.0,98.0,2103.0,3341.0
+2022,Custer,secretary_of_state,1040.0,116.0,2154.0,3310.0
+2022,Custer,state_house,951.0,0.0,2283.0,3234.0
+2022,Custer,state_senate,924.0,0.0,2276.0,3200.0
+2022,Custer,treasurer,1006.0,110.0,2164.0,3280.0
+2022,Custer,us_house,952.0,76.0,2253.0,3281.0
+2022,Custer,us_senate,1061.0,155.0,2112.0,3328.0
+2022,Delta,attorney_general,5136.0,381.0,10179.0,15696.0
+2022,Delta,governor,5651.0,513.0,9753.0,15917.0
+2022,Delta,secretary_of_state,5245.0,522.0,10096.0,15863.0
+2022,Delta,state_house,4495.0,0.0,11114.0,15609.0
+2022,Delta,state_senate,891.0,0.0,2324.0,3215.0
+2022,Delta,treasurer,4876.0,547.0,10133.0,15556.0
+2022,Delta,us_house,5603.0,9.0,10173.0,15785.0
+2022,Delta,us_senate,5400.0,617.0,9901.0,15918.0
+2022,Denver,attorney_general,221964.0,5102.0,53321.0,280387.0
+2022,Denver,governor,234250.0,4128.0,46046.0,284424.0
+2022,Denver,secretary_of_state,221962.0,5876.0,54838.0,282676.0
+2022,Denver,state_house,216890.0,2256.0,49665.0,268811.0
+2022,Denver,state_senate,91321.0,0.0,13395.0,104716.0
+2022,Denver,treasurer,212508.0,7566.0,54162.0,274236.0
+2022,Denver,us_house,225288.0,6186.0,48992.0,280466.0
+2022,Denver,us_senate,228419.0,5130.0,51582.0,285131.0
+2022,Dolores,attorney_general,297.0,44.0,925.0,1266.0
+2022,Dolores,governor,348.0,145.0,806.0,1299.0
+2022,Dolores,secretary_of_state,319.0,76.0,881.0,1276.0
+2022,Dolores,state_house,283.0,0.0,956.0,1239.0
+2022,Dolores,treasurer,310.0,58.0,891.0,1259.0
+2022,Dolores,us_house,337.0,0.0,960.0,1297.0
+2022,Dolores,us_senate,353.0,59.0,873.0,1285.0
+2022,Douglas,attorney_general,80862.0,3636.0,102683.0,187181.0
+2022,Douglas,governor,93022.0,3356.0,94312.0,190690.0
+2022,Douglas,secretary_of_state,83690.0,4565.0,100341.0,188596.0
+2022,Douglas,state_house,78143.0,1189.0,103528.0,182860.0
+2022,Douglas,state_senate,45160.0,0.0,57199.0,102359.0
+2022,Douglas,treasurer,78875.0,4924.0,101807.0,185606.0
+2022,Douglas,us_house,79184.0,3748.0,105569.0,188501.0
+2022,Douglas,us_senate,85173.0,4762.0,100978.0,190913.0
+2022,Eagle,attorney_general,13348.0,497.0,7851.0,21696.0
+2022,Eagle,governor,15230.0,331.0,6661.0,22222.0
+2022,Eagle,secretary_of_state,13541.0,546.0,7763.0,21850.0
+2022,Eagle,state_house,13306.0,0.0,8030.0,21336.0
+2022,Eagle,state_senate,11327.0,0.0,6800.0,18127.0
+2022,Eagle,treasurer,12664.0,743.0,7972.0,21379.0
+2022,Eagle,us_house,13882.0,336.0,7553.0,21771.0
+2022,Eagle,us_senate,13960.0,459.0,7776.0,22195.0
+2022,El Paso,attorney_general,116688.0,7733.0,153731.0,278152.0
+2022,El Paso,governor,133447.0,7196.0,144384.0,285027.0
+2022,El Paso,secretary_of_state,121991.0,9099.0,151345.0,282435.0
+2022,El Paso,state_house,100486.0,4783.0,160227.0,265496.0
+2022,El Paso,state_senate,55474.0,4339.0,91976.0,151789.0
+2022,El Paso,treasurer,113492.0,9782.0,153352.0,276626.0
+2022,El Paso,us_house,112768.0,10649.0,158883.0,282300.0
+2022,El Paso,us_senate,124024.0,10300.0,149995.0,284319.0
+2022,Elbert,attorney_general,3556.0,328.0,12068.0,15952.0
+2022,Elbert,governor,4118.0,541.0,11618.0,16277.0
+2022,Elbert,secretary_of_state,3817.0,512.0,11876.0,16205.0
+2022,Elbert,state_house,3324.0,374.0,12151.0,15849.0
+2022,Elbert,state_senate,3347.0,0.0,12322.0,15669.0
+2022,Elbert,treasurer,3509.0,475.0,11771.0,15755.0
+2022,Elbert,us_house,3324.0,542.0,12172.0,16038.0
+2022,Elbert,us_senate,3824.0,533.0,11897.0,16254.0
+2022,Fremont,attorney_general,6264.0,518.0,13066.0,19848.0
+2022,Fremont,governor,7165.0,713.0,12087.0,19965.0
+2022,Fremont,secretary_of_state,6501.0,702.0,12564.0,19767.0
+2022,Fremont,state_house,5937.0,0.0,13518.0,19455.0
+2022,Fremont,state_senate,5850.0,0.0,13632.0,19482.0
+2022,Fremont,treasurer,6155.0,702.0,12631.0,19488.0
+2022,Fremont,us_house,5962.0,496.0,13317.0,19775.0
+2022,Fremont,us_senate,6802.0,901.0,12285.0,19988.0
+2022,Garfield,attorney_general,12175.0,658.0,11113.0,23946.0
+2022,Garfield,governor,13443.0,651.0,10444.0,24538.0
+2022,Garfield,secretary_of_state,12506.0,785.0,10969.0,24260.0
+2022,Garfield,state_house,10997.0,0.0,13069.0,24066.0
+2022,Garfield,state_senate,852.0,0.0,1816.0,2668.0
+2022,Garfield,treasurer,11866.0,1012.0,11029.0,23907.0
+2022,Garfield,us_house,13752.0,8.0,10325.0,24085.0
+2022,Garfield,us_senate,12777.0,814.0,10924.0,24515.0
+2022,Gilpin,attorney_general,1835.0,116.0,1394.0,3345.0
+2022,Gilpin,governor,2023.0,92.0,1302.0,3417.0
+2022,Gilpin,secretary_of_state,1862.0,105.0,1421.0,3388.0
+2022,Gilpin,state_house,1798.0,140.0,1386.0,3324.0
+2022,Gilpin,state_senate,1860.0,0.0,1402.0,3262.0
+2022,Gilpin,treasurer,1818.0,144.0,1389.0,3351.0
+2022,Gilpin,us_house,1911.0,89.0,1368.0,3368.0
+2022,Gilpin,us_senate,1914.0,115.0,1385.0,3414.0
+2022,Grand,attorney_general,3724.0,211.0,3844.0,7779.0
+2022,Grand,governor,4162.0,195.0,3649.0,8006.0
+2022,Grand,secretary_of_state,3822.0,256.0,3814.0,7892.0
+2022,Grand,state_house,3752.0,0.0,3971.0,7723.0
+2022,Grand,state_senate,3762.0,0.0,3915.0,7677.0
+2022,Grand,treasurer,3603.0,363.0,3802.0,7768.0
+2022,Grand,us_house,3903.0,186.0,3776.0,7865.0
+2022,Grand,us_senate,3912.0,249.0,3824.0,7985.0
+2022,Gunnison,attorney_general,5717.0,249.0,2967.0,8933.0
+2022,Gunnison,governor,6184.0,218.0,2733.0,9135.0
+2022,Gunnison,secretary_of_state,5768.0,279.0,2966.0,9013.0
+2022,Gunnison,state_house,5538.0,0.0,3154.0,8692.0
+2022,Gunnison,treasurer,5441.0,333.0,3049.0,8823.0
+2022,Gunnison,us_house,6219.0,5.0,2760.0,8984.0
+2022,Gunnison,us_senate,5993.0,266.0,2905.0,9164.0
+2022,Hinsdale,attorney_general,204.0,17.0,270.0,491.0
+2022,Hinsdale,governor,246.0,14.0,251.0,511.0
+2022,Hinsdale,secretary_of_state,217.0,22.0,269.0,508.0
+2022,Hinsdale,state_house,191.0,0.0,285.0,476.0
+2022,Hinsdale,treasurer,185.0,22.0,273.0,480.0
+2022,Hinsdale,us_house,238.0,0.0,276.0,514.0
+2022,Hinsdale,us_senate,223.0,22.0,272.0,517.0
+2022,Huerfano,attorney_general,1917.0,93.0,1766.0,3776.0
+2022,Huerfano,governor,2102.0,101.0,1656.0,3859.0
+2022,Huerfano,secretary_of_state,1993.0,126.0,1705.0,3824.0
+2022,Huerfano,state_house,1792.0,0.0,1874.0,3666.0
+2022,Huerfano,state_senate,1765.0,0.0,1920.0,3685.0
+2022,Huerfano,treasurer,1871.0,186.0,1722.0,3779.0
+2022,Huerfano,us_house,1994.0,0.0,1793.0,3787.0
+2022,Huerfano,us_senate,2011.0,134.0,1705.0,3850.0
+2022,Jackson,attorney_general,126.0,21.0,513.0,660.0
+2022,Jackson,governor,140.0,16.0,526.0,682.0
+2022,Jackson,secretary_of_state,142.0,30.0,499.0,671.0
+2022,Jackson,state_house,122.0,0.0,527.0,649.0
+2022,Jackson,state_senate,128.0,0.0,531.0,659.0
+2022,Jackson,treasurer,132.0,29.0,494.0,655.0
+2022,Jackson,us_house,121.0,17.0,528.0,666.0
+2022,Jackson,us_senate,151.0,38.0,496.0,685.0
+2022,Jefferson,attorney_general,171279.0,6364.0,119011.0,296654.0
+2022,Jefferson,governor,185398.0,6129.0,108638.0,300165.0
+2022,Jefferson,secretary_of_state,169953.0,8084.0,119457.0,297494.0
+2022,Jefferson,state_house,165149.0,3273.0,119990.0,288412.0
+2022,Jefferson,state_senate,105228.0,2043.0,71572.0,178843.0
+2022,Jefferson,treasurer,164956.0,9469.0,118425.0,292850.0
+2022,Jefferson,us_house,174422.0,6510.0,116604.0,297536.0
+2022,Jefferson,us_senate,176378.0,8009.0,115978.0,300365.0
+2022,Kiowa,attorney_general,104.0,12.0,620.0,736.0
+2022,Kiowa,governor,99.0,98.0,562.0,759.0
+2022,Kiowa,secretary_of_state,104.0,31.0,611.0,746.0
+2022,Kiowa,state_house,72.0,0.0,649.0,721.0
+2022,Kiowa,state_senate,62.0,0.0,676.0,738.0
+2022,Kiowa,treasurer,101.0,19.0,601.0,721.0
+2022,Kiowa,us_house,60.0,20.0,670.0,750.0
+2022,Kiowa,us_senate,120.0,27.0,602.0,749.0
+2022,Kit Carson,attorney_general,441.0,56.0,2424.0,2921.0
+2022,Kit Carson,governor,475.0,86.0,2465.0,3026.0
+2022,Kit Carson,secretary_of_state,503.0,80.0,2417.0,3000.0
+2022,Kit Carson,state_house,384.0,44.0,2482.0,2910.0
+2022,Kit Carson,state_senate,335.0,0.0,2597.0,2932.0
+2022,Kit Carson,treasurer,488.0,89.0,2312.0,2889.0
+2022,Kit Carson,us_house,356.0,86.0,2552.0,2994.0
+2022,Kit Carson,us_senate,531.0,89.0,2408.0,3028.0
+2022,La Plata,attorney_general,17259.0,707.0,11265.0,29231.0
+2022,La Plata,governor,18350.0,665.0,10689.0,29704.0
+2022,La Plata,secretary_of_state,16599.0,901.0,11352.0,28852.0
+2022,La Plata,state_house,18461.0,0.0,10885.0,29346.0
+2022,La Plata,treasurer,16382.0,1126.0,11334.0,28842.0
+2022,La Plata,us_house,18648.0,11.0,10900.0,29559.0
+2022,La Plata,us_senate,17711.0,787.0,11231.0,29729.0
+2022,Lake,attorney_general,1694.0,115.0,1093.0,2902.0
+2022,Lake,governor,1899.0,85.0,991.0,2975.0
+2022,Lake,secretary_of_state,1746.0,125.0,1073.0,2944.0
+2022,Lake,state_house,1796.0,0.0,1104.0,2900.0
+2022,Lake,state_senate,1691.0,0.0,1144.0,2835.0
+2022,Lake,treasurer,1706.0,168.0,1029.0,2903.0
+2022,Lake,us_house,1728.0,108.0,1094.0,2930.0
+2022,Lake,us_senate,1812.0,116.0,1067.0,2995.0
+2022,Larimer,attorney_general,98518.0,4050.0,72402.0,174970.0
+2022,Larimer,governor,105588.0,3991.0,66749.0,176328.0
+2022,Larimer,secretary_of_state,99661.0,4868.0,70307.0,174836.0
+2022,Larimer,state_house,76637.0,493.0,77586.0,154716.0
+2022,Larimer,state_senate,32676.0,0.0,38326.0,71002.0
+2022,Larimer,treasurer,96852.0,5424.0,72077.0,174353.0
+2022,Larimer,us_house,99019.0,4417.0,70426.0,173862.0
+2022,Larimer,us_senate,100466.0,5244.0,69573.0,175283.0
+2022,Las Animas,attorney_general,3073.0,136.0,3326.0,6535.0
+2022,Las Animas,governor,3411.0,209.0,3071.0,6691.0
+2022,Las Animas,secretary_of_state,3199.0,215.0,3188.0,6602.0
+2022,Las Animas,state_house,2578.0,0.0,4005.0,6583.0
+2022,Las Animas,state_senate,2852.0,0.0,3510.0,6362.0
+2022,Las Animas,treasurer,3041.0,268.0,3198.0,6507.0
+2022,Las Animas,us_house,3210.0,2.0,3385.0,6597.0
+2022,Las Animas,us_senate,3291.0,216.0,3166.0,6673.0
+2022,Lincoln,attorney_general,353.0,57.0,1675.0,2085.0
+2022,Lincoln,governor,390.0,102.0,1608.0,2100.0
+2022,Lincoln,secretary_of_state,372.0,81.0,1643.0,2096.0
+2022,Lincoln,state_house,288.0,50.0,1706.0,2044.0
+2022,Lincoln,state_senate,289.0,0.0,1739.0,2028.0
+2022,Lincoln,treasurer,363.0,85.0,1624.0,2072.0
+2022,Lincoln,us_house,272.0,65.0,1757.0,2094.0
+2022,Lincoln,us_senate,401.0,81.0,1624.0,2106.0
+2022,Logan,attorney_general,1791.0,209.0,6041.0,8041.0
+2022,Logan,governor,1860.0,471.0,5925.0,8256.0
+2022,Logan,secretary_of_state,1873.0,305.0,6051.0,8229.0
+2022,Logan,state_house,0.0,0.0,6734.0,6734.0
+2022,Logan,state_senate,0.0,0.0,6452.0,6452.0
+2022,Logan,treasurer,1807.0,305.0,5899.0,8011.0
+2022,Logan,us_house,1449.0,295.0,6409.0,8153.0
+2022,Logan,us_senate,1954.0,329.0,5980.0,8263.0
+2022,Mesa,attorney_general,27657.0,2050.0,42369.0,72076.0
+2022,Mesa,governor,30571.0,2604.0,40376.0,73551.0
+2022,Mesa,secretary_of_state,28625.0,2721.0,41415.0,72761.0
+2022,Mesa,state_house,23208.0,0.0,48127.0,71335.0
+2022,Mesa,state_senate,21629.0,0.0,50372.0,72001.0
+2022,Mesa,treasurer,25504.0,3064.0,42828.0,71396.0
+2022,Mesa,us_house,30765.0,53.0,41884.0,72702.0
+2022,Mesa,us_senate,28732.0,2942.0,41766.0,73440.0
+2022,Mineral,attorney_general,286.0,22.0,369.0,677.0
+2022,Mineral,governor,320.0,26.0,362.0,708.0
+2022,Mineral,secretary_of_state,293.0,31.0,374.0,698.0
+2022,Mineral,state_house,287.0,0.0,394.0,681.0
+2022,Mineral,treasurer,278.0,23.0,359.0,660.0
+2022,Mineral,us_house,304.0,0.0,392.0,696.0
+2022,Mineral,us_senate,310.0,30.0,369.0,709.0
+2022,Moffat,attorney_general,1000.0,135.0,4207.0,5342.0
+2022,Moffat,governor,1058.0,186.0,4174.0,5418.0
+2022,Moffat,secretary_of_state,1016.0,192.0,4094.0,5302.0
+2022,Moffat,state_house,1031.0,0.0,4312.0,5343.0
+2022,Moffat,state_senate,987.0,0.0,4343.0,5330.0
+2022,Moffat,treasurer,974.0,206.0,4068.0,5248.0
+2022,Moffat,us_house,1094.0,5.0,4278.0,5377.0
+2022,Moffat,us_senate,1069.0,179.0,4150.0,5398.0
+2022,Montezuma,attorney_general,4859.0,317.0,7175.0,12351.0
+2022,Montezuma,governor,5187.0,561.0,6772.0,12520.0
+2022,Montezuma,secretary_of_state,4742.0,482.0,6957.0,12181.0
+2022,Montezuma,state_house,4983.0,0.0,7256.0,12239.0
+2022,Montezuma,treasurer,4715.0,438.0,7141.0,12294.0
+2022,Montezuma,us_house,5313.0,3.0,7134.0,12450.0
+2022,Montezuma,us_senate,5072.0,477.0,6960.0,12509.0
+2022,Montrose,attorney_general,7054.0,432.0,13021.0,20507.0
+2022,Montrose,governor,7529.0,536.0,12835.0,20900.0
+2022,Montrose,secretary_of_state,7117.0,560.0,12790.0,20467.0
+2022,Montrose,state_house,6083.0,0.0,14296.0,20379.0
+2022,Montrose,treasurer,6480.0,666.0,13287.0,20433.0
+2022,Montrose,us_house,7627.0,9.0,12978.0,20614.0
+2022,Montrose,us_senate,7255.0,683.0,12894.0,20832.0
+2022,Morgan,attorney_general,2515.0,229.0,7265.0,10009.0
+2022,Morgan,governor,2679.0,385.0,7090.0,10154.0
+2022,Morgan,secretary_of_state,2651.0,368.0,7100.0,10119.0
+2022,Morgan,state_house,0.0,0.0,8223.0,8223.0
+2022,Morgan,state_senate,0.0,0.0,8177.0,8177.0
+2022,Morgan,treasurer,2561.0,342.0,6988.0,9891.0
+2022,Morgan,us_house,2137.0,284.0,7653.0,10074.0
+2022,Morgan,us_senate,2786.0,383.0,7000.0,10169.0
+2022,Otero,attorney_general,2751.0,189.0,4178.0,7118.0
+2022,Otero,governor,2951.0,242.0,4053.0,7246.0
+2022,Otero,secretary_of_state,2938.0,230.0,4048.0,7216.0
+2022,Otero,state_house,2601.0,0.0,4388.0,6989.0
+2022,Otero,state_senate,2607.0,0.0,4426.0,7033.0
+2022,Otero,treasurer,2749.0,326.0,4071.0,7146.0
+2022,Otero,us_house,2961.0,6.0,4174.0,7141.0
+2022,Otero,us_senate,3052.0,226.0,3958.0,7236.0
+2022,Ouray,attorney_general,2087.0,69.0,1345.0,3501.0
+2022,Ouray,governor,2242.0,69.0,1255.0,3566.0
+2022,Ouray,secretary_of_state,2103.0,89.0,1341.0,3533.0
+2022,Ouray,state_house,2047.0,0.0,1423.0,3470.0
+2022,Ouray,treasurer,2053.0,93.0,1337.0,3483.0
+2022,Ouray,us_house,2239.0,0.0,1281.0,3520.0
+2022,Ouray,us_senate,2160.0,79.0,1327.0,3566.0
+2022,Park,attorney_general,4107.0,323.0,5475.0,9905.0
+2022,Park,governor,4463.0,316.0,5271.0,10050.0
+2022,Park,secretary_of_state,4193.0,406.0,5374.0,9973.0
+2022,Park,state_house,4118.0,0.0,5648.0,9766.0
+2022,Park,state_senate,3930.0,0.0,5714.0,9644.0
+2022,Park,treasurer,4030.0,436.0,5433.0,9899.0
+2022,Park,us_house,4095.0,296.0,5570.0,9961.0
+2022,Park,us_senate,4234.0,421.0,5390.0,10045.0
+2022,Phillips,attorney_general,324.0,54.0,1526.0,1904.0
+2022,Phillips,governor,384.0,66.0,1519.0,1969.0
+2022,Phillips,secretary_of_state,370.0,97.0,1484.0,1951.0
+2022,Phillips,state_house,0.0,0.0,1660.0,1660.0
+2022,Phillips,state_senate,0.0,0.0,1615.0,1615.0
+2022,Phillips,treasurer,361.0,67.0,1460.0,1888.0
+2022,Phillips,us_house,272.0,55.0,1614.0,1941.0
+2022,Phillips,us_senate,400.0,78.0,1503.0,1981.0
+2022,Pitkin,attorney_general,6785.0,203.0,2277.0,9265.0
+2022,Pitkin,governor,7565.0,104.0,1907.0,9576.0
+2022,Pitkin,secretary_of_state,6846.0,182.0,2193.0,9221.0
+2022,Pitkin,state_house,6435.0,0.0,2672.0,9107.0
+2022,Pitkin,treasurer,6529.0,301.0,2354.0,9184.0
+2022,Pitkin,us_house,7543.0,3.0,1975.0,9521.0
+2022,Pitkin,us_senate,7157.0,143.0,2281.0,9581.0
+2022,Prowers,attorney_general,1052.0,89.0,3077.0,4218.0
+2022,Prowers,governor,1139.0,300.0,2847.0,4286.0
+2022,Prowers,secretary_of_state,1132.0,180.0,2918.0,4230.0
+2022,Prowers,state_house,1003.0,0.0,3061.0,4064.0
+2022,Prowers,state_senate,940.0,0.0,3123.0,4063.0
+2022,Prowers,treasurer,1107.0,147.0,2903.0,4157.0
+2022,Prowers,us_house,907.0,144.0,3200.0,4251.0
+2022,Prowers,us_senate,1172.0,149.0,2956.0,4277.0
+2022,Pueblo,attorney_general,33282.0,1622.0,31285.0,66189.0
+2022,Pueblo,governor,36602.0,2265.0,28645.0,67512.0
+2022,Pueblo,secretary_of_state,35097.0,2174.0,29636.0,66907.0
+2022,Pueblo,state_house,33846.0,0.0,32144.0,65990.0
+2022,Pueblo,state_senate,33795.0,0.0,32180.0,65975.0
+2022,Pueblo,treasurer,32672.0,2941.0,30235.0,65848.0
+2022,Pueblo,us_house,35394.0,24.0,31104.0,66522.0
+2022,Pueblo,us_senate,35581.0,2278.0,29493.0,67352.0
+2022,Rio Blanco,attorney_general,465.0,71.0,2463.0,2999.0
+2022,Rio Blanco,governor,507.0,138.0,2408.0,3053.0
+2022,Rio Blanco,secretary_of_state,492.0,103.0,2399.0,2994.0
+2022,Rio Blanco,state_house,441.0,0.0,2537.0,2978.0
+2022,Rio Blanco,state_senate,467.0,0.0,2533.0,3000.0
+2022,Rio Blanco,treasurer,469.0,100.0,2365.0,2934.0
+2022,Rio Blanco,us_house,534.0,0.0,2489.0,3023.0
+2022,Rio Blanco,us_senate,525.0,105.0,2391.0,3021.0
+2022,Rio Grande,attorney_general,2047.0,114.0,2693.0,4854.0
+2022,Rio Grande,governor,2140.0,330.0,2485.0,4955.0
+2022,Rio Grande,secretary_of_state,1998.0,194.0,2667.0,4859.0
+2022,Rio Grande,state_house,2007.0,0.0,2862.0,4869.0
+2022,Rio Grande,treasurer,1920.0,253.0,2665.0,4838.0
+2022,Rio Grande,us_house,2118.0,3.0,2800.0,4921.0
+2022,Rio Grande,us_senate,2136.0,183.0,2625.0,4944.0
+2022,Routt,attorney_general,8252.0,319.0,4832.0,13403.0
+2022,Routt,governor,9238.0,220.0,4415.0,13873.0
+2022,Routt,secretary_of_state,8489.0,339.0,4778.0,13606.0
+2022,Routt,state_house,8887.0,0.0,4789.0,13676.0
+2022,Routt,state_senate,8962.0,0.0,4715.0,13677.0
+2022,Routt,treasurer,7919.0,461.0,4824.0,13204.0
+2022,Routt,us_house,8410.0,307.0,4760.0,13477.0
+2022,Routt,us_senate,8737.0,294.0,4836.0,13867.0
+2022,Saguache,attorney_general,1530.0,76.0,1132.0,2738.0
+2022,Saguache,governor,1580.0,125.0,1061.0,2766.0
+2022,Saguache,secretary_of_state,1516.0,136.0,1089.0,2741.0
+2022,Saguache,state_house,1523.0,0.0,1178.0,2701.0
+2022,Saguache,treasurer,1456.0,124.0,1075.0,2655.0
+2022,Saguache,us_house,1583.0,0.0,1162.0,2745.0
+2022,Saguache,us_senate,1577.0,124.0,1070.0,2771.0
+2022,San Juan,attorney_general,343.0,10.0,171.0,524.0
+2022,San Juan,governor,372.0,14.0,154.0,540.0
+2022,San Juan,secretary_of_state,343.0,18.0,172.0,533.0
+2022,San Juan,state_house,361.0,0.0,164.0,525.0
+2022,San Juan,treasurer,334.0,19.0,164.0,517.0
+2022,San Juan,us_house,369.0,0.0,167.0,536.0
+2022,San Juan,us_senate,350.0,24.0,164.0,538.0
+2022,San Miguel,attorney_general,2991.0,110.0,892.0,3993.0
+2022,San Miguel,governor,3199.0,72.0,815.0,4086.0
+2022,San Miguel,secretary_of_state,3013.0,102.0,909.0,4024.0
+2022,San Miguel,state_house,2871.0,0.0,975.0,3846.0
+2022,San Miguel,treasurer,2888.0,142.0,935.0,3965.0
+2022,San Miguel,us_house,3206.0,1.0,835.0,4042.0
+2022,San Miguel,us_senate,3110.0,85.0,888.0,4083.0
+2022,Sedgwick,attorney_general,255.0,30.0,826.0,1111.0
+2022,Sedgwick,governor,312.0,43.0,807.0,1162.0
+2022,Sedgwick,secretary_of_state,285.0,35.0,820.0,1140.0
+2022,Sedgwick,state_house,0.0,0.0,934.0,934.0
+2022,Sedgwick,state_senate,0.0,0.0,918.0,918.0
+2022,Sedgwick,treasurer,255.0,45.0,794.0,1094.0
+2022,Sedgwick,us_house,196.0,31.0,915.0,1142.0
+2022,Sedgwick,us_senate,308.0,47.0,807.0,1162.0
+2022,Summit,attorney_general,9295.0,370.0,4202.0,13867.0
+2022,Summit,governor,10383.0,243.0,3650.0,14276.0
+2022,Summit,secretary_of_state,9342.0,427.0,4087.0,13856.0
+2022,Summit,state_house,9789.0,0.0,4080.0,13869.0
+2022,Summit,state_senate,9551.0,0.0,4241.0,13792.0
+2022,Summit,treasurer,8639.0,550.0,4084.0,13273.0
+2022,Summit,us_house,9788.0,303.0,3864.0,13955.0
+2022,Summit,us_senate,9710.0,323.0,4211.0,14244.0
+2022,Teller,attorney_general,4216.0,330.0,8866.0,13412.0
+2022,Teller,governor,4843.0,277.0,8430.0,13550.0
+2022,Teller,secretary_of_state,4408.0,440.0,8642.0,13490.0
+2022,Teller,state_house,4075.0,0.0,9156.0,13231.0
+2022,Teller,state_senate,4066.0,0.0,9196.0,13262.0
+2022,Teller,treasurer,4149.0,390.0,8810.0,13349.0
+2022,Teller,us_house,4102.0,286.0,9032.0,13420.0
+2022,Teller,us_senate,4515.0,440.0,8602.0,13557.0
+2022,Washington,attorney_general,296.0,56.0,1981.0,2333.0
+2022,Washington,governor,314.0,104.0,1971.0,2389.0
+2022,Washington,secretary_of_state,326.0,88.0,1979.0,2393.0
+2022,Washington,state_house,0.0,0.0,2195.0,2195.0
+2022,Washington,state_senate,0.0,0.0,2066.0,2066.0
+2022,Washington,treasurer,316.0,89.0,1913.0,2318.0
+2022,Washington,us_house,203.0,76.0,2102.0,2381.0
+2022,Washington,us_senate,347.0,91.0,1964.0,2402.0
+2022,Weld,attorney_general,47978.0,3125.0,75572.0,126675.0
+2022,Weld,governor,52186.0,3755.0,72542.0,128483.0
+2022,Weld,secretary_of_state,49625.0,4230.0,73602.0,127457.0
+2022,Weld,state_house,44055.0,1855.0,76560.0,122470.0
+2022,Weld,state_senate,0.0,0.0,30591.0,30591.0
+2022,Weld,treasurer,48788.0,4359.0,72829.0,125976.0
+2022,Weld,us_house,46594.0,4413.0,76119.0,127126.0
+2022,Weld,us_senate,50129.0,4418.0,74043.0,128590.0
+2022,Yuma,attorney_general,609.0,78.0,3194.0,3881.0
+2022,Yuma,governor,656.0,229.0,3079.0,3964.0
+2022,Yuma,secretary_of_state,680.0,133.0,3120.0,3933.0
+2022,Yuma,state_house,0.0,0.0,3462.0,3462.0
+2022,Yuma,state_senate,0.0,0.0,3380.0,3380.0
+2022,Yuma,treasurer,713.0,118.0,3041.0,3872.0
+2022,Yuma,us_house,455.0,117.0,3375.0,3947.0
+2022,Yuma,us_senate,740.0,141.0,3086.0,3967.0
+2024,Adams,president,124057.0,6410.0,103024.0,233491.0
+2024,Adams,state_house,112603.0,4909.0,80238.0,197750.0
+2024,Adams,state_senate,52236.0,49.0,46325.0,98610.0
+2024,Adams,us_house,120839.0,6779.0,96465.0,224083.0
+2024,Alamosa,president,3244.0,228.0,4057.0,7529.0
+2024,Alamosa,state_house,3523.0,0.0,3738.0,7261.0
+2024,Alamosa,state_senate,2252.0,0.0,5025.0,7277.0
+2024,Alamosa,us_house,3525.0,252.0,3573.0,7350.0
+2024,Arapahoe,president,190725.0,9595.0,125311.0,325631.0
+2024,Arapahoe,state_house,190263.0,9084.0,68442.0,267789.0
+2024,Arapahoe,state_senate,135472.0,1087.0,64383.0,200942.0
+2024,Arapahoe,us_house,184365.0,8313.0,118261.0,310939.0
+2024,Archuleta,president,3904.0,235.0,5218.0,9357.0
+2024,Archuleta,state_house,3687.0,0.0,5226.0,8913.0
+2024,Archuleta,state_senate,3450.0,0.0,5401.0,8851.0
+2024,Archuleta,us_house,3928.0,296.0,4892.0,9116.0
+2024,Baca,president,275.0,43.0,1686.0,2004.0
+2024,Baca,state_house,245.0,0.0,1692.0,1937.0
+2024,Baca,us_house,337.0,72.0,1523.0,1932.0
+2024,Bent,president,645.0,48.0,1496.0,2189.0
+2024,Bent,state_house,572.0,0.0,1510.0,2082.0
+2024,Bent,us_house,679.0,115.0,1310.0,2104.0
+2024,Boulder,president,150149.0,5397.0,40758.0,196304.0
+2024,Boulder,state_house,138435.0,0.0,44498.0,182933.0
+2024,Boulder,state_senate,129150.0,7704.0,25338.0,162192.0
+2024,Boulder,us_house,145762.0,4955.0,39641.0,190358.0
+2024,Broomfield,president,29426.0,1351.0,16071.0,46848.0
+2024,Broomfield,state_house,26911.0,0.0,17053.0,43964.0
+2024,Broomfield,us_house,27653.0,1320.0,15913.0,44886.0
+2024,Chaffee,president,7992.0,397.0,6034.0,14423.0
+2024,Chaffee,state_house,7715.0,0.0,6087.0,13802.0
+2024,Chaffee,us_house,7747.0,494.0,5580.0,13821.0
+2024,Cheyenne,president,108.0,17.0,930.0,1055.0
+2024,Cheyenne,state_house,97.0,0.0,901.0,998.0
+2024,Cheyenne,us_house,144.0,28.0,851.0,1023.0
+2024,Clear Creek,president,3464.0,186.0,2452.0,6102.0
+2024,Clear Creek,state_house,3172.0,0.0,2500.0,5672.0
+2024,Clear Creek,us_house,3290.0,208.0,2325.0,5823.0
+2024,Conejos,president,1627.0,120.0,2358.0,4105.0
+2024,Conejos,state_house,1835.0,0.0,2156.0,3991.0
+2024,Conejos,state_senate,1317.0,0.0,2665.0,3982.0
+2024,Conejos,us_house,1830.0,120.0,2053.0,4003.0
+2024,Costilla,president,1155.0,75.0,850.0,2080.0
+2024,Costilla,state_house,1212.0,0.0,781.0,1993.0
+2024,Costilla,state_senate,997.0,0.0,960.0,1957.0
+2024,Costilla,us_house,1201.0,68.0,729.0,1998.0
+2024,Crowley,president,422.0,53.0,1231.0,1706.0
+2024,Crowley,state_house,399.0,0.0,1244.0,1643.0
+2024,Crowley,us_house,452.0,80.0,1129.0,1661.0
+2024,Custer,president,1188.0,96.0,2583.0,3867.0
+2024,Custer,state_house,1115.0,0.0,2611.0,3726.0
+2024,Custer,us_house,1178.0,96.0,2452.0,3726.0
+2024,Delta,president,6030.0,500.0,12948.0,19478.0
+2024,Delta,state_house,2613.0,0.0,14100.0,16713.0
+2024,Delta,state_senate,4774.0,0.0,10318.0,15092.0
+2024,Delta,us_house,6171.0,884.0,12032.0,19087.0
+2024,Denver,president,278635.0,10119.0,74765.0,363519.0
+2024,Denver,state_house,258288.0,1899.0,75144.0,335331.0
+2024,Denver,state_senate,151749.0,15240.0,23006.0,189995.0
+2024,Denver,us_house,262783.0,6385.0,73908.0,343076.0
+2024,Dolores,president,325.0,18.0,1076.0,1419.0
+2024,Dolores,state_house,322.0,0.0,1056.0,1378.0
+2024,Dolores,state_senate,298.0,0.0,1047.0,1345.0
+2024,Dolores,us_house,344.0,52.0,992.0,1388.0
+2024,Douglas,president,110408.0,6033.0,127451.0,243892.0
+2024,Douglas,state_house,98946.0,0.0,129833.0,228779.0
+2024,Douglas,state_senate,38261.0,2672.0,63181.0,104114.0
+2024,Douglas,us_house,113134.0,9648.0,114340.0,237122.0
+2024,Eagle,president,16943.0,714.0,10148.0,27805.0
+2024,Eagle,state_house,16793.0,0.0,9679.0,26472.0
+2024,Eagle,state_senate,2908.0,0.0,1260.0,4168.0
+2024,Eagle,us_house,16335.0,608.0,9543.0,26486.0
+2024,El Paso,president,166597.0,10456.0,203933.0,380986.0
+2024,El Paso,state_house,149507.0,2170.0,207499.0,359176.0
+2024,El Paso,state_senate,71315.0,5953.0,85752.0,163020.0
+2024,El Paso,us_house,149083.0,16437.0,201963.0,367483.0
+2024,Elbert,president,4768.0,445.0,15209.0,20422.0
+2024,Elbert,state_house,4671.0,0.0,14566.0,19237.0
+2024,Elbert,us_house,4955.0,897.0,13938.0,19790.0
+2024,Fremont,president,7526.0,631.0,17313.0,25470.0
+2024,Fremont,state_house,7061.0,0.0,17259.0,24320.0
+2024,Fremont,us_house,7514.0,765.0,16172.0,24451.0
+2024,Garfield,president,15128.0,755.0,14493.0,30376.0
+2024,Garfield,state_house,14310.0,0.0,14891.0,29201.0
+2024,Garfield,state_senate,13656.0,0.0,12346.0,26002.0
+2024,Garfield,us_house,14963.0,893.0,13676.0,29532.0
+2024,Gilpin,president,2254.0,147.0,1729.0,4130.0
+2024,Gilpin,state_house,2085.0,0.0,1768.0,3853.0
+2024,Gilpin,us_house,2187.0,139.0,1637.0,3963.0
+2024,Grand,president,4743.0,319.0,4822.0,9884.0
+2024,Grand,state_house,4559.0,0.0,4827.0,9386.0
+2024,Grand,us_house,4587.0,258.0,4700.0,9545.0
+2024,Gunnison,president,6887.0,366.0,3689.0,10942.0
+2024,Gunnison,state_house,7190.0,0.0,3240.0,10430.0
+2024,Gunnison,state_senate,6448.0,0.0,3907.0,10355.0
+2024,Gunnison,us_house,6747.0,373.0,3473.0,10593.0
+2024,Hinsdale,president,257.0,18.0,332.0,607.0
+2024,Hinsdale,state_house,269.0,0.0,291.0,560.0
+2024,Hinsdale,state_senate,221.0,0.0,340.0,561.0
+2024,Hinsdale,us_house,251.0,21.0,321.0,593.0
+2024,Huerfano,president,1965.0,131.0,2346.0,4442.0
+2024,Huerfano,state_house,1919.0,0.0,2301.0,4220.0
+2024,Huerfano,us_house,2074.0,208.0,2094.0,4376.0
+2024,Jackson,president,173.0,27.0,634.0,834.0
+2024,Jackson,state_house,145.0,0.0,608.0,753.0
+2024,Jackson,us_house,151.0,28.0,599.0,778.0
+2024,Jefferson,president,210875.0,10336.0,140505.0,361716.0
+2024,Jefferson,state_house,196115.0,0.0,147156.0,343271.0
+2024,Jefferson,state_senate,72297.0,2262.0,60497.0,135056.0
+2024,Jefferson,us_house,198058.0,12169.0,135031.0,345258.0
+2024,Kiowa,president,102.0,17.0,744.0,863.0
+2024,Kiowa,state_house,88.0,0.0,732.0,820.0
+2024,Kiowa,us_house,115.0,32.0,671.0,818.0
+2024,Kit Carson,president,556.0,59.0,3083.0,3698.0
+2024,Kit Carson,state_house,507.0,0.0,2980.0,3487.0
+2024,Kit Carson,us_house,608.0,126.0,2867.0,3601.0
+2024,La Plata,president,20677.0,991.0,14024.0,35692.0
+2024,La Plata,state_house,19247.0,0.0,15060.0,34307.0
+2024,La Plata,state_senate,17947.0,0.0,16087.0,34034.0
+2024,La Plata,us_house,20133.0,1014.0,13489.0,34636.0
+2024,Lake,president,2199.0,157.0,1557.0,3913.0
+2024,Lake,state_house,2257.0,0.0,1413.0,3670.0
+2024,Lake,us_house,2158.0,215.0,1312.0,3685.0
+2024,Larimer,president,129376.0,6598.0,89680.0,225654.0
+2024,Larimer,state_house,116171.0,18088.0,75055.0,209314.0
+2024,Larimer,state_senate,59708.0,3259.0,51429.0,114396.0
+2024,Larimer,us_house,125706.0,7703.0,84636.0,218045.0
+2024,Las Animas,president,3276.0,189.0,4328.0,7793.0
+2024,Las Animas,state_house,2778.0,0.0,4807.0,7585.0
+2024,Las Animas,us_house,3476.0,266.0,3869.0,7611.0
+2024,Lincoln,president,432.0,49.0,2090.0,2571.0
+2024,Lincoln,state_house,394.0,0.0,2044.0,2438.0
+2024,Lincoln,us_house,488.0,117.0,1861.0,2466.0
+2024,Logan,president,2098.0,213.0,7855.0,10166.0
+2024,Logan,state_house,0.0,0.0,8239.0,8239.0
+2024,Logan,us_house,2378.0,398.0,7000.0,9776.0
+2024,Mesa,president,33573.0,2208.0,55839.0,91620.0
+2024,Mesa,state_house,0.0,0.0,67076.0,67076.0
+2024,Mesa,us_house,34052.0,3127.0,52693.0,89872.0
+2024,Mineral,president,317.0,19.0,417.0,753.0
+2024,Mineral,state_house,296.0,0.0,389.0,685.0
+2024,Mineral,state_senate,275.0,0.0,414.0,689.0
+2024,Mineral,us_house,329.0,21.0,369.0,719.0
+2024,Moffat,president,1167.0,146.0,5358.0,6671.0
+2024,Moffat,state_house,1616.0,0.0,4805.0,6421.0
+2024,Moffat,us_house,1290.0,291.0,4908.0,6489.0
+2024,Montezuma,president,5793.0,374.0,8972.0,15139.0
+2024,Montezuma,state_house,5590.0,0.0,8969.0,14559.0
+2024,Montezuma,state_senate,5147.0,0.0,9299.0,14446.0
+2024,Montezuma,us_house,5741.0,453.0,8527.0,14721.0
+2024,Montrose,president,8354.0,568.0,16704.0,25626.0
+2024,Montrose,state_house,8116.0,0.0,16631.0,24747.0
+2024,Montrose,state_senate,7472.0,0.0,17169.0,24641.0
+2024,Montrose,us_house,8321.0,954.0,15512.0,24787.0
+2024,Morgan,president,3291.0,344.0,9830.0,13465.0
+2024,Morgan,state_house,0.0,0.0,10816.0,10816.0
+2024,Morgan,us_house,3644.0,542.0,8764.0,12950.0
+2024,Otero,president,3164.0,242.0,5520.0,8926.0
+2024,Otero,state_house,3036.0,0.0,5555.0,8591.0
+2024,Otero,us_house,3434.0,236.0,5081.0,8751.0
+2024,Ouray,president,2442.0,83.0,1573.0,4098.0
+2024,Ouray,state_house,2312.0,0.0,1620.0,3932.0
+2024,Ouray,state_senate,2128.0,0.0,1766.0,3894.0
+2024,Ouray,us_house,2412.0,91.0,1530.0,4033.0
+2024,Park,president,4841.0,380.0,6828.0,12049.0
+2024,Park,state_house,4801.0,0.0,6824.0,11625.0
+2024,Park,us_house,4688.0,485.0,6490.0,11663.0
+2024,Phillips,president,412.0,55.0,1888.0,2355.0
+2024,Phillips,state_house,0.0,0.0,1853.0,1853.0
+2024,Phillips,us_house,460.0,97.0,1704.0,2261.0
+2024,Pitkin,president,7932.0,245.0,2992.0,11169.0
+2024,Pitkin,state_house,7288.0,0.0,3135.0,10423.0
+2024,Pitkin,state_senate,7390.0,0.0,3051.0,10441.0
+2024,Pitkin,us_house,7964.0,239.0,2703.0,10906.0
+2024,Prowers,president,1227.0,85.0,3833.0,5145.0
+2024,Prowers,state_house,1120.0,0.0,3793.0,4913.0
+2024,Prowers,us_house,1306.0,186.0,3443.0,4935.0
+2024,Pueblo,president,39328.0,2104.0,43688.0,85120.0
+2024,Pueblo,state_house,40581.0,0.0,41383.0,81964.0
+2024,Pueblo,us_house,41748.0,2824.0,39243.0,83815.0
+2024,Rio Blanco,president,637.0,67.0,2988.0,3692.0
+2024,Rio Blanco,state_house,720.0,0.0,2822.0,3542.0
+2024,Rio Blanco,us_house,657.0,122.0,2848.0,3627.0
+2024,Rio Grande,president,2306.0,145.0,3743.0,6194.0
+2024,Rio Grande,state_house,2596.0,0.0,3408.0,6004.0
+2024,Rio Grande,state_senate,1833.0,0.0,4119.0,5952.0
+2024,Rio Grande,us_house,2572.0,236.0,3266.0,6074.0
+2024,Routt,president,10208.0,451.0,5676.0,16335.0
+2024,Routt,state_house,11065.0,0.0,4993.0,16058.0
+2024,Routt,us_house,9689.0,408.0,5633.0,15730.0
+2024,Saguache,president,1704.0,120.0,1577.0,3401.0
+2024,Saguache,state_house,1719.0,0.0,1484.0,3203.0
+2024,Saguache,state_senate,1512.0,0.0,1717.0,3229.0
+2024,Saguache,us_house,1766.0,159.0,1323.0,3248.0
+2024,San Juan,president,376.0,25.0,188.0,589.0
+2024,San Juan,state_house,359.0,0.0,189.0,548.0
+2024,San Juan,state_senate,330.0,0.0,198.0,528.0
+2024,San Juan,us_house,372.0,28.0,166.0,566.0
+2024,San Miguel,president,3529.0,121.0,1154.0,4804.0
+2024,San Miguel,state_house,3313.0,0.0,1207.0,4520.0
+2024,San Miguel,state_senate,3110.0,0.0,1352.0,4462.0
+2024,San Miguel,us_house,3490.0,123.0,1077.0,4690.0
+2024,Sedgwick,president,283.0,27.0,1048.0,1358.0
+2024,Sedgwick,state_house,0.0,0.0,1052.0,1052.0
+2024,Sedgwick,us_house,315.0,58.0,910.0,1283.0
+2024,Summit,president,11762.0,539.0,5244.0,17545.0
+2024,Summit,state_house,11365.0,0.0,5349.0,16714.0
+2024,Summit,us_house,11284.0,411.0,5145.0,16840.0
+2024,Teller,president,5065.0,417.0,10856.0,16338.0
+2024,Teller,state_house,4641.0,0.0,10940.0,15581.0
+2024,Teller,state_senate,8.0,0.0,6.0,14.0
+2024,Teller,us_house,4798.0,438.0,10383.0,15619.0
+2024,Washington,president,329.0,41.0,2436.0,2806.0
+2024,Washington,state_house,0.0,0.0,2451.0,2451.0
+2024,Washington,us_house,382.0,132.0,2173.0,2687.0
+2024,Weld,president,68752.0,4700.0,106469.0,179921.0
+2024,Weld,state_house,54648.0,0.0,109291.0,163939.0
+2024,Weld,state_senate,25373.0,0.0,76500.0,101873.0
+2024,Weld,us_house,68345.0,5318.0,101970.0,175633.0
+2024,Yuma,president,758.0,98.0,3807.0,4663.0
+2024,Yuma,state_house,0.0,0.0,3860.0,3860.0
+2024,Yuma,us_house,913.0,193.0,3404.0,4510.0
