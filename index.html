@@ -22474,6 +22474,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (/Urban anchor/i.test(raw)) return 'Urban anchor county';
         if (/Metro spillover/i.test(raw)) return 'Metro spillover county';
         if (/outer-suburban/i.test(raw)) return 'Outer-suburban county';
+        if (/Mountain growth|Mountain migration|Western Slope|San Luis Valley/i.test(raw)) return 'Mountain/regional growth county';
         if (/Coastal/i.test(raw)) return 'Coastal growth county';
         if (/Above-state/i.test(raw)) return 'Fast-growth county';
         return raw.replace(/\s+or\s+declining\b/i, '').trim();
@@ -22490,6 +22491,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (/outer-suburban/i.test(raw)) return 'outer-suburban growth';
         if (/metro spillover/i.test(raw)) return 'metro spillover growth';
         if (/urban anchor/i.test(raw)) return 'urban anchor growth';
+        if (/mountain|western slope|san luis valley/i.test(raw)) return 'mountain/regional growth';
         if (/coastal growth/i.test(raw)) return 'coastal growth';
         return raw.replace(/\s+county$/i, '').trim().toLowerCase();
       }
@@ -22501,7 +22503,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const toneLocal = String(directionTone || '').trim().toLowerCase();
         const g = String(growthText || '').trim().toLowerCase();
         if (!g || g === '—') return { effect: 'neutral', line: '' };
-        const fast = /fast-growth|metro|outer-suburban|urban anchor|coastal growth/.test(g);
+        const fast = /fast-growth|metro|outer-suburban|urban anchor|coastal growth|mountain\/regional growth/.test(g);
         const slow = /slow-growth|declin/.test(g);
         if (toneLocal === 'rep') {
           if (slow) return { effect: 'reinforces', line: 'Slow growth can make margins feel stickier (less churn), even when the mood shifts.' };
@@ -23002,7 +23004,7 @@ document.addEventListener('DOMContentLoaded', function() {
         totalPct >= 8 ||
         (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25)
       );
-      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth/i.test(patternLabel);
+      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth|Mountain growth|Mountain migration|Western Slope|San Luis Valley|Regional transition county/i.test(patternLabel);
 
       function getSignedMarginTowardGop(row) {
         if (!row) return 0;
@@ -27490,6 +27492,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const pat = String(censusContext?.patternLabel || '').trim();
             if (/Metro spillover|outer-suburban/i.test(pat)) return 'Suburban growth is reshaping the electorate here.';
             if (/Urban anchor/i.test(pat)) return 'Urban growth keeps this county politically dynamic.';
+            if (/Mountain growth|Mountain migration|Western Slope|San Luis Valley|Regional transition county/i.test(pat)) return 'Migration and regional change can move margins quickly here.';
             if (/Coastal growth/i.test(pat)) return 'Migration-driven growth can move margins quickly here.';
             if (/Slow-growth|declin/i.test(pat)) return 'Slow growth often locks in today’s political lean.';
             if (pat) return 'Population change is part of this county’s political story.';
