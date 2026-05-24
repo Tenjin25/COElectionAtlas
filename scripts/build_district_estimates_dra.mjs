@@ -435,8 +435,19 @@ function main() {
     }
   }
 
-  const keep = existingManifest.filter((e) => !["president", "us_senate"].includes(String(e.contest_type || "").trim()));
-  const merged = [...keep, ...manifestEntries].sort((a, b) => {
+  const producedKeys = new Set(
+    manifestEntries.map((e) => `${e.scope}|${e.contest_type}|${e.year}`)
+  );
+  const keep = existingManifest.filter((e) => {
+    const k = `${e.scope}|${e.contest_type}|${e.year}`;
+    return !producedKeys.has(k);
+  });
+  const mergedMap = new Map();
+  for (const e of [...keep, ...manifestEntries]) {
+    const k = `${e.scope}|${e.contest_type}|${e.year}`;
+    mergedMap.set(k, e);
+  }
+  const merged = Array.from(mergedMap.values()).sort((a, b) => {
     const ka = `${a.scope}|${a.contest_type}|${a.year}`;
     const kb = `${b.scope}|${b.contest_type}|${b.year}`;
     return ka.localeCompare(kb);
