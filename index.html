@@ -3716,7 +3716,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     letter-spacing: 0.01em;
   }
 
-  .recount-radar-badge {
+.recount-radar-badge {
     display: none;
     margin-top: 8px;
     align-items: center;
@@ -9700,6 +9700,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <button type="submit" class="fly-search-submit" data-testid="fly-submit">Fly to</button>
     </form>
     <div class="map-topbar-quick-stats" data-viewport-precinct-count>Viewing precincts...</div>
+    <div class="data-health-badge" id="data-health-badge" aria-live="polite"></div>
     <div class="recount-radar-badge" id="recount-radar-badge" data-testid="recount-radar-badge" aria-live="polite"></div>
     <button type="button" class="mobile-topbar-toggle" id="mobile-topbar-toggle" aria-controls="map-topbar-details" aria-expanded="false">Show details</button>
     <div class="map-topbar-details" id="map-topbar-details">
@@ -10802,6 +10803,34 @@ document.addEventListener('DOMContentLoaded', function() {
     // In-flight request dedupe (promise reuse) for atlas-wide loads.
     const jsonInflightByPath = new Map(); // requestPath -> Promise<any>
     const csvInflightByPath = new Map(); // requestPath -> Promise<string>
+    const dataLoadFailures = new Map(); // requestPath -> error message
+
+    function updateDataHealthBadge() {
+      const el = document.getElementById('data-health-badge');
+      if (!el) return;
+      const count = dataLoadFailures.size;
+      if (!count) {
+        el.classList.remove('is-visible');
+        el.textContent = '';
+        el.removeAttribute('title');
+        return;
+      }
+      const samples = Array.from(dataLoadFailures.keys()).slice(0, 3).join('\n');
+      el.classList.add('is-visible');
+      el.textContent = `${count} missing data file${count === 1 ? '' : 's'}`;
+      el.title = samples;
+    }
+
+    function trackDataLoadFailure(requestPath, error) {
+      const msg = (error && error.message) ? String(error.message) : String(error || 'fetch failed');
+      dataLoadFailures.set(String(requestPath || ''), msg);
+      updateDataHealthBadge();
+    }
+
+    function clearDataLoadFailure(requestPath) {
+      if (!requestPath) return;
+      if (dataLoadFailures.delete(String(requestPath))) updateDataHealthBadge();
+    }
     const contestSliceInflight = new Map(); // `${contestType}_${year}` -> Promise<rows[]>
     const districtSliceInflight = new Map(); // `${linesYear}|${scope}_${contestType}_${year}` -> Promise<payload>
     let countyTrendSeriesCache = new Map(); // Map<string key, Array<seriesRow>> (in-session cache)
@@ -15161,9 +15190,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const requestPath = withCacheBuster(path);
       if (jsonInflightByPath.has(requestPath)) return jsonInflightByPath.get(requestPath);
       const p = atlasPerf(`json:${requestPath}`, async () => {
-        const r = await fetch(requestPath, { cache: 'force-cache' });
-        if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
-        return r.json();
+        try {
+          const r = await fetch(requestPath, { cache: 'force-cache' });
+          if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
+          const data = await r.json();
+          clearDataLoadFailure(requestPath);
+          return data;
+        } catch (err) {
+          trackDataLoadFailure(requestPath, err);
+          throw err;
+        }
       });
       jsonInflightByPath.set(requestPath, p);
       try {
@@ -15177,9 +15213,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const requestPath = withCacheBuster(path);
 	      if (csvInflightByPath.has(requestPath)) return csvInflightByPath.get(requestPath);
 	      const p = atlasPerf(`csv:${requestPath}`, async () => {
-	        const r = await fetch(requestPath, { cache: 'force-cache' });
-	        if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
-	        return r.text();
+	        try {
+	          const r = await fetch(requestPath, { cache: 'force-cache' });
+	          if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
+	          const text = await r.text();
+	          clearDataLoadFailure(requestPath);
+	          return text;
+	        } catch (err) {
+	          trackDataLoadFailure(requestPath, err);
+	          throw err;
+	        }
 	      });
 	      csvInflightByPath.set(requestPath, p);
 	      try {
@@ -18790,6 +18833,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   return boundaryGeoJSON;
+}
+
+.data-health-badge {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(127, 29, 29, 0.14);
+  color: #fecaca;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.data-health-badge.is-visible {
+  display: inline-flex;
 }
 
     function buildCountyNameMapFromGeoJSON(geojson) {

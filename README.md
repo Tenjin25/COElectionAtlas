@@ -32,6 +32,12 @@ Note: Use `http://localhost` (not `file://`) so JSON/CSV fetches work correctly.
 - `scripts/build_crosswalks_co.py`
 - `scripts/build_district_statewide_from_crosswalks.mjs`
 - `scripts/build_precinct_id_bridge_report.mjs`
+- `scripts/validate_contest_manifests.mjs`
+
+## Quick Data Check
+
+- Run: `node scripts/validate_contest_manifests.mjs`
+- Purpose: verifies every file listed in `data/contests/manifest.json` and `data/district_contests/manifest.json` actually exists.
 
 ## License
 
