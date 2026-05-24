@@ -108,6 +108,7 @@ function buildForYear(year) {
       if (office !== "us senate" && office !== "u s senate" && office !== "u s senate class 1" && office !== "u s senate class 3") continue;
       const county = normalizeCounty(r.county);
       if (!county) continue;
+      if (["TOTAL", "TOTALS", "STATEWIDE", "COLORADO"].includes(county.toUpperCase())) continue;
       const votes = Number(r.votes || 0);
       if (!Number.isFinite(votes) || votes <= 0) continue;
       const candidate = String(r.candidate || "").trim();
