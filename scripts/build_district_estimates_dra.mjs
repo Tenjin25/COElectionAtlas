@@ -10,11 +10,23 @@ const BRIDGE_PATH = path.join(ROOT, "data", "mappings", "precinct_id_bridge_temp
 const COUNTY_GEOJSON = path.join(ROOT, "data", "tl_2020_08_county20.geojson");
 const CONTESTS_DIR = path.join(ROOT, "data", "contests");
 
-const CROSSWALKS = {
-  congressional: path.join(ROOT, "data", "crosswalks_cd118_from_2008", "precinct_to_cd118.csv"),
-  state_house: path.join(ROOT, "data", "crosswalks_cd118_from_2008", "precinct_to_sldl.csv"),
-  state_senate: path.join(ROOT, "data", "crosswalks_cd118_from_2008", "precinct_to_sldu.csv"),
-};
+function resolveCrosswalks(crosswalkDir) {
+  return {
+    congressional: path.join(crosswalkDir, "precinct_to_cd118.csv"),
+    state_house: path.join(crosswalkDir, "precinct_to_sldl.csv"),
+    state_senate: path.join(crosswalkDir, "precinct_to_sldu.csv"),
+  };
+}
+
+function getArgValue(name) {
+  const idx = process.argv.indexOf(name);
+  if (idx === -1) return "";
+  return String(process.argv[idx + 1] || "").trim();
+}
+
+function hasArg(name) {
+  return process.argv.includes(name);
+}
 
 function parseCsv(text) {
   text = String(text || "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
@@ -349,6 +361,17 @@ function makePayload(scope, contestType, year, records, coveragePct) {
 
 function main() {
   if (!fs.existsSync(DISTRICT_DIR)) fs.mkdirSync(DISTRICT_DIR, { recursive: true });
+  const cliCrosswalkDir = getArgValue("--crosswalk-dir");
+  const allowCountyFallback = hasArg("--allow-county-fallback");
+  const crosswalkDir = cliCrosswalkDir
+    ? path.resolve(ROOT, cliCrosswalkDir)
+    : path.join(ROOT, "data", "crosswalks_cd118_from_2008");
+  const CROSSWALKS = resolveCrosswalks(crosswalkDir);
+  for (const p of Object.values(CROSSWALKS)) {
+    if (!fs.existsSync(p)) {
+      throw new Error(`Missing crosswalk file: ${p}`);
+    }
+  }
   const bridge = loadBridge();
   const { nameToFips } = loadCountyFipsMaps();
   const precinctRows = aggregatePrecinctVotes();
@@ -395,17 +418,19 @@ function main() {
     for (const p of statewideContestYearPairs) {
       desiredPairs.set(`${p.contestType}|${p.year}`, p);
     }
-    for (const pair of desiredPairs.values()) {
-      const contestType = pair.contestType;
-      const year = pair.year;
-      const k = `${contestType}|${year}`;
-      const hasPrecinct = grouped.has(k) && grouped.get(k).records.length > 0;
-      if (hasPrecinct) continue;
-      const countyRows = loadCountyContestRows(contestType, year);
-      if (!countyRows.length) continue;
-      const fallback = allocateCountyFallback(contestType, year, countyRows, countyShares, nameToFips);
-      if (!fallback.records.length) continue;
-      grouped.set(k, { ...fallback, source: "county_to_district_crosswalk_fallback" });
+    if (allowCountyFallback) {
+      for (const pair of desiredPairs.values()) {
+        const contestType = pair.contestType;
+        const year = pair.year;
+        const k = `${contestType}|${year}`;
+        const hasPrecinct = grouped.has(k) && grouped.get(k).records.length > 0;
+        if (hasPrecinct) continue;
+        const countyRows = loadCountyContestRows(contestType, year);
+        if (!countyRows.length) continue;
+        const fallback = allocateCountyFallback(contestType, year, countyRows, countyShares, nameToFips);
+        if (!fallback.records.length) continue;
+        grouped.set(k, { ...fallback, source: "county_to_district_crosswalk_fallback" });
+      }
     }
     // Carry scope-level coverage for the pure precinct path when present.
     for (const v of grouped.values()) {
@@ -425,6 +450,7 @@ function main() {
         groupObj.inputVotes > 0 ? (groupObj.matchedVotes / groupObj.inputVotes) * 100 : 0;
       const payload = makePayload(scope, contestType, year, groupObj.records, coveragePct);
       payload.meta.source = groupObj.source;
+      payload.meta.crosswalk_dir = path.basename(crosswalkDir);
       if (!Object.keys(payload.general.results || {}).length) continue;
       const file = `${scope}_${contestType}_${year}.json`;
       fs.writeFileSync(path.join(DISTRICT_DIR, file), JSON.stringify(payload), "utf8");
@@ -444,7 +470,19 @@ function main() {
   );
   const keep = existingManifest.filter((e) => {
     const k = `${e.scope}|${e.contest_type}|${e.year}`;
-    return !producedKeys.has(k);
+    if (producedKeys.has(k)) return false;
+    if (!allowCountyFallback) {
+      const fp = path.join(DISTRICT_DIR, String(e.file || ""));
+      if (fs.existsSync(fp)) {
+        try {
+          const payload = JSON.parse(fs.readFileSync(fp, "utf8"));
+          if (payload?.meta?.source === "county_to_district_crosswalk_fallback") return false;
+        } catch {
+          // Keep unreadable historical entries rather than deleting blindly.
+        }
+      }
+    }
+    return true;
   });
   const mergedMap = new Map();
   for (const e of [...keep, ...manifestEntries]) {
@@ -456,8 +494,24 @@ function main() {
     const kb = `${b.scope}|${b.contest_type}|${b.year}`;
     return ka.localeCompare(kb);
   });
-  fs.writeFileSync(DISTRICT_MANIFEST, JSON.stringify({ files: merged }), "utf8");
-  console.log(`Wrote ${manifestEntries.length} files and updated ${DISTRICT_MANIFEST}`);
+  const filteredMerged = allowCountyFallback
+    ? merged
+    : merged.filter((e) => {
+        const fp = path.join(DISTRICT_DIR, String(e.file || ""));
+        if (!fs.existsSync(fp)) return true;
+        try {
+          const payload = JSON.parse(fs.readFileSync(fp, "utf8"));
+          return payload?.meta?.source !== "county_to_district_crosswalk_fallback";
+        } catch {
+          return true;
+        }
+      });
+  fs.writeFileSync(DISTRICT_MANIFEST, JSON.stringify({ files: filteredMerged }), "utf8");
+  console.log(
+    `Wrote ${manifestEntries.length} files and updated ${DISTRICT_MANIFEST} (county fallback ${
+      allowCountyFallback ? "enabled" : "disabled"
+    })`
+  );
 }
 
 main();
