@@ -22187,7 +22187,7 @@ document.addEventListener('DOMContentLoaded', function() {
         patternEmoji = '⬇️';
         patternLabel = easternPlains.has(norm) ? 'Eastern Plains slowdown / population loss' : 'Rural slowdown / population loss';
         noteLabel = 'Places with slower growth or population loss can still shift sharply when the electorate changes composition rather than simply adding new residents.';
-      } else if (!estimate && (mixedTransition.has(norm) || westernSlopeTransition.has(norm) || sanLuisValley.has(norm)) {
+      } else if (!estimate && (mixedTransition.has(norm) || westernSlopeTransition.has(norm) || sanLuisValley.has(norm))) {
         signalEmoji = '⚖️';
         signalLabel = 'Mixed-growth county';
         patternEmoji = '🏡';
