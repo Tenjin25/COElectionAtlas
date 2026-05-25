@@ -1,0 +1,52 @@
+This package contains vtd-level election data, as used in Dave's Redistricting App.
+Created 2026-03-17
+
+The shapefile matching this data can be found here: https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/08_Colorado/08/tl_2020_08_vtd20.zip .
+
+The first two CSV column headings are GEOID20 and Name (name of the VTD).
+Subsequent column headings are in the form <category>_<year>_<dataset>[_<optional modifier>]_<field>.
+
+Categories
+	-- T = Total Population
+	-- V = Voting Age Population
+	-- E = Election
+
+Election Datasets (Votes)
+	-- COMP = DRA's Composite
+	-- PRES = President
+	-- SEN = U.S. Senator
+	-- GOV = Governor
+	-- AG = Attorney General
+	-- AUD = Auditor
+	-- LTG = Lieutenant Governor
+	-- SOS = Secretary of State
+	-- TREAS = Treasurer
+	-- CMPTR = Comptroller
+	-- PUBLND = Public Lands Commissioner
+	-- SC* = State Supreme Court (with seat designation)
+	-- CONG = U.S. Congress
+
+Modifiers
+	-- ROFF = Runoff election
+	-- SPEC = Special election
+	-- SPECROFF = Special Runoff election
+
+Election Field Names
+	-- Total = Total votes
+	-- Dem = Democratic votes
+	-- Rep = Republican votes
+
+
+Datasets included in this package:
+	-- E_08_PRES
+	-- E_12_PRES
+	-- E_16_PRES
+	-- E_16_SEN
+	-- E_18_GOV
+	-- E_18_AG
+	-- E_16-20_COMP
+	-- E_20_PRES
+	-- E_20_SEN
+	-- E_16-24_COMP
+	-- E_24_PRES
+	-- E_24_CONG
