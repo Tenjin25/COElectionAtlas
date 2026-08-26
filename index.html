@@ -4302,7 +4302,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   .focus-pill-value {
     display: -webkit-box;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 16.5px;
     font-weight: 900;
     color: #0f172a;
     line-height: 1.2;
@@ -10312,8 +10312,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-25-margin-palette-v1';
-    const APP_BUILD_ID = '2026-08-25-margin-palette-v1';
+    const DATA_CACHE_BUSTER = '2026-08-26-focus-pill-type-v1';
+    const APP_BUILD_ID = '2026-08-26-focus-pill-type-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -25947,23 +25947,27 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!vizShiftCache?.prevYear
       });
-      const detailLines = `
-        ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
-        ${censusDetailLine}
-        ${(currentVizMode === 'shift' && Number.isFinite(shiftDelta) && vizShiftCache?.prevYear) ? '' : shiftLine}
-        ${flipLine}
-        ${deltaBlock}
-        ${splitInsightLine}
-        ${demoLine}
-      `.trim();
-      const inner = `
-        ${votehubCore}
-        ${mobileCensusInline}
-        <details class="tooltip-more" aria-label="More details">
-          <summary>More details</summary>
-          <div class="tooltip-more-body">${detailLines}</div>
-        </details>
-      `.trim();
+      const detailLines = isDesktopTooltipMode()
+        ? ''
+        : `
+            ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
+            ${censusDetailLine}
+            ${(currentVizMode === 'shift' && Number.isFinite(shiftDelta) && vizShiftCache?.prevYear) ? '' : shiftLine}
+            ${flipLine}
+            ${deltaBlock}
+            ${splitInsightLine}
+            ${demoLine}
+          `.trim();
+      const inner = isDesktopTooltipMode()
+        ? `${votehubCore}`.trim()
+        : `
+            ${votehubCore}
+            ${mobileCensusInline}
+            <details class="tooltip-more" aria-label="More details">
+              <summary>More details</summary>
+              <div class="tooltip-more-body">${detailLines}</div>
+            </details>
+          `.trim();
 
       const copyText = `${countyDisplay} County`;
       showHoverTooltip(
