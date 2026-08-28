@@ -9119,6 +9119,19 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       box-shadow: 0 12px 28px rgba(31, 79, 134, 0.24), 0 8px 20px rgba(127, 52, 22, 0.2) !important;
     }
 
+    /* Keep the collapsed atlas title visually identical to the expanded Colorado title pill. */
+    .controls-collapsed-label {
+      background: linear-gradient(120deg, #7f3416 0%, #2b6cb0 72%, #f4c542 100%) !important;
+      border: 1px solid rgba(244, 197, 66, 0.45) !important;
+      box-shadow: 0 12px 28px rgba(31, 79, 134, 0.24), 0 8px 20px rgba(127, 52, 22, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.16) !important;
+      color: #f8fafc !important;
+    }
+
+    .controls-collapsed-label::before {
+      background: linear-gradient(135deg, var(--state-red) 0%, var(--state-blue) 100%) !important;
+      box-shadow: 0 0 0 4px rgba(248, 250, 252, 0.12) !important;
+    }
+
     /* Keep the legend mode badge on the active Colorado theme palette. */
     .legend-badge {
       background: linear-gradient(120deg, #7f3416 0%, #2b6cb0 72%, #f4c542 100%) !important;
@@ -10321,8 +10334,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-data-focus-opacity-v2';
-    const APP_BUILD_ID = '2026-08-28-data-focus-opacity-v2';
+    const DATA_CACHE_BUSTER = '2026-08-28-data-focus-opacity-v3';
+    const APP_BUILD_ID = '2026-08-28-data-focus-opacity-v3';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
