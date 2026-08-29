@@ -10334,8 +10334,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-short-district-labels-v4';
-    const APP_BUILD_ID = '2026-08-28-short-district-labels-v4';
+    const DATA_CACHE_BUSTER = '2026-08-29-whole-vote-tooltips-v5';
+    const APP_BUILD_ID = '2026-08-29-whole-vote-tooltips-v5';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -28370,9 +28370,13 @@ document.addEventListener('DOMContentLoaded', function() {
       shiftYearLabel,
       showShiftLine
     } = {}) {
-      const dVotes = Number(demVotes || 0);
-      const rVotes = Number(repVotes || 0);
-      const oVotes = Number(otherVotes || 0);
+      const wholeVoteValue = (value) => {
+        const n = Number(value);
+        return Number.isFinite(n) ? Math.max(0, Math.round(n)) : 0;
+      };
+      const dVotes = wholeVoteValue(demVotes);
+      const rVotes = wholeVoteValue(repVotes);
+      const oVotes = wholeVoteValue(otherVotes);
       const total = dVotes + rVotes + oVotes;
       const safeTotal = total > 0 ? total : 0;
       const demPct = safeTotal > 0 ? (dVotes / safeTotal) * 100 : 0;
