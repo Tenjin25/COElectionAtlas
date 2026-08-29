@@ -10334,8 +10334,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-29-whole-vote-tooltips-v5';
-    const APP_BUILD_ID = '2026-08-29-whole-vote-tooltips-v5';
+    const DATA_CACHE_BUSTER = '2026-08-29-whole-vote-panels-v6';
+    const APP_BUILD_ID = '2026-08-29-whole-vote-panels-v6';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -12821,9 +12821,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function buildAriaSummary(label, demVotes, repVotes, otherVotes = 0) {
-      const d = Number(demVotes || 0);
-      const r = Number(repVotes || 0);
-      const o = Number(otherVotes || 0);
+      const d = normalizeWholeVoteCount(demVotes);
+      const r = normalizeWholeVoteCount(repVotes);
+      const o = normalizeWholeVoteCount(otherVotes);
       const t = d + r + o;
       if (t <= 0) return `${label} has no vote data.`;
       const signed = signedMarginPctFromVotes(d, r, t);
@@ -13908,9 +13908,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateVoteCounterSummary(demVotes, repVotes, otherVotes = 0, candidates = null, meta = null) {
-      const d = Number(demVotes || 0);
-      const r = Number(repVotes || 0);
-      const o = Number(otherVotes || 0);
+      const d = normalizeWholeVoteCount(demVotes);
+      const r = normalizeWholeVoteCount(repVotes);
+      const o = normalizeWholeVoteCount(otherVotes);
       const total = d + r + o;
       const isCountyContext = String(meta?.kind || '').toLowerCase() === 'county';
 
@@ -13986,6 +13986,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateVoteCounter(demVotes, repVotes, otherVotes = 0, candidates = null, meta = null) {
+      demVotes = normalizeWholeVoteCount(demVotes);
+      repVotes = normalizeWholeVoteCount(repVotes);
+      otherVotes = normalizeWholeVoteCount(otherVotes);
       const totalVotes = demVotes + repVotes + otherVotes;
       if (totalVotes === 0) {
         updateVoteCounterSummary(0, 0, 0, candidates, meta);
@@ -20749,9 +20752,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function formatVotehubVotes(value) {
-      const n = Number(value || 0);
-      if (!Number.isFinite(n)) return '0';
-      return Math.round(n).toLocaleString();
+      return normalizeWholeVoteCount(value).toLocaleString();
+    }
+
+    function normalizeWholeVoteCount(value) {
+      const n = Number(value);
+      return Number.isFinite(n) ? Math.max(0, Math.round(n)) : 0;
     }
 
     function partyPctValue(votes, totalVotes) {
@@ -21316,9 +21322,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateVoteCounterSummary(demVotes, repVotes, otherVotes = 0, candidates = null, meta = null) {
-      const d = Number(demVotes || 0);
-      const r = Number(repVotes || 0);
-      const o = Number(otherVotes || 0);
+      const d = normalizeWholeVoteCount(demVotes);
+      const r = normalizeWholeVoteCount(repVotes);
+      const o = normalizeWholeVoteCount(otherVotes);
       const total = d + r + o;
       const isCountyContext = String(meta?.kind || '').toLowerCase() === 'county';
 
@@ -28370,13 +28376,9 @@ document.addEventListener('DOMContentLoaded', function() {
       shiftYearLabel,
       showShiftLine
     } = {}) {
-      const wholeVoteValue = (value) => {
-        const n = Number(value);
-        return Number.isFinite(n) ? Math.max(0, Math.round(n)) : 0;
-      };
-      const dVotes = wholeVoteValue(demVotes);
-      const rVotes = wholeVoteValue(repVotes);
-      const oVotes = wholeVoteValue(otherVotes);
+      const dVotes = normalizeWholeVoteCount(demVotes);
+      const rVotes = normalizeWholeVoteCount(repVotes);
+      const oVotes = normalizeWholeVoteCount(otherVotes);
       const total = dVotes + rVotes + oVotes;
       const safeTotal = total > 0 ? total : 0;
       const demPct = safeTotal > 0 ? (dVotes / safeTotal) * 100 : 0;
