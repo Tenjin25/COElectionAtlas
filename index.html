@@ -10334,8 +10334,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-data-focus-opacity-v3';
-    const APP_BUILD_ID = '2026-08-28-data-focus-opacity-v3';
+    const DATA_CACHE_BUSTER = '2026-08-28-short-district-labels-v4';
+    const APP_BUILD_ID = '2026-08-28-short-district-labels-v4';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -26430,7 +26430,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : (scope === 'state_senate' ? 'State Senate' : 'State House');
       const districtTitle = scope === 'congressional'
         ? `CO-${String(districtNum).padStart(2, '0')}`
-        : `${districtLabel} ${districtNum}`;
+        : `${scope === 'state_senate' ? 'SD' : 'HD'}-${String(districtNum).padStart(2, '0')}`;
       const winnerName = signedMarginPct > 0
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (signedMarginPct < 0 ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
