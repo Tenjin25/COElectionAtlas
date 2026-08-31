@@ -10347,8 +10347,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-30-mobile-tooltip-winner-clamp-v1';
-    const APP_BUILD_ID = '2026-08-30-mobile-tooltip-winner-clamp-v1';
+    const DATA_CACHE_BUSTER = '2026-08-31-mobile-census-details-v1';
+    const APP_BUILD_ID = '2026-08-31-mobile-census-details-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -25949,17 +25949,6 @@ document.addEventListener('DOMContentLoaded', function() {
           return '';
         }
       })();
-      const mobileCensusInline = (() => {
-        if (!isTouchInteractionMode()) return '';
-        try {
-          const ctx = getColoradoCensusContext(norm);
-          const signal = String(ctx?.signalLabel || '').trim();
-          if (!signal) return '';
-          return `<div class="tooltip-insight">Census insight: ${escapeHtml(signal)}.</div>`;
-        } catch (_) {
-          return '';
-        }
-      })();
       const winnerName = winner === 'R'
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (winner === 'D' ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
@@ -26003,7 +25992,6 @@ document.addEventListener('DOMContentLoaded', function() {
         ? `${votehubCore}`.trim()
         : `
             ${votehubCore}
-            ${mobileCensusInline}
             <details class="tooltip-more" aria-label="More details">
               <summary>More details</summary>
               <div class="tooltip-more-body">${detailLines}</div>
