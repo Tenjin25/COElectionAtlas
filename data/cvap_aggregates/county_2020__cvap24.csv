@@ -1,1 +1,65 @@
-id,value
+statefp20,countyfp20,county_geoid20,county_name,CVAP_TOT24
+08,001,08001,Adams County,349497
+08,003,08003,Alamosa County,12111
+08,005,08005,Arapahoe County,462316
+08,007,08007,Archuleta County,11220
+08,009,08009,Baca County,2564
+08,011,08011,Bent County,4544
+08,013,08013,Boulder County,256367
+08,014,08014,Broomfield County,57261
+08,015,08015,Chaffee County,17092
+08,017,08017,Cheyenne County,1318
+08,019,08019,Clear Creek County,7855
+08,021,08021,Conejos County,5490
+08,023,08023,Costilla County,2815
+08,025,08025,Crowley County,4848
+08,027,08027,Custer County,4473
+08,029,08029,Delta County,25198
+08,031,08031,Denver County,537962
+08,033,08033,Dolores County,2079
+08,035,08035,Douglas County,276823
+08,037,08037,Eagle County,39107
+08,039,08039,Elbert County,21701
+08,041,08041,El Paso County,550470
+08,043,08043,Fremont County,41125
+08,045,08045,Garfield County,42186
+08,047,08047,Gilpin County,4874
+08,049,08049,Grand County,12937
+08,051,08051,Gunnison County,14355
+08,053,08053,Hinsdale County,819
+08,055,08055,Huerfano County,5873
+08,057,08057,Jackson County,1138
+08,059,08059,Jefferson County,457787
+08,061,08061,Kiowa County,1039
+08,063,08063,Kit Carson County,4962
+08,065,08065,Lake County,5361
+08,067,08067,La Plata County,45783
+08,069,08069,Larimer County,290877
+08,071,08071,Las Animas County,11520
+08,073,08073,Lincoln County,4476
+08,075,08075,Logan County,16636
+08,077,08077,Mesa County,122803
+08,079,08079,Mineral County,643
+08,081,08081,Moffat County,9631
+08,083,08083,Montezuma County,20630
+08,085,08085,Montrose County,33330
+08,087,08087,Morgan County,20047
+08,089,08089,Otero County,13679
+08,091,08091,Ouray County,4354
+08,093,08093,Park County,15196
+08,095,08095,Phillips County,3037
+08,097,08097,Pitkin County,13815
+08,099,08099,Prowers County,8367
+08,101,08101,Pueblo County,128424
+08,103,08103,Rio Blanco County,4730
+08,105,08105,Rio Grande County,8681
+08,107,08107,Routt County,20045
+08,109,08109,Saguache County,5232
+08,111,08111,San Juan County,577
+08,113,08113,San Miguel County,6300
+08,115,08115,Sedgwick County,1738
+08,117,08117,Summit County,24413
+08,119,08119,Teller County,20784
+08,121,08121,Washington County,3658
+08,123,08123,Weld County,244018
+08,125,08125,Yuma County,6200

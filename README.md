@@ -46,3 +46,12 @@ The DRA-backed district build expects `data/dra_election_co_v07/election_data_CO
 ## License
 
 Project data/code usage follows the source dataset licensing and attribution requirements.
+
+## CVAP data attribution
+
+Citizen Voting Age Population (CVAP) totals use the U.S. Census Bureau's 2020-2024 American Community Survey five-year CVAP Special Tabulation. Precinct and legacy-boundary aggregates use the Redistricting Data Hub's **2024 CVAP Data Disaggregated to 2020 Census Blocks**.
+
+- Census source: https://www.census.gov/programs-surveys/decennial-census/about/voting-rights/cvap/2020-2024-CVAP.html
+- Block-level source and processing: https://redistrictingdatahub.org/
+
+Credit: **U.S. Census Bureau; Redistricting Data Hub.**
