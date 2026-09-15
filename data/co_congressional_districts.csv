@@ -1,9 +1,9 @@
-district,name
-01,District 01
-02,District 02
-03,District 03
-04,District 04
-05,District 05
-06,District 06
-07,District 07
-08,District 08
+district,name,total_population,cvap_total,white_vap_pct,black_vap_pct,hispanic_vap_pct,native_vap_pct,asian_vap_pct,pacific_vap_pct,multiracial_vap_pct
+1,District 01,,542702,64.39,8.52,20.2,0.33,3.11,0.15,3.3
+2,District 02,,567290,83.37,0.86,10.54,0.26,2.44,0.11,2.44
+3,District 03,,558796,73.98,0.9,21.06,1.1,0.65,0.05,2.24
+4,District 04,,558794,80.82,1.88,11.79,0.29,2.69,0.11,2.37
+5,District 05,,544393,72.24,5.76,14.92,0.27,2.6,0.27,3.94
+6,District 06,,502874,66.46,9.58,15.37,0.27,4.77,0.16,3.44
+7,District 07,,574816,80.87,1.24,12.63,0.3,2.44,0.06,2.45
+8,District 08,,505507,61.99,1.9,30.62,0.34,2.68,0.13,2.32

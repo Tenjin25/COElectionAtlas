@@ -10411,7 +10411,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-co-directional-narrow-majority-v2';
+    const DATA_CACHE_BUSTER = '2026-09-15-co-census-block-cvap-demographics';
     const APP_BUILD_ID = '2026-09-14-co-directional-narrow-majority-v2';
 
     function withCacheBuster(path) {
@@ -10464,9 +10464,9 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         state_senate_2022: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         state_senate_2024: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
-        county_demographics: '',
+        county_demographics: withBase('./data/county_demographics_2020_pl.json'),
         county_population_estimates: withBase('./data/co-est2025-pop-08-clean.csv'),
-        precinct_demographics: '',
+        precinct_demographics: withBase('./data/precinct_demographics_2020_vap.csv'),
         cvap_aggregates: {
           county_2020: withBase('./data/cvap_aggregates/county_2020__cvap24.csv'),
           cd119_2024: withBase('./data/cvap_aggregates/cd119_2024_lines__cvap24.csv'),
@@ -20664,8 +20664,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const vap = numericOrZero(demo.vap_18plus);
       const countyNorm = normalizeCountyToken(countyNormRaw || demo.county || '');
       const cvap = countyNorm ? getCvapCountyTotal(countyNorm) : null;
-      const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP (18+):' : 'VAP (18+):';
+      const hasCvap = cvap !== null && cvap !== undefined && Number.isFinite(Number(cvap));
+      const metricValue = hasCvap ? Number(cvap) : vap;
+      const metricLabel = hasCvap ? 'CVAP (18+):' : 'VAP (18+):';
       const races = buildRaceChipRowHTML(
         demo.white_pop_pct,
         demo.black_pop_pct,
@@ -20681,7 +20682,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="demo-hover-card">
           <div class="demo-hover-metric">${metricLabel} ${Math.round(metricValue).toLocaleString()}</div>
           ${races}
-          <div class="demo-hover-note">${Number.isFinite(Number(cvap)) ? 'CVAP totals from ACS special tabulation (2020–2024). ' : ''}Race/ethnicity reflects total population (DP1), not VAP-by-race.</div>
+          <div class="demo-hover-note">${hasCvap ? 'CVAP totals from ACS special tabulation (2020–2024). ' : ''}Race/ethnicity shares reflect 2020 Census total population (P2), not CVAP.</div>
         </div>
       `;
     }
@@ -20690,8 +20691,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!demo) return '';
       const vap = numericOrZero(demo.vap_18plus);
       const cvap = precinctNormRaw ? getCvapPrecinctTotal(precinctNormRaw) : null;
-      const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP (18+):' : 'VAP (18+):';
+      const hasCvap = cvap !== null && cvap !== undefined && Number.isFinite(Number(cvap));
+      const metricValue = hasCvap ? Number(cvap) : vap;
+      const metricLabel = hasCvap ? 'CVAP (18+):' : 'VAP (18+):';
       const races = buildRaceChipRowHTML(
         demo.white_vap_pct,
         demo.black_vap_pct,
@@ -21492,8 +21494,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (badge) badge.textContent = demographicsHighContrastEnabled ? 'Demographics HC' : 'Demographics';
         if (footer) {
           footer.textContent = demographicsHighContrastEnabled
-            ? 'High-contrast colors enabled. County shares use DP1 total population; district/precinct shares use available VAP race fields.'
-            : 'County shares use DP1 total population; district/precinct shares use available VAP race fields.';
+            ? 'High-contrast colors enabled. County shares use 2020 Census total population; district/precinct shares use 2024 block-disaggregated CVAP.'
+            : 'County shares use 2020 Census total population; district/precinct shares use 2024 block-disaggregated CVAP.';
         }
         content.innerHTML = buildDemographicsLegendHTML();
       } else {
@@ -27804,7 +27806,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { extraClass: 'sidebar-demo-race-row' }
       );
       demoHtml += `<p class="sidebar-breakdown"><b>VAP (18+):</b> ${escapeHtml(Number(demo.vap_18plus || 0).toLocaleString())}</p>`;
-      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">Race/ethnicity shown is total population (DP1), not VAP-by-race.</p>`;
+      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">Race/ethnicity shown is 2020 Census total population (P2), not CVAP.</p>`;
       if (demoRaceChips) demoHtml += demoRaceChips;
     }
   } catch (_) {}
@@ -30758,8 +30760,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>👥 Demographics (VAP)</h5>
-            <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
+            <h5>👥 Demographics (CVAP)</h5>
+            <p><strong>CVAP (18+):</strong> ${Number(districtInfo.cvap_total || 0).toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
             <p><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</p>
@@ -30873,8 +30875,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>👥 Demographics (VAP)</h5>
-            <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
+            <h5>👥 Demographics (CVAP)</h5>
+            <p><strong>CVAP (18+):</strong> ${Number(districtInfo.cvap_total || 0).toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
             <p><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</p>
@@ -31114,8 +31116,8 @@ document.addEventListener('DOMContentLoaded', function() {
         demographicInfo = `
           <div style="margin-bottom: 12px;">
             ${desc ? `<div style="margin:0 0 10px 0;color:#475569;font-weight:800;">${desc}</div>` : ''}
-            <h5 style="margin:0 0 6px 0;">Demographics (VAP)</h5>
-            <div style="font-size:14px;"><strong>${Number.isFinite(Number(cvapTotal)) ? 'CVAP (18+):' : 'Total Population:'}</strong> ${Math.round(Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(districtInfo.total_population || 0)).toLocaleString()}</div>
+            <h5 style="margin:0 0 6px 0;">Demographics (CVAP)</h5>
+            <div style="font-size:14px;"><strong>CVAP (18+):</strong> ${Math.round(cvapTotal !== null && cvapTotal !== undefined && Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(districtInfo.cvap_total || 0)).toLocaleString()}</div>
             <div style="font-size:14px;"><strong>White:</strong> ${districtInfo.white_vap_pct}%</div>
             <div style="font-size:14px;"><strong>Black:</strong> ${districtInfo.black_vap_pct}%</div>
             <div style="font-size:14px;"><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</div>
@@ -31202,8 +31204,8 @@ document.addEventListener('DOMContentLoaded', function() {
         demographicInfo = `
           <div style="margin-bottom: 12px;">
             ${desc ? `<div style="margin:0 0 10px 0;color:#475569;font-weight:800;">${desc}</div>` : ''}
-            <h5 style="margin:0 0 6px 0;">Demographics (VAP)</h5>
-            <div style="font-size:14px;"><strong>${Number.isFinite(Number(cvapTotal)) ? 'CVAP (18+):' : 'Total Population:'}</strong> ${Math.round(Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(infoRow.total_population || 0)).toLocaleString()}</div>
+            <h5 style="margin:0 0 6px 0;">Demographics (CVAP)</h5>
+            <div style="font-size:14px;"><strong>CVAP (18+):</strong> ${Math.round(cvapTotal !== null && cvapTotal !== undefined && Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(infoRow.cvap_total || 0)).toLocaleString()}</div>
             <div style="font-size:14px;"><strong>White:</strong> ${infoRow.white_vap_pct}%</div>
             <div style="font-size:14px;"><strong>Black:</strong> ${infoRow.black_vap_pct}%</div>
             <div style="font-size:14px;"><strong>Hispanic:</strong> ${infoRow.hispanic_vap_pct}%</div>
@@ -31338,8 +31340,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const cvap = (scope && districtNum)
         ? getCvapDistrictTotal(scope, districtNum, currentDistrictLinesYear)
         : null;
-      const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : Number(demoRow.total_population || 0);
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP:' : 'Pop:';
+      const hasCvap = cvap !== null && cvap !== undefined && Number.isFinite(Number(cvap));
+      const metricValue = hasCvap ? Number(cvap) : Number(demoRow.cvap_total || 0);
+      const metricLabel = 'CVAP:';
       const extras = buildDistrictExtraRaceInlineHTML(demoRow, 30);
       return `<div style="margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.15);font-size:12px;color:#cbd5e1;">` +
         `<span style="font-weight:700;color:#e2e8f0;">${metricLabel}</span> ${Math.round(metricValue).toLocaleString()}` +

@@ -51,7 +51,10 @@ Project data/code usage follows the source dataset licensing and attribution req
 
 Citizen Voting Age Population (CVAP) totals use the U.S. Census Bureau's 2020-2024 American Community Survey five-year CVAP Special Tabulation. Precinct and legacy-boundary aggregates use the Redistricting Data Hub's **2024 CVAP Data Disaggregated to 2020 Census Blocks**.
 
+Demographic-mode county race/ethnicity shares use the Census Bureau's 2020 Colorado P.L. 94-171 P2/P3 counts. Precinct and district race/ethnicity shares use the Redistricting Data Hub's block-disaggregated CVAP assigned to the map's 2020 voting districts and configured 2022 district lines by Census block interior point. County population shares and CVAP shares measure different populations.
+
 - Census source: https://www.census.gov/programs-surveys/decennial-census/about/voting-rights/cvap/2020-2024-CVAP.html
 - Block-level source and processing: https://redistrictingdatahub.org/
+- 2020 Census Colorado county source: https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/
 
 Credit: **U.S. Census Bureau; Redistricting Data Hub.**
