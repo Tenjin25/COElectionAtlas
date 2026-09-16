@@ -58,3 +58,9 @@ Demographic-mode county race/ethnicity shares use the Census Bureau's 2020 Color
 - 2020 Census Colorado county source: https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/
 
 Credit: **U.S. Census Bureau; Redistricting Data Hub.**
+
+## Legend layout (September 2026)
+
+The map key now uses the same expandable, scrollable category-row layout as Margin Categories for Winners, Flips, Shift, and Demographics. Each row pairs a named category with its map color and a short range or interpretation. Population Change uses the same layout where that mode is available.
+
+Shift retains its 15-step diverging spectrum and separates Democratic and Republican movement at 0.5, 1, 5, 10, 15, 20, and 25 percentage points. Movement below 0.5 points is near-white; the 25-point-and-higher category is named **Extreme**. The blue/orange colorblind palette follows the same directional bins.
