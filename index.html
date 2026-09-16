@@ -10454,7 +10454,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-15-co-census-block-cvap-demographics';
+    const DATA_CACHE_BUSTER = '2026-09-16-county-cvap-mobile-v1';
     const APP_BUILD_ID = '2026-09-14-co-directional-narrow-majority-v2';
 
     function withCacheBuster(path) {
@@ -10507,7 +10507,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         state_senate_2022: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
         state_senate_2024: withBase('./data/tileset/co_state_senate_2022_lines_tileset.geojson'),
-        county_demographics: withBase('./data/county_demographics_2020_pl.json'),
+        county_demographics: withBase('./data/cvap_aggregates/county_2020__demographics_cvap24.json'),
         county_population_estimates: withBase('./data/co-est2025-pop-08-clean.csv'),
         precinct_demographics: withBase('./data/precinct_demographics_2020_vap.csv'),
         cvap_aggregates: {
@@ -20706,7 +20706,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!demo) return '';
       const vap = numericOrZero(demo.vap_18plus);
       const countyNorm = normalizeCountyToken(countyNormRaw || demo.county || '');
-      const cvap = countyNorm ? getCvapCountyTotal(countyNorm) : null;
+      const cvapDirect = numericOrNull(demo.cvap_total);
+      const cvap = cvapDirect !== null ? cvapDirect : (countyNorm ? getCvapCountyTotal(countyNorm) : null);
       const hasCvap = cvap !== null && cvap !== undefined && Number.isFinite(Number(cvap));
       const metricValue = hasCvap ? Number(cvap) : vap;
       const metricLabel = hasCvap ? 'CVAP (18+):' : 'VAP (18+):';
@@ -20725,7 +20726,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="demo-hover-card">
           <div class="demo-hover-metric">${metricLabel} ${Math.round(metricValue).toLocaleString()}</div>
           ${races}
-          <div class="demo-hover-note">${hasCvap ? 'CVAP totals from ACS special tabulation (2020–2024). ' : ''}Race/ethnicity shares reflect 2020 Census total population (P2), not CVAP.</div>
+          <div class="demo-hover-note">${numericOrNull(demo.white_cvap_pct) !== null ? 'Race/ethnicity and totals are CVAP estimates from the 2020–2024 ACS special tabulation.' : 'Race/ethnicity reflects total population; the adult total is shown separately.'}</div>
         </div>
       `;
     }
@@ -27864,8 +27865,10 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { extraClass: 'sidebar-demo-race-row' }
       );
-      demoHtml += `<p class="sidebar-breakdown"><b>VAP (18+):</b> ${escapeHtml(Number(demo.vap_18plus || 0).toLocaleString())}</p>`;
-      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">Race/ethnicity shown is 2020 Census total population (P2), not CVAP.</p>`;
+      const countyCvap = numericOrNull(demo.cvap_total) ?? getCvapCountyTotal(norm);
+      const hasCountyCvap = numericOrNull(countyCvap) !== null && Number(countyCvap) > 0;
+      demoHtml += `<p class="sidebar-breakdown"><b>${hasCountyCvap ? 'CVAP' : 'VAP'} (18+):</b> ${escapeHtml(Number(hasCountyCvap ? countyCvap : (demo.vap_18plus || 0)).toLocaleString())}</p>`;
+      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">${numericOrNull(demo.white_cvap_pct) !== null ? 'Citizen voting-age population by race/ethnicity, 2020–2024 ACS CVAP.' : 'Race/ethnicity reflects total population; the adult total is shown separately.'}</p>`;
       if (demoRaceChips) demoHtml += demoRaceChips;
     }
   } catch (_) {}
