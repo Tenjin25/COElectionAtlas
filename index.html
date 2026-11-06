@@ -10503,7 +10503,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v4';
+    const DATA_CACHE_BUSTER = '2026-11-05-unofficial-county-results-v1-mobile-ready-v4';
     const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v4';
 
     function withCacheBuster(path) {
@@ -19389,6 +19389,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      sel.innerHTML = '<option value="">Select a contest...</option>';
 
 	      const contestYearPairs = {};
+        const contestStatusByPair = new Map();
         const councilOfStateTypes = new Set([
           'governor',
           'lieutenant_governor',
@@ -19436,6 +19437,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	        if (!contestYearPairs[contestType]) contestYearPairs[contestType] = new Set();
 	        contestYearPairs[contestType].add(year);
+          contestStatusByPair.set(
+            `${contestType}_${year}`,
+            (entry?.status || '').toString().trim().toLowerCase()
+          );
 	      });
 
 	      function groupLabelForContestType(contestType) {
@@ -19487,7 +19492,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	        const years = Array.from(contestYearPairs[contestType] || []).map(Number);
 	        years.forEach(year => {
 	          if (!grouped.has(label)) grouped.set(label, []);
-	          grouped.get(label).push({ contestType, year });
+	          grouped.get(label).push({
+              contestType,
+              year,
+              status: contestStatusByPair.get(`${contestType}_${year}`) || ''
+            });
 	        });
 	      });
 
@@ -19521,13 +19530,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const modeledDef = getModeledContestDefinition(item.contestType, item.year);
             const modeledOptionLabel = String(modeledDef?.optionLabel || '').trim();
             const modeledSuffix = modeledDef && !modeledOptionLabel ? ' [Modeled]' : '';
+            const statusSuffix = item.status === 'unofficial' ? ' [Unofficial]' : '';
             if (modeledOptionLabel) {
-              opt.textContent = modeledOptionLabel;
+              opt.textContent = `${modeledOptionLabel}${statusSuffix}`;
             } else
 	          if (isJudicial || modeledDef) {
-              opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}`;
+              opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}${statusSuffix}`;
 	          } else {
-              opt.textContent = `${label} (${item.year})${modeledSuffix}`;
+              opt.textContent = `${label} (${item.year})${modeledSuffix}${statusSuffix}`;
 	          }
 	          if (activeQuery) {
 	            const hay = `${label} ${item.year} ${item.contestType} ${formatContestName(item.contestType, item.year)}`.toUpperCase();

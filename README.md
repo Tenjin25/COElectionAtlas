@@ -29,6 +29,7 @@ Note: Use `http://localhost` (not `file://`) so JSON/CSV fetches work correctly.
 ## Data Build Scripts
 
 - `scripts/build_co_elections_aggregated.py`
+- `scripts/build_2026_unofficial_county_contests.py` - converts `data/detailtxt.zip` from Colorado Election Night Reporting into county-only unofficial 2026 contest slices
 - `scripts/build_crosswalks_co.py`
 - `scripts/build_district_contests_from_dra_vtd.mjs` - builds district slices from DRA's VTD election data instead of the weak precinct-ID bridge
 - `scripts/build_district_contests_from_matched_precincts.mjs` - fills non-DRA years by matching local precinct IDs to 2020 VTDs and using the same VTD-to-district allocation; older years with partial exact matches use a clearly-labeled county/district fallback for unmatched precinct rows
