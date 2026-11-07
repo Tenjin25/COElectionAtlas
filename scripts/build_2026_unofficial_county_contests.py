@@ -17,6 +17,7 @@ MANIFEST_PATH = CONTESTS_DIR / "manifest.json"
 FIELD_WIDTH = 30
 CHOICE_WIDTH = 60
 YEAR = 2026
+SNAPSHOT_DATE = "2026-11-06"
 
 CONTESTS = (
     {
@@ -182,7 +183,7 @@ def main() -> None:
                 "contest_type": config["contest_type"],
                 "geography": "county",
                 "status": "unofficial",
-                "snapshot_date": "2026-11-05",
+                "snapshot_date": SNAPSHOT_DATE,
                 "source": "Colorado Election Night Reporting detail TXT",
                 "source_file": args.input.name,
             },
@@ -200,7 +201,7 @@ def main() -> None:
                 "major_party_contested": True,
                 "geography": "county",
                 "status": "unofficial",
-                "snapshot_date": "2026-11-05",
+                "snapshot_date": SNAPSHOT_DATE,
             }
         )
 
